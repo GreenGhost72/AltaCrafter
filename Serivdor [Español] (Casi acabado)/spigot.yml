@@ -38,7 +38,7 @@ stats:
   disable-saving: false
   forced-stats: {}
 messages:
-  restart: Reiniciando servidor
+  restart: Servidor reiniciado
   whitelist: '&8&l< &cAltaCrafters &8&l> &fServidor en &bmantenimiento'
   unknown-command: '&8&l< &cAltaCrafters &8&l> &4&lERROR: &fComando desconocido'
   server-full: '&8&l< &cAltaCrafters &8&l> &4&lERROR: &fServidor lleno'
