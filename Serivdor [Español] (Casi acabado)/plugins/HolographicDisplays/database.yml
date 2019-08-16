@@ -1,0 +1,53 @@
+altacrafters:
+  location: spawn, 5.674, 147.971, 13.438
+  lines:
+  - '&c&lAltaCrafters'
+  - ''
+  - '&f&l&m---------------------'
+  - '&7Bienvenido &b{player}'
+  - '&7esperamos que te diviertas'
+  - '&7y que no tengas problemas al jugar.'
+  - ''
+  - '&7El servidor se encuentra en fase:'
+  - '&c&lALPHA'
+  - '&0&l&mRELEASE'
+  - '&0&l&mBETA'
+  - ''
+  - '&f(&c Negro: &bNo esta en esta fase &f)'
+  - '&f(&c Verde: &bEsta en RELEASE &f)'
+  - '&f(&c Naranja: &bEsta en fase BETA &f)'
+  - '&f(&c Rojo: &bEsta en fase ALPHA &f)'
+cheff:
+  location: store, -203.438, 64.000, 71.012
+  lines:
+  - '&6&lCheff'
+armoer:
+  location: store, -203.509, 64.000, 99.838
+  lines:
+  - '&c&lArmero'
+seeds:
+  location: store, -182.546, 64.000, 70.959
+  lines:
+  - '&7&lAgricultor'
+granjero:
+  location: store, -182.424, 64.000, 84.541
+  lines:
+  - '&6&lGranjero'
+municiones:
+  location: store, -183.433, 64.000, 100.444
+  lines:
+  - '&f&lMuniciones'
+pociones:
+  location: store, -203.596, 64.000, 82.442
+  lines:
+  - '&d&lPociones'
+armaduras:
+  location: store, -193.534, 64.000, 106.731
+  lines:
+  - '&c&lArmaduras'
+sell1:
+  location: survival, -513.566, 66.663, 79.529
+  lines:
+  - '&a&lEn venta:'
+  - '&c'
+  - "&c&l50000000\u20ac"

@@ -1,0 +1,629 @@
+data:
+  properties:
+    type: 0
+    title: §c§lArmas
+    size: 0
+    gui: false
+  inventory:
+    slots:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 10
+    - 16
+    - 18
+    - 26
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 34
+    - 46
+    - 47
+    - 52
+    items:
+    - ? type: IRON_SWORD
+      : meta-type: UNSPECIFIC
+        display-name: §0§l[§7Escudo§0§l]§l
+        lore:
+        - §7§lEscudos
+        - §eBloquea los ataques
+        - §emelee y a distancia.
+        - §eInefectivo si te atacan por
+        - §ela espalda.
+    - ? type: FIREWORK_CHARGE
+      : meta-type: FIREWORK_EFFECT
+        display-name: §4§l[§cGranada de fragmentacion§4§l]§d§d
+        lore:
+        - §4§lExplosivos
+        - §bExplota tras unos segundos
+        - §bdespues de haber sido
+        - §blanzada.
+    - ? type: INK_SACK
+        damage: 8
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cAturdidora§4§l]§d§d
+        lore:
+        - §4§lExplosivos
+        - §bDesorienta al enemigo
+        - §btras su detonacion.
+    - ? type: INK_SACK
+        damage: 3
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cMultiexplosivo§4§l]§d§d
+        lore:
+        - §4§lExplosivos
+        - §bUna gran bomba que
+        - §bhace otras §c10 §bexplosiones
+        - §bdespues de su detonacion.
+    - ? type: LEVER
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cBomba remota§4§l]§d§d «2»
+        lore:
+        - §4§lExplosivos
+        - §bClick derecho para colocar.
+        - §bClick izquierdo para detonar.
+    - ? type: REDSTONE_COMPARATOR
+      : meta-type: TILE_ENTITY
+        display-name: §4§l[§cC4§4§l]§d§d «2»
+        lore:
+        - §4§lExplosivos
+        - §bClick derecho para lanzar.
+        - §bClick izquierdo para detonar.
+    - ? type: DIAMOND
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cBomba de sensibilidad§4§l]§d§d «?»
+        lore:
+        - §4§lExplosivos
+        - §a§lClick derecho para establecer dueno.
+        - '§bExplota cuando:'
+        - §6- Es agarrado/cojido
+        - §6- Es disparado de un dispensador
+        - §6 - Un cofre con este item es abierto
+        - §6- Cuando es puesto en un marco y despues
+        - §6placas son presionadas.
+        - §c§lEl dueno es inmune a su propia trampa.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cBazooka§4§l]§d§d «1»
+        lore:
+        - §4§lExplosivos
+        - §eDispara a tus pies
+        - §epara hacer un
+        - §e'rocket jump'
+        - §eNiega cualquier daÃ±o por caida
+    - ? type: POWERED_MINECART
+      : meta-type: UNSPECIFIC
+        display-name: §4§l[§cMina para bobos§4§l]§d§d
+        lore:
+        - §4§lExplosivos
+        - '§bProvoca una gran explosion cuando:'
+        - §6- Es pisada
+        - §6- Es tocada por un item
+        - §6 - Es tocada por projectiles
+    - ? type: PRISMARINE_CRYSTALS
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Ballesta§9§l]§d§d ▪ «12»
+        lore:
+        - §9§lArmas medievales.
+        - §eFlechas especiales son necesÃ¡rias
+        - §epara recargarla.
+    - ? type: BOW
+      : null
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3AK-47§9§l]§d§d ▪ «30»
+        lore:
+        - §9§lArmas de fuego
+        - §eTotalmente automatica.
+        - §eEfectivo a medio alcance.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Type 95§9§l]§d§d ▪ «30»
+        lore:
+        - §9§lArmas de fuego
+        - §eSemi automatica con rafaga de 3.
+        - §eLingotes de hierro son necesarios
+        - §epara ser recargada.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Desert Eagles§9§l] §8§l[§cDuales§8§l]§d§d «7 | 7»
+        lore:
+        - §9§lArmas de fuego
+        - §eClick izquierdo/derecho para disparar.
+        - §eLos disparos por la espalda
+        - §etienen un bonus de daÃ±o.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Python§9§l] §8§l[§cTactico§8§l]§d§d ▪ «6»
+        lore:
+        - §9§lArmas de fuego
+        - §eRevolver de gran poder.
+        - §eClick izquiedo para apuÃ±alar
+        - §eenemigos con el cuchillo
+        - §etactico.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Carbina§9§l]§d§d ▪ «8 ◀▷ 1»
+        lore:
+        - §9§lArmas de fuego
+        - §ePosibilidad de critico en un 10%.
+        - §c§lTIENE LANZAGRANADAS
+        - §eCambia al lanzagranadas con
+        - §eclick derecho.
+        - '§c§lGRANADAS:'
+        - §c§lEXPLOTAN SOLAS AL TOCAR
+        - §c§lCUALQUIER SUPERFICIE.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §e§l[§6Rifle de caza§e§l]§d§d ▫ «0»
+        lore:
+        - §6§lRifles de caza
+        - §eRifle de francotirador.
+        - §econ mira de vision nocturna.
+        - §ehace mas daÃ±o con headshots.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Olympia§9§l]§d§d ▪ «2»
+        lore:
+        - §9§lArmas de fuego
+        - §eEscopeta de doble perdigon.
+        - §eMonstruosa a corto alcance.
+        - §eInutil a largo alcance.
+        - §eMunicion incendiaria.
+    - ? type: IRON_BARDING
+      : meta-type: UNSPECIFIC
+        display-name: §9§l[§3Escopeta Gauss§9§l]§d§d ▪ «8»
+        lore:
+        - §9§lArmas de fuego
+        - §eEscopeta avanzada.
+        - §eSus balas penetran
+        - §etodos sus obstaculos a
+        - §euna distancia de 40 bloques.
+        - §eHace un 200% daÃ±o a zombis.
+    - ? type: REDSTONE_TORCH_ON
+      : meta-type: UNSPECIFIC
+        display-name: §3§l[§bAtaque aereo§3§l]§d§d
+        lore:
+        - §3§lAereo
+        - §6Solicita un ataque aereo
+        - §6en la posicion donde la
+        - §6antorcha sea lanzada.
+    slotdata:
+      '0':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '1':
+        page: WEAPONS
+        cost: 500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '2':
+        page: WEAPONS
+        cost: 150.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '3':
+        page: WEAPONS
+        cost: 150.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '4':
+        page: WEAPONS
+        cost: 500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '5':
+        page: WEAPONS
+        cost: 1500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '6':
+        page: WEAPONS
+        cost: 5000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '7':
+        page: WEAPONS
+        cost: 5000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '8':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '9':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '10':
+        page: WEAPONS
+        cost: 1750.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '11':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '12':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '13':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '14':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '15':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '16':
+        page: WEAPONS
+        cost: 100.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '17':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '18':
+        page: WEAPONS
+        cost: 800.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '19':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '20':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '21':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '22':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '23':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '24':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '25':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '26':
+        page: WEAPONS
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '27':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '28':
+        page: WEAPONS
+        cost: 2500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '29':
+        page: WEAPONS
+        cost: 2500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '30':
+        page: WEAPONS
+        cost: 5000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '31':
+        page: WEAPONS
+        cost: 7500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '32':
+        page: WEAPONS
+        cost: 9500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '33':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '34':
+        page: WEAPONS
+        cost: 2500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '35':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '36':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '37':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '38':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '39':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '40':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '41':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '42':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '43':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '44':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '45':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '46':
+        page: WEAPONS
+        cost: 1500.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '47':
+        page: WEAPONS
+        cost: 2000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '48':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '49':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '50':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '51':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '52':
+        page: WEAPONS
+        cost: 5750.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '53':
+        page: WEAPONS
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None

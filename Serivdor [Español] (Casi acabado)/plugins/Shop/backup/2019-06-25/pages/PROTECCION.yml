@@ -1,0 +1,159 @@
+data:
+  properties:
+    type: 0
+    title: "\xa79\xa7lProtecci\xf3n"
+    size: 1
+    gui: false
+  inventory:
+    slots:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    items:
+    - ? type: COAL_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProteccion basica\xa78\xa7l] \xa7935\xa77x\xa7\
+          9256\xa77x\xa7935"
+        lore:
+        - "\xa76\xa7oEl mas basico de todos"
+        - "\xa76\xa7operfecto para hacer casas"
+        - "\xa76\xa7ochiquitas o proteger zonas"
+        - "\xa76\xa7ode forma desesperada"
+    - ? type: IRON_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProteccion \xa7aaceptable\xa78\xa7l] \xa7964\xa7\
+          7x\xa79256\xa77x\xa7964"
+        lore:
+        - "\xa7c\xa7oEl normal, perfecto si deseas"
+        - "\xa7c\xa7ohacerte una casa normal"
+    - ? type: REDSTONE_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProteccion \xa7dgrande\xa78\xa7l] \xa79150\xa7\
+          7x\xa79256\xa77x\xa79150"
+        lore:
+        - "\xa7c\xa7oPerfecto si deseas hacer casas"
+        - "\xa7c\xa7opor separado o una simple"
+        - "\xa7c\xa7ogranjita"
+    - ? type: LAPIS_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProteccion \xa7bazul\xa78\xa7l] \xa79250\xa7\
+          7x\xa79256\xa77x\xa79250"
+        lore:
+        - "\xa7c\xa7oPerfecto si deseas hacer granjas"
+        - "\xa7c\xa7ograndes o tu propia tienda"
+        - "\xa7c\xa7ocon un terreno aceptable"
+    - ? type: GOLD_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProtection \xa76dorada\xa78\xa7l] \xa79300\xa7\
+          7x\xa79256\xa77x\xa79300"
+        lore:
+        - "\xa7b\xa7oPerfecto para hacer grandes"
+        - "\xa7b\xa7ocasas o mansiones en survival"
+    - ? type: DIAMOND_ORE
+      : meta-type: UNSPECIFIC
+        display-name: "\xa78\xa7l[\xa7cProtection \xa7bpoblado\xa78\xa7l] \xa79600\xa7\
+          7x\xa79256\xa77x\xa79600"
+        lore:
+        - "\xa7b\xa7oPerfecto si deseas hacer"
+        - "\xa7b\xa7oun gran poblado en tu"
+        - "\xa7b\xa7oaventura survival"
+    slotdata:
+      '0':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '1':
+        page: PROTECCION
+        cost: 1000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '2':
+        page: PROTECCION
+        cost: 5000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '3':
+        page: PROTECCION
+        cost: 10000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '19':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '4':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '5':
+        page: PROTECCION
+        cost: 100000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '6':
+        page: PROTECCION
+        cost: 500000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '22':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '7':
+        page: PROTECCION
+        cost: 900000.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '8':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '10':
+        page: PROTECCION
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None

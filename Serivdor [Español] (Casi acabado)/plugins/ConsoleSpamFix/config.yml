@@ -1,0 +1,57 @@
+# default config.yml for ConsoleSpamFix
+# config version 1.7.1
+
+#Add here the messages you want to hide from your console and logs.
+#Each line represents a new message.
+#NOTE! You dont need to add the full message!
+#The plugin will hide all messages that contain the text added below.
+#  EXAMPLE:
+#
+#    Messages-To-Hide-Filter:
+#    - 'WARNING: unlocalizedName'
+#
+#  All messages that will appear in the server console that contain these words 'WARNING: unlocalizedName' will be hidden and they will not appear on logs or console.
+#  If you have large errors you dont have to type the full error. But the more words you add the more accurate will be and will not hide other messages that may contain the words added in the filter.
+
+Messages-To-Hide-Filter:
+- '[NoteBlockAPI]'
+- 'Could not pass event InventoryClickEvent to JukeBox v1.11.1'
+- 'Could not pass event PlayerJoinEvent to Rules v1.5'
+- 'Error al ejecutar el comando /home'
+- 'java.lang.Exception:'
+- 'at com.earth2me.essentials.Teleport.cooldown(Teleport.java:66)'
+- 'at com.earth2me.essentials.Teleport.respawn(Teleport.java:221)'
+- 'at com.earth2me.essentials.commands.Commandhome.run(Commandhome.java:56)'
+- 'at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:157)'
+- 'at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:545)'
+- 'at com.earth2me.essentials.Essentials.onCommand(Essentials.java:458)'
+- 'at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)'
+- 'at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141)'
+- 'at org.bukkit.craftbukkit.v1_8_R1.CraftServer.dispatchCommand(CraftServer.java:646)'
+- 'at net.minecraft.server.v1_8_R1.PlayerConnection.handleCommand(PlayerConnection.java:1115)'
+- 'at net.minecraft.server.v1_8_R1.PlayerConnection.a(PlayerConnection.java:950)'
+- 'at net.minecraft.server.v1_8_R1.PacketPlayInChat.a(PacketPlayInChat.java:26)'
+- 'at net.minecraft.server.v1_8_R1.PacketPlayInChat.a(PacketPlayInChat.java:53)'
+- 'at net.minecraft.server.v1_8_R1.PacketHandleTask.run(SourceFile:13)'
+- 'at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)'
+- 'at java.util.concurrent.FutureTask.run(Unknown Source)'
+- 'at net.minecraft.server.v1_8_R1.MinecraftServer.z(MinecraftServer.java:696)'
+- 'at net.minecraft.server.v1_8_R1.DedicatedServer.z(DedicatedServer.java:316)'
+- 'at net.minecraft.server.v1_8_R1.MinecraftServer.y(MinecraftServer.java:634)'
+- 'at net.minecraft.server.v1_8_R1.MinecraftServer.run(MinecraftServer.java:537)'
+- 'at java.lang.Thread.run(Unknown Source)'
+- 'Could not pass event PlayerToggleSneakEvent to ViaVersion v2.1.1'
+- 'Could not pass event PlayerToggleSneakEvent to ViaVersion v2.1.2'
+- 'Could not pass event PlayerInteractEntityEvent to Griswold'
+- 'Could not pass event EntityExplodeEvent to Jobs v4.13.0'
+- 'Could not pass event PlayerLoginEvent to LoginPlus v1.5.5'
+- 'Could not pass event EntityExplodeEvent to GadgetsMenu v4.3.21'
+- 'Could not pass event NPCRightClickEvent to Citizens v2.0.14-SNAPSHOT'
+
+
+#Chat messages with color and format codes support.
+#Minecraft Color and Format Codes: http://minecraft.gamepedia.com/Formatting_codes    
+ChatMessages:
+    NoPermission: '&8&l< &cAltaCrafters &8&l> &fNo tienes permisos'
+    CmdHelp: '&8&l< &cAltaCrafters &8&l> &fComandos disponibles:&b /csf reload'
+    CmdReload: '&8&l< &cAltaCrafters &8&l> &fRecarga completada!'

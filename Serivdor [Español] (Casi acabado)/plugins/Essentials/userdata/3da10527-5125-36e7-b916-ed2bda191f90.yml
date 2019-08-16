@@ -1,0 +1,24 @@
+lastAccountName: armilp
+timestamps:
+  login: 1561986233726
+  logout: 1561987572077
+  lastteleport: 1561985585759
+  kits:
+    piloto: 1561987052593
+ipAddress: 185.59.51.46
+lastlocation:
+  world: survival
+  x: -512.46219002789
+  y: 97.81130509440486
+  z: 106.59833827106756
+  yaw: 174.17958
+  pitch: -44.03317
+geolocation: "Espa\xf1a"
+logoutlocation:
+  world: survival
+  x: -476.300000011921
+  y: 67.0
+  z: 187.9632651077847
+  yaw: -226.8255
+  pitch: 2.1922476
+money: '0.0'

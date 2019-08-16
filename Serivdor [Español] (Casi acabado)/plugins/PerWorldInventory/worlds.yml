@@ -1,0 +1,20 @@
+groups:
+  survival:
+    worlds:
+    - survival_nether
+    - survival
+    - store
+    default-gamemode: SURVIVAL
+  other:
+    worlds:
+    - spawn
+    - world_nether
+    - world_the_end
+    - world
+    default-gamemode: SURVIVAL
+  default:
+    worlds:
+    - world
+    - world_nether
+    - world_the_end
+    default-gamemode: SURVIVAL

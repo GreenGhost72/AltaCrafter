@@ -1,0 +1,32 @@
+# MessageAnnouncer v1.10.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 60
+sound:
+  enabled: true
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- vip
+- warptienda
+- jobs
+announcements:
+  vip:
+  - '{"text":"&9&m                                          "}'
+  - '{"text":"&8&l< &cAltaCrafters &8&l> &fHarto de tener que esperar &b30 segundos&f
+    cada vez que te teletransportas? Eso es algo por lo que los rangos vip no han
+    de preocuparse, compra alguno ya en &dhttps://altacrafters.tebex.io/"}'
+  - '{"text":"&9&m                                          "}'
+  warptienda:
+  - '{"text":"&9&m                                          "}'
+  - '{"text":"&8&l< &cAltaCrafters &8&l> &fEn el &b/warp tienda &fpodras conseguir
+    varios objetos como herramientas, armas especiales, bloques de proteccion entre
+    otros"}'
+  - '{"text":"&9&m                                          "}'
+  jobs:
+  - '{"text":"&9&m                                          "}'
+  - '{"text":"&8&l< &cAltaCrafters &8&l> &fUsando &b/jobs join &fo &b/jobs browse
+    &fpodras encontrar trabajo e informacion de cada uno de ellos. Asi mismo podras
+    ganar dinero trabajando y por consecuente, comprar en &b/warp tienda"}'
+  - '{"text":"&9&m                                          "}'

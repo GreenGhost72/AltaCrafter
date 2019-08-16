@@ -1,0 +1,37 @@
+# language - available by default : en, fr, de, se, cn, es, ja, sk
+lang: es
+  
+# force the music played on join (players can't disable it)
+forceJoinMusic: false
+
+# send plugin message when starting/stopping music...
+sendMessages: true
+
+# load files asynchronously
+asyncLoading: true
+
+# list of worlds where music will be enabled (empty = all)
+enabledWorlds: 
+- Spawn
+
+# note particles
+noteParticles: false
+
+# enable or not action bar messages instead of chat (not available on 1.8)
+actionBar: false
+
+# enable or not server radio
+radio: true
+
+# name of songs items (variables: NAME, ID, AUTHOR)
+itemFormat: "{NAME}    | {ID}"
+
+# formatted songs name (variables: NAME, ID, AUTHOR)
+songFormat: "\"{NAME}\", {AUTHOR}"
+
+# player options gived to new players
+defaultPlayerOptions:
+  volume: 70
+  join: true
+  shuffle: false
+  particles: false

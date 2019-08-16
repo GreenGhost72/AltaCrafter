@@ -1,0 +1,33 @@
+############[- XorAntiCrash - AntiCrash System By Xores ( Hydra666 ) -]############
+#Please rate 5 stars on my spigot!
+#XorAntiCrash is in beta tests!
+#If you see a bug please send me to PM on spigot!
+#Messages:
+###---------------------------------------------###
+#Message to opped players if a player has enchant all item!
+EnchantAllMessageOp: "§8»  §cEnchant all book detectado en el jugador:§3 {NICK} §8«"
+#Send message to players if XorAntiCrash detect enchant all item!
+DetectedEnchantAllMessage: "§8»  §cEnchant all book Detectado! §8«"
+#Kick message if player join with a proxy!
+ProxyKickMessage: "§8»  §cCrashClient Detectado! §8«"
+#No Premissions Message!
+NoPermissions: "§cNo tienes suficientes permisos!"
+#Reload Message!
+ReloadMessage: "§8» §aConfiguracion recargada! §8«"
+#Enchant all item kick message!
+EnchantAllKick: "§8»  §cEnchant All Book Detectado! §8«"
+#WorldDownloader kick message! ( BETA )
+WDLKick: "§8»  §cWorldDownloader Detectado! §8«"
+#HandShake kick message
+HandShakeKick: "§8»  §cHandShake Detectado! §8«"
+#XProxy kick message ( BETA )
+XProxyKick: "§8»  §cXProxy Detectado! §8«"
+#Better enchant all item kick!
+BetterEallKick: "§8»  §cEnchant all book V2 Detectado! §8«"
+#MCBSign kick message!
+BSignKick: "§8»  §cBSign Detectada! §8«"
+#KHC proxy kick message ( BETA )!
+KHCProxyKick: "§8»  §cKHCProxy Detectada! §8«"
+#MLProxy kick!
+MLProxyKick: "§8»  §cMLProxy Detectada! §8«"
+###[- END OF THE CONFIG! -]###

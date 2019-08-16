@@ -1,0 +1,27 @@
+rulesPermission: rules.view
+joinMessage: '&bEscribe &c/rules &bpara leer las reglas del servidor'
+rulesHeader: '&eReglas/Normas Y condiciones'
+noPermission: '&cNo tienes permisos suficientes'
+consolePermission: Debes ser un jugador para ejecutar ese comando!
+rulesMessage:
+- '1: &bRespetar a todos los jugadores, el servidor y miembros del staff.'
+- '2: &bNo estan permitidos ningun tipo de clientes modificados, esto incluye Forge.'
+- '3: &bNo esta permitido el grieff.'
+- '4: &bEl tpkill esta permitido.'
+- '5: &bNo enviar links ni urls por el chat.'
+- '6: &bLas postulaciones son privadas.'
+- '8: &bEl uso de hacks sera castigado severamente con banip.'
+rulesCommands:
+- rules
+- laws
+- serverrules
+- reglas
+- pl
+- ver
+- canihasbukkit
+- minecraft:plugins
+- minecraft:ver
+- bukkit:plugins
+- bukkit:ver
+- minecraft:canihasbukkit
+- bukkit:canihasbukkit

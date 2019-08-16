@@ -1,0 +1,7 @@
+MYSQL:
+  Enabled: false
+  Address: localhost
+  Port: 3306
+  Database: LoginPlus
+  Username: username
+  Password: password

@@ -1,0 +1,32 @@
+lastAccountName: Greenghost72
+timestamps:
+  login: 1561030539331
+  lastteleport: 1561030249135
+  logout: 1561030411787
+ipAddress: 217.216.101.172
+lastlocation:
+  world: spawn
+  x: -9.31210339100157
+  y: 145.5
+  z: -1.3466666212543863
+  yaw: 47.399994
+  pitch: 37.499935
+logoutlocation:
+  world: survival
+  x: -198.69999998807907
+  y: 80.0
+  z: -14.699999988079071
+  yaw: 270.03284
+  pitch: 56.850002
+godmode: false
+geolocation: "Espa\xf1a"
+money: '9999956055.0'
+afk: false
+homes:
+  villagreen:
+    world: survival
+    x: -239.83421158195534
+    y: 88.0
+    z: 40.767112603813715
+    yaw: 181.08331
+    pitch: 46.949883

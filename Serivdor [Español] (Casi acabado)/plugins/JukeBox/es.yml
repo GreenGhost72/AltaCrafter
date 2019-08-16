@@ -1,0 +1,35 @@
+NEXT_PAGE: §bSiguiente
+LATER_PAGE: §bAtras
+PLAYER: §cDebes ser un jugador para ejecutar comandos.
+RELOAD_MUSIC: §aMusica recargada.
+INV_NAME: §d§lAltaRadio
+TOGGLE_PLAYING: §6Pausar/Iniciar
+VOLUME: '§9Volumen : §b'
+RIGHT_CLICK: '§eClick derecho: - 10%'
+LEFT_CLICK: '§eClick izquierdo: + 10%'
+RANDOM_MUSIC: §3Aleatorio
+STOP: §cPausar
+MUSIC_STOPPED: §aMusica parada.
+ENABLE: Activar
+DISABLE: Desactivar
+SHUFFLE_MODE: Modo aleatorio
+CONNEXION_MUSIC: Musica al conectarse
+PARTICLES: Particulas
+MUSIC_PLAYING: '§aAhora reproduciendo:'
+INCORRECT_SYNTAX: §cSyntax incorrecto.
+RELOAD_LAUNCH: §aRecargando.
+RELOAD_FINISH: §aRecargado.
+AVAILABLE_COMMANDS: '§aComandos disponibles:'
+INVALID_NUMBER: §cNumero invalido.
+PLAYER_MUSIC_STOPPED: '§aMusica parada para: §b'
+IN_PLAYLIST: §9§oPlaylist
+PLAYLIST_ITEM: §dPlaylists
+OPTIONS_ITEM: §bOpciones
+MENU_ITEM: §6Volver al menu
+CLEAR_PLAYLIST: §cVaciar playlist
+NEXT_ITEM: §eSiguiente cancion
+CHANGE_PLAYLIST: '§6§lCambiar playlist: §r'
+PLAYLIST: §5Playlist
+FAVORITES: §4Favoritas
+RADIO: §3Radio
+UNAVAILABLE_RADIO: §cNo puedes hacer eso mientras escuchas en la radio.

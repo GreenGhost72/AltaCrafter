@@ -1,0 +1,165 @@
+# RulesAgreement Configuration File
+# Author: fiberopticmc@gmail.com
+# Version: 3.0.1-SNAPSHOT
+
+# Developer debug - used for plugin development.
+# (Default: false)
+Debug: false
+
+# If you don't want to use the Rank portion of this plugin, and only want to use the
+# plugin as a fancy way to display your /rules. Set this to true. Upon completing /rules
+# the player will still receive any and all rewards, but will be set to "has read the rules"
+# and won't receive them again.
+# (Default: false)
+No Rank Up: true
+
+# When running the /rules command, I send blank lines to "clear" the chat of the player, so his focus is
+# on the rules being presented. The amount of "blank lines" I send is controlled here. If you don't want
+# any blank lines, use 0. Otherwise, just play with this number until you get results you like.
+# (Default: 10)
+Line Breaks: 10
+
+# Should we send a message to a new player when they join? This will create clear the players screen.
+# You can add any message you like here, but I suggest something along the lines of informing them to
+# type /rules to get promoted. Anything else you like is up to you. 
+# (Default: false)
+Send Welcome: true
+
+# Should we freeze a player until he accepts the /rules?
+# (Default: true)
+Freeze Player: true
+
+# What message should we send to the player when he attempts to move?
+# Color code support.
+# Use %player% to insert the players name.
+# (Default: "&f[&6Rules&f] You must accept the rules first %player%.")
+Freeze Message: "&f[&6Rules&f] Debes leer primero las reglas %player%."
+
+# What delay for anti-spam purposes, should we have between Freeze Messages?
+# Time is in seconds.
+# (Default: 10)
+Freeze Anti-Spam: 10
+
+# How long should we wait to send the welcome messages? Some servers have a large amount of content sent
+# when a player joins. This ensures this is actually read! I suggest no more than 5 seconds.
+# (Default: 2)
+Welcome Delay: 2
+
+# If set to true, this message is sent to a player. Don't worry, it's formatted very nicely. Like the rules
+# please keep this to 350 characters maximum, but as always you can just play with it to get the length right.
+# Color code is supported.
+# Use '%player%' to insert the players name.
+Welcome Message: "Bienvenido a &cAltaCrafters&f, %player%! Antes de empezar, nos gustaría que leyeses las normas. Puedes hacerlo con /rules."
+
+# Should we also send the welcome message as a welcome title? If enabled, this requires two messages below.
+# Main title, and Subtitle.
+# (Default: true)
+Send Welcome Title: false
+
+# How long should the Welcome Title float on the screen for? This time is in Seconds.
+# (Default: 60)
+Title Float: 60
+
+# Color codes are supported. Keep in mind, these need to be relatively shorter than the welcome message. Especially the Main line.
+# You can play with it on your own of course.
+# You can use %player% to subsitute the players name.
+Welcome Title Main: "&fWelcome &b%player% to &6FiberOptic.xyz"
+Welcome Title Sub: "&fYou can &bRank Up &fby typing &6/rules"
+
+# Introduction. The following is editable, but if you are using this plugin for server rules, then
+# you can leave it as it is. Feel free to change it as you see fit. Color codes are supported.
+# (Default: "Thank you for reviewing our rules! Once you finish reviewing these rules you will be asked if you agree to follow the rules. Should you choose to decline, you will remain your current rank and you may miss out rewards. Use the \"Back\" and \"Next\" button to read through the rules. Thank you!")
+Introduction: "Gracias por elejir leer las reglas! Una vez hayas acabado de leerlas, te preguntaremos si las aceptas o las rechazas. En caso de que rechaces, no podras hacer nada en el servidor. Usa los botones \"Back\" y \"Next\" para pasar las paginas."
+
+# Agree Message. The following is the message that we will send to the player once they finish going
+# through all of the rules. This is pretty straight forward, edit it as you see fit. Color codes are
+# supported. Keep it short, and play around with your config as per the usual.
+# (Default: "By clicking Agree below, you agree to follow our servers rules at all times while connected to our server.")
+Agree Message: "Al hacer click en 'acepto', aceptas las reglas siempre que estes conectado en el servidor"
+
+# Decline Message. This is the message sent to the player when they decline accepting the rules.
+# Color code support.
+# Use %player% to insert the players name.
+# (Default: "&f[&6Rules&f] I'm sorry you feel that way %player%.")
+Decline Message: "&f[&6Rules&f] Siento que no quieras ser parte de &cAltaCrafters&f %player%."
+
+# Should we nag the player every so often to check out the rules?
+# Time and message are configurable below.
+# (Default: true)
+Player Nagging: true
+
+# TitleManager Support? If this is set to true, we won't send a text message to the player
+# instead we will use TitleManager to send a floating message to the player.
+# This REQUIRES the following plugin: https://goo.gl/vI0RGY
+# (Default: false)
+Title Nagging: false
+
+# Color codes are supported. Keep in mind, these need to be relatively shorter than the welcome message. Especially the Main line.
+# You can play with it on your own of course.
+# You can use %player% to subsitute the players name.
+Nagging Title Main: "&fHey, %player%!"
+Nagging Title Sub: "&fSera mejor que aceptes las reglas con /rules para jugar mejor"
+
+# Delay between nagging, this is in seconds.
+# (Default: 300)
+Nagging Delay: 300
+
+# The message to send to the player based on the timer above.
+# Color code is supported.
+# Use %player% to insert the players name.
+# To use the welcome message, just type 'none' below or leave this empty.
+# (Default: "&f[&6Rules&f] Hi %player%, did you know you can rank up by typing /rules?")
+Nagging Message: "&f[&6Rules&f] Hola %player%,espero que leas las normas, para no meterte en problemas"
+
+# Kick player if they decline the rules? Some people may want this, others may not. Your call.
+# Note: If this is enabled, we will use the 'Decline Message' above as the kick message.
+#       Configure that as you wish, to show up on the kick screen. Be sure to test it out!
+#
+# (Default: false)
+Kick on Decline: true
+
+# Old Rank. What is the name of rank players will be promoted FROM?
+# (Default: "Guest")
+Old Rank: "Guest"
+
+# New Rank. What is the name of rank players will be promoted TO?
+# (Default: "Member")
+New Rank: "Member"
+
+# Do you want to give money to players? Requires an economy plugin and vault!
+# (Default: false)
+Give Money: false
+
+# Amount of money to give if above is set to true. This number must be a double.
+# (Default: 100.00)
+Money Amount: 100.00
+
+# Broadcast new players whom accept the rules?
+# (Default: true)
+Broadcast: false
+
+# Broadcast Message to send when a player accepts the rules. Color Codes are supported.
+# Use %player% to insert the players name.
+# Use %oldrank% to insert the name of the old rank.
+# Use %newrank% to insert the name of the new rank.
+# (Default: "%player% has accepted the rules and is now a %newrank%!")
+Broadcast Message: "%player% has accepted the rules and is now a %newrank%!"
+
+# Link to servers rules.
+# This plugin overwrites essentials /rules command, this is an alternative to replace it.
+# You can place a link to your servers rules here.
+# (Default: "http://www.google.com/")
+Rules Link: "http://www.google.com/"
+
+# Commands to run after completeing the rules agreement.
+# These commands are run as the console. If you want to give a player an item you would want to run
+# the command: /give %player% <item> <amount>
+# %player% - will be replaced with the players name.
+Console Commands:
+- "msg %player% FELICIDADES, HAS ACEPTADO LAS REGLAS"
+
+# Commands to run after completeing the rules agreement.
+# These commands are run as the player.
+# %player% - will be replaced with the players name.
+Player Commands:
+- "spawn"

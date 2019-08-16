@@ -1,0 +1,67 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://www.spigotmc.org/wiki/itemjoin/
+items-Version: 6
+items-Delay: 0
+items-Overwrite: true
+items-Spamming: true
+items-RestrictCount: false
+items:
+  radio:
+    id: 25
+    slot: 0
+    name: '&5&lRadio'
+    lore:
+    - '&7Estacion de radio'
+    commands:
+      multi-click:
+      - 'message: &8&l< &cAltaRadio &8&l> &fConectando con la estacion de radio'
+      - 'music'
+    commands-type: interact, inventory
+    commands-sound: NOTE_PLING
+    commands-sequence: SEQUENTIAL
+    commands-cost: 0
+    commands-cooldown: 10
+    cooldown-message: '&8&l< &cAltaRadio &8&l> &fLa antena de tu radio aun se esta recargando, espera &b%timeleft% &fsegundos'
+    itemflags: inventory-modify, death-drops, unbreakable, hide-attributes, self-drops, CreativeBypass
+    triggers: join, respawn, world-change, region-enter
+    permission-node: itemjoin.radio
+    enabled-regions: spawn
+    enabled-worlds: spawn
+  navigator:
+    id: 345
+    slot: 4
+    name: '&c&lNavegador'
+    lore:
+    - '&7GPS'
+    commands:
+      multi-click:
+      - 'warp'
+    commands-type: interact, inventory
+    commands-sequence: SEQUENTIAL
+    commands-cost: 0
+    commands-cooldown: 3
+    cooldown-message: '&8&l< &cAltaGPS &8&l> &fRecalculando, espera &b%timeleft% &fsegundos'
+    itemflags: inventory-modify, death-drops, unbreakable, hide-attributes, self-drops, CreativeBypass
+    triggers: join, respawn, world-change, region-enter
+    permission-node: itemjoin.radio
+    enabled-regions: spawn
+    enabled-worlds: spawn
+  gadges:
+    id: NETHER_STAR
+    slot: 8
+    name: '&d&lGadgets'
+    lore:
+    - '&7Menu de gadgets'
+    commands:
+      multi-click:
+      - 'gmenu main'
+    commands-type: interact, inventory
+    commands-sequence: SEQUENTIAL
+    commands-cost: 0
+    commands-cooldown: 3
+    cooldown-message: '&8&l< &cAltaGadgets &8&l> &fPorfavor, espera &b%timeleft% &fsegundos'
+    itemflags: inventory-modify, death-drops, unbreakable, hide-attributes, self-drops, CreativeBypass
+    triggers: join, respawn, world-change, region-enter
+    permission-node: itemjoin.gadgets
+    enabled-regions: spawn
+    enabled-worlds: spawn

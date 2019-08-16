@@ -1,0 +1,128 @@
+data:
+  properties:
+    type: 0
+    title: §f§lMuniciones
+    size: 1
+    gui: false
+  inventory:
+    slots:
+    - 3
+    - 4
+    - 5
+    items:
+    - ? type: ARROW
+        amount: 32
+      : null
+    - ? type: ARROW
+        amount: 32
+      : meta-type: UNSPECIFIC
+        display-name: §8§l[§cFlecha Ballesta§8§l]
+    - ? type: IRON_INGOT
+        amount: 32
+      : meta-type: UNSPECIFIC
+        display-name: §8§l[§cMunicion §3Type95§8§l]
+    slotdata:
+      '0':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '1':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '2':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '3':
+        page: AMMO
+        cost: 50.0
+        sell: 25.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '4':
+        page: AMMO
+        cost: 5000.0
+        sell: 2500.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '5':
+        page: AMMO
+        cost: 10000.0
+        sell: 5000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '6':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '7':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '8':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '13':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '18':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '19':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '22':
+        page: AMMO
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None

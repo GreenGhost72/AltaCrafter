@@ -1,0 +1,113 @@
+# Allows you set your own disabled commands! :D
+# Placeholders are %colon% -> : and %player% -> player's name
+# Make a command only disabled in some worlds by doing:
+#DisabledCommands:
+#    Plugins:
+#        Worlds:
+#        - world
+#
+# Allows you to perform console and player commands!
+# Placeholders are %player% -> player's name, %username% -> player's username,
+#   and %command% -> disabled command
+#DisabledCommands:
+#    Plugins:
+#        PlayerCommands:
+#        - say this allows me to perform player commands!
+#        - say I, %player%, was bad and tried to execute %command%
+#        ConsoleCommands:
+#        - say this allows me to perform console commands!
+#
+# Make a command allowed to tab complete by doing:
+#DisabledCommands:
+#   Plugins:
+#       NoTabComplete: false
+#
+## If you have two of the same command, the one nearest to the top will be used! ##
+DisabledCommands:
+    Plugins:
+        Message: 'Plugins (2): &2Private&f, &2Plugin'
+        Permission: cb.allow.plugins
+    Pl:
+        Message: 'Plugins (2): &2Private&f, &2Plugin'
+        Permission: cb.allow.plugins
+    Bukkit%colon%plugins:
+        Message: 'Plugins (2): &2Private&f, &2Plugin'
+        Permission: cb.allow.plugins
+    Bukkit%colon%pl:
+        Message: 'Plugins (2): &2Private&f, &2Plugin'
+        Permission: cb.allow.plugins
+    Help:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    ?:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    Bukkit%colon%help:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    Bukkit%colon%?:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    Minecraft%colon%?:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    Minecraft%colon%help:
+        Message: '&c[&4Error&c] &bUsa &a/helpop &bpara pedir ayuda'
+        Permission: cb.allow.help
+    Version:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Ver:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Icanhasbukkit:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Bukkit%colon%ver:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Bukkit%colon%version:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    About:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Bukkit%colon%about:
+        Message: '&cHola &4c:&7, &6que esperabas?'
+        Permission: cb.allow.version
+    Me:
+        Message: '&7Tu eres tu y nadie mas'
+        Permission: cb.allow.me
+    Minecraft%colon%me:
+        Message: '&7Tu eres tu y nadie mas'
+        Permission: cb.allow.me
+    Reload:
+        Message: '&cRecargando tu memoria para hacerte creer que esto iba a funcionar'
+        Permission: cb.allow.reload
+    Rl:
+        Message: '&cRecargando tu memoria para hacerte creer que esto iba a funcionar'
+        Permission: cb.allow.reload
+    Bukkit%colon%rl:
+        Message: '&cRecargando tu memoria para hacerte creer que esto iba a funcionar'
+        Permission: cb.allow.reload
+    Bukkit%colon%reload:
+        Message: '&cRecargando tu memoria para hacerte creer que esto iba a funcionar'
+        Permission: cb.allow.reload
+    Restart:
+        Message: '&cRecargando tu memoria para hacerte creer que esto iba a funcionar'
+        Permission: cb.allow.reload
+    Stop:
+        Message: '&c[&4Hecho&c] &bParando el servidor...'
+        Permission: cb.allow.stop
+    Op:
+        Message: '&6Vale... porque no? &bJA JA JA'
+        Permission: cb.allow.op
+    Minecraft%colon%op:
+        Message: '&6Vale... porque no? &bJA JA JA'
+        Permission: cb.allow.op
+    Deop:
+        Message: '&cCuando no eres capaz de dar op, crees poder quitar op'
+        Permission: cb.allow.deop
+    Minecraft%colon%deop:
+        Message: '&cCuando no eres capaz de dar op, crees poder quitar op'
+        Permission: cb.allow.deop

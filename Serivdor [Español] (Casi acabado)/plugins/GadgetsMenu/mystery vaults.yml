@@ -1,0 +1,29 @@
+Mystery-Vaults:
+  Spawn1:
+    BlockFace: NORTH
+    Location:
+      world: spawn
+      x: -11.0
+      y: 146.0
+      z: -1.0
+  Spawn2:
+    BlockFace: EAST
+    Location:
+      world: spawn
+      x: -6.0
+      y: 144.0
+      z: 3.0
+  Spawn3:
+    BlockFace: WEST
+    Location:
+      world: spawn
+      x: 0.0
+      y: 144.0
+      z: 5.0
+  Spawn4:
+    BlockFace: WEST
+    Location:
+      world: spawn
+      x: -4.0
+      y: 145.0
+      z: -5.0

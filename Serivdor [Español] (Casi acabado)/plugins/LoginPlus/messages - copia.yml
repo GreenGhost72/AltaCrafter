@@ -1,0 +1,48 @@
+Global:
+  Prefix: '&8&l< &cAltaLogin &8&l> &f'
+Error:
+  Already-LoggedIn: '&cYa hay un usuario con esta cuenta conectado'
+  Banned: '&7Estas &cbaneado &7por haberte logeado de forma incorrecta, intentalo de nuevo en &c%BanTime%
+    &7segundos.'
+  Timer-Over: '&7El tiempo ha pasado! Puedes reconectarte y volver a intentarlo en &c%Reconnect-Time%
+    &7segundos!'
+  Captcha-Failed: '&cCaptcha incorrecto'
+  Permission: '&cNo tienes permisos para ejecutar ese comando'
+  Arguments: '&cArgumenos no validos'
+  Player_Offline: '&cEse jugador no esta conectado!'
+Timer:
+  Info: '&7Tienes &c%Time% &7segundos para logearte'
+Ban:
+  Info: '&7Has sido baneado durante &c%Time% &7segundos'
+Title:
+  Login:
+    Title: '&cLogeate'
+    SubTitle: '&6Introduce tu contraseña en el chat'
+  Register:
+    Title: '&cRegistrate'
+    SubTitle: '&6Introduce tu contraseña en el chat'
+  Register-Success:
+    Title: '&aRegistrado'
+    SubTitle: '&6Tu cuenta ha sido agregada al servidor, &bBIENVENIDO'
+  Login-Success:
+    Title: '&aLogeado'
+    SubTitle: '&7Bienvenido de vuelta'
+  Login-Failed:
+    Title: '&cContraseña incorrecta'
+    SubTitle: '&7Tienes &c%Attempts% &7intentos restantes'
+  Change-Password:
+    Title: '&cCambia tu contraseña'
+    SubTitle: '&6Escribe la nueva contraseña en el chat'
+  Change-Password-Success:
+    Title: '&aCambia tu contraseña'
+    SubTitle: '&6Tu contraseña ha sido cambiada'
+Captcha:
+  Inventory:
+    Name: '&4Captcha'
+    Dont-Click: '&7No clickear'
+    Change: '&4Cambiar'
+    Changed: '&aCambiado'
+Premium:
+  Disabled: '&7Funcion &6premium &cdeshabilitada'
+  Enabled: '&7Funcion &6premium &ahabilitada'
+  'No': '&cNo tienes una cuenta premium!'

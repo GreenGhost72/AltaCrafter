@@ -1,0 +1,22 @@
+# ################################################# #
+# ##                WorldCommand:                ## #
+# ##  Made by: SavageAvocado     Date: 05/21/17  ## #
+# ################################################# #
+
+world:
+- say {player} joined the world {world_to}.
+- say {player} left the world {world_from}.
+world_nether:
+- say {player} joined the world {world_to}.
+- say {player} left the world {world_from}.
+world_the_end:
+- say {player} joined the world {world_to}.
+- say {player} left the world {world_from}.
+store:
+- adminmusic stop {player}
+survival:
+- adminmusic stop {player}
+survival_nether:
+- adminmusic stop {player}
+spawn:
+- adminmusic random {player}

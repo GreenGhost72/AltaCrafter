@@ -1,0 +1,33 @@
+# Rules File
+# Author: fiber@fiberoptic.xyz
+
+# --- READ THIS ---
+# It's important you read this section, as it will answer most questions you have.
+#
+# In this section you can create any amount of rules as you wish. There is a specific
+# way that this config is setup, and you should make sure you follow the format as best
+# as possible to prevent any errors. If you are NOT using a PROPER text editing software
+# such as Notepad++ or Sublime 3, please consider installing that first.
+#
+# Server Rules - Here you can list all of your rules out, as many as you need. Use the format below
+# otherwise you may miss rules or break the plugin. Rules need to be less than 350 characters. Color
+# codes do not count to characters. This is roughly 50-55 words. Obviously just play with it a bit.
+#
+# Rules:
+#   Example Rule: "&bThis example rule is designed to show you what the rules look like. You can edit this rule in the config.yml. Make sure you keep your rules under 350 characters otherwise you may break the display functionality of the plugin, and it will look like a hot mess. The next rule available is a simple Lorum Ipsum exmaple to show you formatting."
+#   Second Example: "&cLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod dictum risus sed sagittis. Suspendisse lacus nunc, posuere sit amet commodo eu, malesuada id diam. Ut massa velit, semper vitae facilisis ut, lacinia a sem. Nulla facilisi. Nullam ut nulla eget mauris auctor venenatis. Aliquam sit amet ligula sit amet elit pretium tempor sed."
+#
+#
+Rules:
+  1: "&bRespetar a todos los jugadores, el servidor y miembros del staff."
+  2: "&bNo estan permitidos ningun tipo de clientes modificados, esto incluye Forge."
+  3: "&bNo esta permitido el grieff."
+  4: "&bEl tpkill esta permitido."
+  5: "&bNo enviar links ni urls por el chat."
+  6: "&bLas postulaciones son postulaciones privada, esto quiere decir que para postularte no tienes que pedirlo en el chat, tienes que pedir una solicitud por privado en nuestro servidor de Discord: https://discord.com"
+  7: "&bLa toxicidad sera castigada severamente con un baneo de ip."
+  8: "&bEl uso de hacks (incluye uso de fly o x-ray) sera castigado severamente con un banip."
+  9: "&bLas criticas al servidor estan abiertas, siempre y cuando sean constructivas (Que no busquen dañar la imagen del servidor)"
+  10: "&bNo estorbar/molestar al staff|Equipo administrativo del servidor."
+  11: "&bNo aprovecharse de los bugs."
+  12: "&bAprovecharse de un bug sera castigado severamente con un ban-ip."

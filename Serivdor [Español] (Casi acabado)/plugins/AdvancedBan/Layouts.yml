@@ -1,0 +1,64 @@
+# The default layouts are in the Message.yml file!
+
+# Message-Layouts can not only be used for bans but also for mutes and warns
+# Currently available variables:
+#   %OPERATOR% - The user who dealt the punishment.
+#   %REASON% - Reason for punishment.
+#   %PREFIX% - Prefix set in Message.yml.
+#   %DURATION% - Amount of time left before a punishment expires (will be -1 for permanent punishments).
+#   %DATE% - Date punishment was issued on.
+#   %ID% - Displays the punishment ID (i.e. first punishment = 0, second punishment = 1, third punishment = 2, etc.)
+#   %HEXID% - Displays the punishment ID in base 16. 
+# For warns you have also the variable %COUNT% which will be
+# replaced with the current amount of warns the player already received
+# Example usage: /ban Leoko @ExampleLayout
+Message:
+  Reglas:
+    - '%PREFIX% &7Baneado por romper las normas'
+    - '&c&oBaneado por %OPERATOR%'
+    - '&7'
+    - "&cParece que has estado usando"
+    - "&cun cliente crackeado (hacks)"
+    - "&cDebaneo en: &7%DURATION%"
+    - '&7'
+    - '&8Pide un desbaneo en'
+    - "&ehttps://discord.me/altacrafters"
+  GuardianKick:
+    - '&8&l[&bGuardian&8&l]'
+    - ''
+    - '&6&lHas sido kickeado por'
+    - '&6&lalguna de las siguientes razones:'
+    - ''
+    - '&d - Romper las reglas'
+    - '&d - Uso de clientes ilegales/no permitidos'
+    - '&d - Uso de hacks'
+    - '&d - Uso de WDL (World Downloader)'
+    - '&d - Intento de crashear el servidor'
+  GuardianBan:
+    - '&8&l[&bGuardian&8&l]'
+    - ''
+    - '&6&lHas sido baneado por'
+    - '&6&lalguna de las siguientes razones:'
+    - ''
+    - '&d - Romper las reglas'
+    - '&d - Uso de clientes ilegales/no permitidos'
+    - '&d - Uso de hacks'
+    - '&d - Uso de WD (World Downloader)'
+    - '&d - Intento de crashear el servidor'
+    - ''
+    - '&fSi quieres desbanearte puedes solicitarlo en'
+    - '&3&lhttps://discord.me/altacrafters'
+
+# You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
+# Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
+# You can also combine this with MessageLayouts like "/tempban Leoko #ExampleLayout @Hacking"
+Time:
+  Reglas:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1se'
+    - '1mes'
+    - '2mes'
+    - '4mes'
+    - 'nunca'

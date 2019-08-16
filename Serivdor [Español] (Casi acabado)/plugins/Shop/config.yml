@@ -1,0 +1,32 @@
+Misc:
+  MAIN_PAGE: ''
+  UPDATE_CHECK: true
+  COMMAND_PLACEHOLD: false
+Purchase:
+  PURCHASE_GUI: ''
+  COST_PREFIX: '&aCoste&7: &2'
+  SHOP_PURCHASE:
+  - '&aHas comprado &b%quantity% &r%item% &apor &2%cost%'
+  - '&cCon un total de &4%failed% &ccompras fallidas.'
+  - '&eTu nueva balanza es &2%balance%'
+Sell:
+  SELL_GUI: ''
+  SELL_PREFIX: '&bVenta&7: &3'
+  SELL_COMPLETE: '&aHas ganado &2%worth%'
+  SHOP_SELL:
+  - '&aHas vendido &b%quantity% &r%item% &apor &2%cost%'
+  - '&eTu nueva balanza es &2%balance%'
+Trade:
+  TRADE_GUI: ''
+Messages:
+  BLACKLIST_ERROR: '&cNo puedes usar la tienda en este mundo'
+  PERMISSION_ERROR: '&cNo tienes permisos para ejecutar ese comando'
+  COST_CANNOT_AFFORD: '&cNo puedes permitirte este item'
+  TRADE_NEED_SPACE: '&cNecesitas mas espacio en el inventario para tradear este item'
+Auto:
+  AUTOSAVE: true
+  AUTOBACKUP: true
+  AUTOSAVE_DELAY: 20
+Sign:
+  SIGN_TAG: '[Shop]'
+  SIGN_ENABLED: true

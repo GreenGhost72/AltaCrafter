@@ -1,0 +1,33 @@
+armorstand-protection: true
+select-enabled: '&e[ASC] &7Selector de armorstand &a[Activado]!'
+select-disabled: '&e[ASC] &7Armorstand selection &c[Desactivado]!'
+error: '&e[ASC] &cElije un armorstand primero!'
+no-perm: '&e[ASC] &cNo tienes permisos para usar este armorstand!'
+already-exits: '&e[ASC] &cEste armorstand ya esta creado!'
+created: '&e[ASC] &aArmorstand creado!'
+removed: '&e[ASC] &aArmorstand eliminado!'
+not-exits: '&e[ASC] &cEste armorstand no existe &b/armorstandcommands create!'
+command-added: '&e[ASC] &aComando agregado!'
+selected-armorstand: '&e[ASC] &aArmorstand elejido!'
+cooldown: 3
+armor-list:
+- spawn:-3:145:-4
+- store:-207:61:99
+spawn:-3:145:-4:
+  permission: ascmd.rules
+  type: player
+  rightclick:
+    commands:
+    - rules
+  leftclick:
+    commands:
+    - rules
+store:-207:61:99:
+  permission: ascmd.weapons
+  type: console
+  rightclick:
+    commands:
+    - shop page open WEAPONS %player%
+  leftclick:
+    commands:
+    - shop page open WEAPONS %player%

@@ -1,0 +1,992 @@
+ItemList:
+  NONE: Ã§Â©ÂºÃ¦Â°Â£
+  ACACIA_BUTTON: Ã§Â©ÂºÃ¦Â°Â£
+  ACACIA_DOOR: Acacia Door
+  ACACIA_FENCE: Ã§â€ºÂ¸Ã¦â‚¬ï¿½Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  ACACIA_FENCE_GATE: Ã§â€ºÂ¸Ã¦â‚¬ï¿½Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  ACACIA_LEAVES: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  ACACIA_LOG: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  ACACIA_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  ACACIA_PRESSURE_PLATE: Ã§Â©ÂºÃ¦Â°Â£
+  ACACIA_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  ACACIA_SLAB: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥ï¿½Å Ã§Â£Å¡
+  ACACIA_STAIRS: Ã§â€ºÂ¸Ã¦â‚¬ï¿½Ã¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  ACACIA_TRAPDOOR: Ã§Â©ÂºÃ¦Â°Â£
+  ACACIA_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  ACTIVATOR_RAIL: Ã¨Â§Â¸Ã§â„¢Â¼Ã©ï¿½ÂµÃ¨Â»Å’
+  AIR: Ã§Â©ÂºÃ¦Â°Â£
+  ALLIUM: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  ANDESITE: Ã§Å¸Â³Ã©Â Â­
+  ANVIL: Ã©ï¿½ÂµÃ§Â Â§
+  APPLE: Ã¨Ëœâ€¹Ã¦Å¾Å“
+  ARMOR_STAND: Ã§â€ºâ€�Ã§â€�Â²Ã¥ÂºÂ§
+  ARROW: Ã§Â®Â­Ã§Å¸Â¢
+  ATTACHED_MELON_STEM: Ã§Â©ÂºÃ¦Â°Â£
+  ATTACHED_PUMPKIN_STEM: Ã§Â©ÂºÃ¦Â°Â£
+  AZURE_BLUET: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  BAKED_POTATO: Ã§Æ’Â¤Ã©Â¦Â¬Ã©Ë†Â´Ã¨â€“Â¯
+  BARRIER: Ã¥Â±ï¿½Ã©Å¡Å“
+  BAT_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  BEACON: Ã§Æ’Â½Ã§ï¿½Â«Ã¥ï¿½Â°
+  BEDROCK: Ã¥Å¸ÂºÃ¥Â²Â©
+  BEEF: Ã§â€�Å¸Ã§â€°â€ºÃ¨â€šâ€°
+  BIRCH_BUTTON: Ã§Â©ÂºÃ¦Â°Â£
+  BIRCH_DOOR: Birch Door
+  BIRCH_FENCE: Ã¦Â¨ÂºÃ¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  BIRCH_FENCE_GATE: Ã¦Â¨ÂºÃ¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  BIRCH_LEAVES: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  BIRCH_LOG: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  BIRCH_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  BIRCH_PRESSURE_PLATE: Ã§Â©ÂºÃ¦Â°Â£
+  BIRCH_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  BIRCH_SLAB: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥ï¿½Å Ã§Â£Å¡
+  BIRCH_STAIRS: Ã¦Â¨ÂºÃ¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  BIRCH_TRAPDOOR: Ã§Â©ÂºÃ¦Â°Â£
+  BIRCH_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  BLACK_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  BLACK_BED: Ã¥ÂºÅ 
+  BLACK_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  BLACK_STAINED_GLASS: Black Stained Glass
+  BLACK_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  BLACK_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  BLACK_WALL_BANNER: Black Banner
+  BLACK_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  BLAZE_POWDER: Ã§Æ’Ë†Ã§â€žÂ°Ã§Â²â€°
+  BLAZE_ROD: Ã§Æ’Ë†Ã§â€žÂ°Ã¦Â¡Â¿
+  BLAZE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  BLUE_BED: Ã¥ÂºÅ 
+  BLUE_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  BLUE_ICE: Ã§Â©ÂºÃ¦Â°Â£
+  BLUE_ORCHID: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  BLUE_STAINED_GLASS: Black Stained Glass
+  BLUE_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  BLUE_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  BLUE_WALL_BANNER: Blue Banner
+  BLUE_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  BONE: Ã©ÂªÂ¨Ã©Â Â­
+  BONE_MEAL: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  BOOK: Ã¦â€ºÂ¸
+  BOOKSHELF: Ã¦â€ºÂ¸Ã¦Â«Æ’
+  BOW: Ã¥Â¼â€œ
+  BOWL: Ã§Â¢â€”
+  BRAIN_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  BRAIN_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  BRAIN_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  BRAIN_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  BREAD: Ã©ÂºÂµÃ¥Å’â€¦
+  BREWING_STAND: Brewing Stand
+  BRICK: Brick
+  BRICKS: Ã§Â´â€¦Ã§Â£Å¡
+  BRICK_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  BRICK_STAIRS: Ã§Â´â€¦Ã§Â£Å¡Ã©Å¡Å½Ã¦Â¢Â¯
+  BROWN_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  BROWN_BED: Ã¥ÂºÅ 
+  BROWN_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  BROWN_MUSHROOM: Ã¨Ëœâ€˜Ã¨ï¿½â€¡
+  BROWN_MUSHROOM_BLOCK: Ã¨Ëœâ€˜Ã¨ï¿½â€¡
+  BROWN_STAINED_GLASS: Black Stained Glass
+  BROWN_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  BROWN_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  BROWN_WALL_BANNER: Brown Banner
+  BROWN_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  BUBBLE_COLUMN: Ã§Â©ÂºÃ¦Â°Â£
+  BUBBLE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  BUBBLE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  BUBBLE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  BUBBLE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  BUCKET: Ã©ï¿½ÂµÃ¦Â¡Â¶
+  CACTUS: Ã¤Â»â„¢Ã¤ÂºÂºÃ¦Å½Å’
+  CACTUS_GREEN: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  CAKE: Ã¨â€ºâ€¹Ã§Â³â€¢
+  CARROT: Carrot
+  CARROTS: Ã¨ËœÂ¿Ã¨â€�â€�
+  CARROT_ON_A_STICK: Ã¨Æ’Â¡Ã¨ËœÂ¿Ã¨â€�â€�Ã©â€¡Â£Ã§Â«Â¿
+  CARVED_PUMPKIN: Ã§Â©ÂºÃ¦Â°Â£
+  CAULDRON: Cauldron
+  CAVE_AIR: Ã§Â©ÂºÃ¦Â°Â£
+  CAVE_SPIDER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  CHAINMAIL_BOOTS: Ã©Å½â€“Ã©ï¿½Ë†Ã©ï¿½Â´Ã¥Â­ï¿½
+  CHAINMAIL_CHESTPLATE: Ã©Å½â€“Ã©ï¿½Ë†Ã¤Â¸Å Ã¨Â¡Â£
+  CHAINMAIL_HELMET: Ã©Å½â€“Ã©ï¿½Ë†Ã¥Â¸Â½Ã¥Â­ï¿½
+  CHAINMAIL_LEGGINGS: Ã©Å½â€“Ã©ï¿½Ë†Ã¨Â¤Â²Ã¥Â­ï¿½
+  CHAIN_COMMAND_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  CHARCOAL: Ã§â€¦Â¤Ã§â€šÂ­
+  CHEST: Ã¥â€žÂ²Ã§â€°Â©Ã§Â®Â±
+  CHEST_MINECART: Ã¥â€žÂ²Ã¥Â­ËœÃ§Â®Â±Ã§Â¤Â¦Ã¨Â»Å 
+  CHICKEN: Ã§â€�Å¸Ã©â€ºÅ¾Ã¨â€šâ€°
+  CHICKEN_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  CHIPPED_ANVIL: Ã©ï¿½ÂµÃ§Â Â§
+  CHISELED_QUARTZ_BLOCK: Ã¦Å¸Â±Ã§â€¹â‚¬Ã§Å¸Â³Ã¨â€¹Â±Ã§Â£Å¡
+  CHISELED_RED_SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â´â€¦Ã§Â â€šÃ§Â£Å¡
+  CHISELED_SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â â€šÃ¥Â²Â©
+  CHISELED_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡
+  CLAY: Ã©Â»ï¿½Ã¥Å“Å¸Ã¥Â¡Å 
+  CLAY_BALL: Ã©Â»ï¿½Ã¥Å“Å¸
+  CLOCK: Ã¦â„¢â€šÃ©ï¿½Ëœ
+  COAL: Ã§â€¦Â¤Ã§â€šÂ­
+  COAL_BLOCK: Ã§â€¦Â¤Ã§â€šÂ­Ã§Â£Å¡
+  COAL_ORE: Ã§â€¦Â¤Ã§Â¤Â¦
+  COARSE_DIRT: Ã§ï¿½Â°Ã¥Â£Â¤
+  COBBLESTONE: Ã©Âµï¿½Ã¥ï¿½ÂµÃ§Å¸Â³
+  COBBLESTONE_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  COBBLESTONE_STAIRS: Ã©Âµï¿½Ã¥ï¿½ÂµÃ§Å¸Â³Ã©Å¡Å½Ã¦Â¢Â¯
+  COBBLESTONE_WALL: Ã©ï¿½â€™Ã¨â€¹â€�Ã§Å¸Â³Ã§â€°â€ 
+  COBWEB: Ã¨Å“ËœÃ¨â€ºâ€ºÃ§Â¶Â²
+  COCOA: Ã¥ï¿½Â¯Ã¥ï¿½Â¯
+  COCOA_BEANS: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  COD: Ã§Â©ÂºÃ¦Â°Â£
+  COD_BUCKET: Ã§Â©ÂºÃ¦Â°Â£
+  COD_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  COMMAND_BLOCK: Ã¦Å’â€¡Ã¤Â»Â¤Ã¦â€“Â¹Ã¥Â¡Å 
+  COMMAND_BLOCK_MINECART: Ã¦Å’â€¡Ã¤Â»Â¤Ã¦â€“Â¹Ã¥Â¡Å Ã§Â¤Â¦Ã¨Â»Å 
+  COMPARATOR: Ã§Â´â€¦Ã§Å¸Â³Ã¦Â¯â€�Ã¨Â¼Æ’Ã¥â„¢Â¨
+  COMPASS: Ã¦Å’â€¡Ã¥ï¿½â€”Ã©â€¡ï¿½
+  CONDUIT: Ã§Â©ÂºÃ¦Â°Â£
+  COOKED_BEEF: Ã§â€°â€ºÃ¦Å½â€™
+  COOKED_CHICKEN: Ã§Æ’Â¤Ã©â€ºÅ¾
+  COOKED_COD: Ã§Æ’Â¤Ã©Â®Â­Ã©Â­Å¡Ã§â€°â€¡
+  COOKED_MUTTON: Ã§Æ’Â¤Ã§Â¾Å Ã¨â€šâ€°
+  COOKED_PORKCHOP: Ã§Æ’Â¤Ã¨Â±Â¬Ã¨â€šâ€°
+  COOKED_RABBIT: Ã§Æ’Â¤Ã¥â€¦â€�Ã¨â€šâ€°
+  COOKED_SALMON: Ã§Æ’Â¤Ã©Â®Â­Ã©Â­Å¡Ã§â€°â€¡
+  COOKIE: Ã©Â¤â€¦Ã¤Â¹Â¾
+  COW_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  CRACKED_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡
+  CRAFTING_TABLE: Ã¥Â·Â¥Ã¤Â½Å“Ã¥ï¿½Â°
+  CREEPER_HEAD: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  CREEPER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  CREEPER_WALL_HEAD: Ã©Â Â­Ã©Â¡Â±
+  CUT_RED_SANDSTONE: Ã§Â©ÂºÃ¦Â°Â£
+  CUT_SANDSTONE: Ã§Â©ÂºÃ¦Â°Â£
+  CYAN_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  CYAN_BED: Ã¥ÂºÅ 
+  CYAN_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  CYAN_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  CYAN_STAINED_GLASS: Black Stained Glass
+  CYAN_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  CYAN_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  CYAN_WALL_BANNER: Cyan Banner
+  CYAN_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  DAMAGED_ANVIL: Ã©ï¿½ÂµÃ§Â Â§
+  DANDELION: Ã¨â€™Â²Ã¥â€¦Â¬Ã¨â€¹Â±
+  DANDELION_YELLOW: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  DARK_OAK_BUTTON: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_OAK_DOOR: Dark Oak Door
+  DARK_OAK_FENCE: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  DARK_OAK_FENCE_GATE: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  DARK_OAK_LEAVES: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  DARK_OAK_LOG: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  DARK_OAK_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  DARK_OAK_PRESSURE_PLATE: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_OAK_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  DARK_OAK_SLAB: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥ï¿½Å Ã§Â£Å¡
+  DARK_OAK_STAIRS: Ã©Â»â€˜Ã¦Â©Â¡Ã¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  DARK_OAK_TRAPDOOR: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_OAK_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_PRISMARINE: Ã¦ÂµÂ·Ã§Â£Â·Ã§Å¸Â³Ã§Â£Å¡
+  DARK_PRISMARINE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_PRISMARINE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  DAYLIGHT_DETECTOR: Ã¦â€”Â¥Ã¥â€¦â€°Ã¦â€žÅ¸Ã¦Â¸Â¬Ã¥â„¢Â¨
+  DEAD_BRAIN_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BRAIN_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BRAIN_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BRAIN_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BUBBLE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BUBBLE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BUBBLE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BUBBLE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_BUSH: Ã¦Å¾Â¯Ã§ï¿½Å’Ã¦Å“Â¨
+  DEAD_FIRE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_FIRE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_FIRE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_FIRE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_HORN_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_HORN_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_HORN_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_HORN_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_TUBE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_TUBE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_TUBE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEAD_TUBE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  DEBUG_STICK: Ã§Â©ÂºÃ¦Â°Â£
+  DETECTOR_RAIL: Ã¦â€žÅ¸Ã¦Â¸Â¬Ã©ï¿½ÂµÃ¨Â»Å’
+  DIAMOND: Ã©â€˜Â½Ã§Å¸Â³
+  DIAMOND_AXE: Ã©â€˜Â½Ã§Å¸Â³Ã¦â€“Â§
+  DIAMOND_BLOCK: Ã©â€˜Â½Ã§Å¸Â³Ã§Â£Å¡
+  DIAMOND_BOOTS: Ã©â€˜Â½Ã§Å¸Â³Ã©ï¿½Â´Ã¥Â­ï¿½
+  DIAMOND_CHESTPLATE: Ã©â€˜Â½Ã§Å¸Â³Ã¤Â¸Å Ã¨Â¡Â£
+  DIAMOND_HELMET: Ã©â€˜Â½Ã§Å¸Â³Ã¥Â¸Â½Ã¥Â­ï¿½
+  DIAMOND_HOE: Ã©â€˜Â½Ã§Å¸Â³Ã©â€¹Â¤
+  DIAMOND_HORSE_ARMOR: Ã©â€˜Â½Ã§Å¸Â³Ã©Â¦Â¬Ã©Å½Â§
+  DIAMOND_LEGGINGS: Ã©â€˜Â½Ã§Å¸Â³Ã¨Â¤Â²Ã¥Â­ï¿½
+  DIAMOND_ORE: Ã©â€˜Â½Ã§Å¸Â³Ã§Â¤Â¦
+  DIAMOND_PICKAXE: Ã©â€˜Â½Ã§Å¸Â³Ã©Å½Â¬
+  DIAMOND_SHOVEL: Ã©â€˜Â½Ã§Å¸Â³Ã©ï¿½Å¸
+  DIAMOND_SWORD: Ã©â€˜Â½Ã§Å¸Â³Ã¥Å ï¿½
+  DIORITE: Ã§Å¸Â³Ã©Â Â­
+  DIRT: Ã§ï¿½Â°Ã¥Â£Â¤
+  DISPENSER: Ã§â„¢Â¼Ã¥Â°â€žÃ¥â„¢Â¨
+  DOLPHIN_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  DONKEY_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  DRAGON_EGG: Ã©Â¾ï¿½Ã¨â€ºâ€¹
+  DRAGON_HEAD: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  DRAGON_WALL_HEAD: Ã©Â Â­Ã©Â¡Â±
+  DRIED_KELP: Ã§Â©ÂºÃ¦Â°Â£
+  DRIED_KELP_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  DROPPER: Ã¦Å â€¢Ã¦â€œÂ²Ã¥â„¢Â¨
+  DROWNED_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  EGG: Ã©â€ºÅ¾Ã¨â€ºâ€¹
+  ELDER_GUARDIAN_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  EMERALD: Ã§Â¶Â Ã¥Â¯Â¶Ã§Å¸Â³
+  EMERALD_BLOCK: Ã§Â¶Â Ã¥Â¯Â¶Ã§Å¸Â³Ã§Â£Å¡
+  EMERALD_ORE: Ã§Â¶Â Ã¥Â¯Â¶Ã§Å¸Â³Ã§Â¤Â¦
+  ENCHANTED_BOOK: Ã©â„¢â€žÃ©Â­â€�Ã¦â€ºÂ¸
+  ENCHANTED_GOLDEN_APPLE: Ã©â€¡â€˜Ã¨Ëœâ€¹Ã¦Å¾Å“
+  ENCHANTING_TABLE: Ã©â„¢â€žÃ©Â­â€�Ã¥ï¿½Â°
+  ENDERMAN_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ENDERMITE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ENDER_CHEST: Ã§Âµâ€šÃ§â€¢Å’Ã§Â®Â±
+  ENDER_EYE: Ã§Âµâ€šÃ§â€¢Å’Ã¤Â¹â€¹Ã§Å“Â¼
+  ENDER_PEARL: Ã§Âµâ€šÃ§â€¢Å’Ã§ï¿½ï¿½Ã§ï¿½Â 
+  END_PORTAL: Ã§Âµâ€šÃ§â€¢Å’Ã¥â€šÂ³Ã©â‚¬ï¿½Ã©â€“â‚¬
+  END_PORTAL_FRAME: Ã§Âµâ€šÃ§â€¢Å’Ã¥â€šÂ³Ã©â‚¬ï¿½Ã©â€“â‚¬
+  END_STONE: Ã§Âµâ€šÃ§â€¢Å’Ã§Å¸Â³
+  EVOKER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  EXPERIENCE_BOTTLE: Ã§Â¶â€œÃ©Â©â€”Ã§â€œÂ¶
+  FARMLAND: Ã¨â‚¬â€¢Ã¥Å“Â°
+  FEATHER: Ã§Å¡Â®Ã©ï¿½Â©
+  FERMENTED_SPIDER_EYE: Ã§â„¢Â¼Ã©â€¦ÂµÃ¨Å“ËœÃ¨â€ºâ€ºÃ§Å“Â¼
+  FERN: Ã¨ï¿½â€°
+  FILLED_MAP: Ã¥Å“Â°Ã¥Å“â€“
+  FIRE: Ã§ï¿½Â«
+  FIREWORK_ROCKET: Ã§â€¦â„¢Ã§ï¿½Â«
+  FIREWORK_STAR: Ã§ï¿½Â«Ã¨â€”Â¥Ã§ï¿½Æ’
+  FIRE_CHARGE: Ã§ï¿½Â«Ã§â€žÂ°Ã¥Â½Ë†
+  FIRE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  FIRE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  FIRE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  FIRE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  FISHING_ROD: Ã©â€¡Â£Ã§Â«Â¿
+  FLINT: Ã§â€¡Â§Ã§Å¸Â³
+  FLINT_AND_STEEL: Ã¦â€°â€œÃ§ï¿½Â«Ã§Å¸Â³
+  FLOWER_POT: Flower Pot
+  FURNACE: Ã§â€ â€�Ã§Ë†ï¿½
+  FURNACE_MINECART: Ã§â€ â€�Ã§Ë†ï¿½Ã§Â¤Â¦Ã¨Â»Å 
+  GHAST_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  GHAST_TEAR: Ã¥Â¹Â½Ã©ï¿½Ë†Ã¤Â¹â€¹Ã¦Â·Å¡
+  GLASS: Ã§Å½Â»Ã§â€™Æ’
+  GLASS_BOTTLE: Ã§Å½Â»Ã§â€™Æ’Ã§â€œÂ¶
+  GLASS_PANE: Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  GLISTERING_MELON_SLICE: Ã©â€˜Â²Ã©â€¡â€˜Ã¨Â¥Â¿Ã§â€œÅ“
+  GLOWSTONE: Ã¨Å¾Â¢Ã¥â€¦â€°Ã§Å¸Â³
+  GLOWSTONE_DUST: Ã¨Å¾Â¢Ã§Å¸Â³Ã§Â²â€°
+  GOLDEN_APPLE: Ã©â€¡â€˜Ã¨Ëœâ€¹Ã¦Å¾Å“
+  GOLDEN_AXE: Ã©â€¡â€˜Ã¦â€“Â§
+  GOLDEN_BOOTS: Ã©Â»Æ’Ã©â€¡â€˜Ã©ï¿½Â´Ã¥Â­ï¿½
+  GOLDEN_CARROT: Ã©â€¡â€˜Ã¨Æ’Â¡Ã¨ËœÂ¿Ã¨â€�â€�
+  GOLDEN_CHESTPLATE: Ã©Â»Æ’Ã©â€¡â€˜Ã¤Â¸Å Ã¨Â¡Â£
+  GOLDEN_HELMET: Ã©Â»Æ’Ã©â€¡â€˜Ã¥Â¸Â½Ã¥Â­ï¿½
+  GOLDEN_HOE: Ã©â€¡â€˜Ã©â€¹Â¤
+  GOLDEN_HORSE_ARMOR: Ã©Â»Æ’Ã©â€¡â€˜Ã©Â¦Â¬Ã©Å½Â§
+  GOLDEN_LEGGINGS: Ã©Â»Æ’Ã©â€¡â€˜Ã¨Â¤Â²Ã¥Â­ï¿½
+  GOLDEN_PICKAXE: Ã©â€¡â€˜Ã©Å½Â¬
+  GOLDEN_SHOVEL: Ã©â€¡â€˜Ã©ï¿½Å¸
+  GOLDEN_SWORD: Ã©â€¡â€˜Ã¥Å ï¿½
+  GOLD_BLOCK: Ã©â€¡â€˜Ã§Â£Å¡
+  GOLD_INGOT: Ã©â€¡â€˜Ã©Å’Â 
+  GOLD_NUGGET: Ã©â€¡â€˜Ã§Â²â€™
+  GOLD_ORE: Ã©â€¡â€˜Ã§Â¤Â¦
+  GRANITE: Ã§Å¸Â³Ã©Â Â­
+  GRASS: Grass
+  GRASS_BLOCK: Ã¨ï¿½â€°Ã¥Å“Â°
+  GRAVEL: Ã§Â¤Â«Ã§Å¸Â³
+  GRAY_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  GRAY_BED: Ã¥ÂºÅ 
+  GRAY_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  GRAY_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  GRAY_STAINED_GLASS: Black Stained Glass
+  GRAY_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  GRAY_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  GRAY_WALL_BANNER: Gray Banner
+  GRAY_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  GREEN_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  GREEN_BED: Ã¥ÂºÅ 
+  GREEN_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  GREEN_STAINED_GLASS: Black Stained Glass
+  GREEN_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  GREEN_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  GREEN_WALL_BANNER: Green Banner
+  GREEN_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  GUARDIAN_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  GUNPOWDER: Ã§ï¿½Â«Ã¨â€”Â¥
+  HAY_BLOCK: Ã¤Â¹Â¾Ã¨ï¿½â€°Ã¦ï¿½â€ 
+  HEART_OF_THE_SEA: Ã§Â©ÂºÃ¦Â°Â£
+  HEAVY_WEIGHTED_PRESSURE_PLATE: Ã¦â€žÅ¸Ã©â€¡ï¿½Ã¥Â£â€œÃ¥Å â€ºÃ§â€°Ë†(Ã©â€¡ï¿½)
+  HOPPER: Ã¦Â¼ï¿½Ã¦â€“â€”
+  HOPPER_MINECART: Ã¦Â¼ï¿½Ã¦â€“â€”Ã§Â¤Â¦Ã¨Â»Å 
+  HORN_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  HORN_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  HORN_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  HORN_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  HORSE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  HUSK_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ICE: Ã¥â€ Â°
+  INFESTED_CHISELED_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INFESTED_COBBLESTONE: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INFESTED_CRACKED_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INFESTED_MOSSY_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INFESTED_STONE: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INFESTED_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡Ã¦â‚¬ÂªÃ§â€°Â©Ã¨â€ºâ€¹
+  INK_SAC: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  IRON_AXE: Ã©ï¿½ÂµÃ¦â€“Â§
+  IRON_BARS: Ã©ï¿½ÂµÃ¦Å¸ÂµÃ¦Â¬â€ž
+  IRON_BLOCK: Ã©ï¿½ÂµÃ§Â£Å¡
+  IRON_BOOTS: Ã©ï¿½ÂµÃ¨Â£Â½Ã©ï¿½Â´Ã¥Â­ï¿½
+  IRON_CHESTPLATE: Ã©ï¿½ÂµÃ¨Â£Â½Ã¤Â¸Å Ã¨Â¡Â£
+  IRON_DOOR: Ã©ï¿½ÂµÃ©â€“â‚¬
+  IRON_HELMET: Ã©ï¿½ÂµÃ¨Â£Â½Ã¥Â¸Â½Ã¥Â­ï¿½
+  IRON_HOE: Ã©ï¿½ÂµÃ©â€¹Â¤
+  IRON_HORSE_ARMOR: Ã©ï¿½ÂµÃ¨Â£Â½Ã©Â¦Â¬Ã©Å½Â§
+  IRON_INGOT: Ã©ï¿½ÂµÃ©Å’Â 
+  IRON_LEGGINGS: Ã©ï¿½ÂµÃ¨Â£Â½Ã¨Â¤Â²Ã¥Â­ï¿½
+  IRON_ORE: Ã©ï¿½ÂµÃ§Â¤Â¦
+  IRON_PICKAXE: Ã©ï¿½ÂµÃ©Å½Â¬
+  IRON_SHOVEL: Ã©ï¿½ÂµÃ©ï¿½Å¸
+  IRON_SWORD: Ã©ï¿½ÂµÃ¥Å ï¿½
+  IRON_TRAPDOOR: Ã©ï¿½ÂµÃ¨Â£Â½Ã¥Å“Â°Ã¦ï¿½Â¿Ã©â€“â‚¬
+  ITEM_FRAME: Ã§â€°Â©Ã¥â€œï¿½Ã¥Â±â€¢Ã§Â¤ÂºÃ¦Â¡â€ 
+  JACK_O_LANTERN: Ã¥ï¿½â€”Ã§â€œÅ“Ã§â€¡Ë†
+  JUKEBOX: Ã¥â€�Â±Ã§â€°â€¡Ã¦Â©Å¸
+  JUNGLE_BUTTON: Ã§Â©ÂºÃ¦Â°Â£
+  JUNGLE_DOOR: Jungle Door
+  JUNGLE_FENCE: Ã¥ï¿½Â¢Ã¦Å¾â€”Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  JUNGLE_FENCE_GATE: Ã¥ï¿½Â¢Ã¦Å¾â€”Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  JUNGLE_LEAVES: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  JUNGLE_LOG: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  JUNGLE_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  JUNGLE_PRESSURE_PLATE: Ã§Â©ÂºÃ¦Â°Â£
+  JUNGLE_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  JUNGLE_SLAB: Ã©â€ºâ„¢Ã¥Â±Â¤Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  JUNGLE_STAIRS: Ã¥ï¿½Â¢Ã¦Å¾â€”Ã¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  JUNGLE_TRAPDOOR: Ã§Â©ÂºÃ¦Â°Â£
+  JUNGLE_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  KELP: Ã§Â©ÂºÃ¦Â°Â£
+  KELP_PLANT: Ã§Â©ÂºÃ¦Â°Â£
+  LADDER: Ã¦Â¢Â¯Ã¥Â­ï¿½
+  LAPIS_BLOCK: Ã©ï¿½â€™Ã©â€¡â€˜Ã§Å¸Â³Ã§Â£Å¡
+  LAPIS_LAZULI: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  LAPIS_ORE: Ã©ï¿½â€™Ã©â€¡â€˜Ã§Å¸Â³Ã¥Å½Å¸Ã§Â¤Â¦
+  LARGE_FERN: Ã¥ï¿½â€˜Ã¦â€”Â¥Ã¨â€˜Âµ
+  LAVA: Ã¦Âµï¿½Ã¥â€¹â€¢Ã§Å¡â€žÃ¥Â²Â©Ã¦Â¼Â¿
+  LAVA_BUCKET: Ã§â€ â€�Ã¥Â²Â©Ã¦Â¡Â¶
+  LEAD: Ã¦â€¹Â´Ã§Â¹Â©
+  LEATHER: Ã§Å¡Â®Ã©ï¿½Â©
+  LEATHER_BOOTS: Ã§Å¡Â®Ã©ï¿½Â©Ã©ï¿½Â´Ã¥Â­ï¿½
+  LEATHER_CHESTPLATE: Ã§Å¡Â®Ã©ï¿½Â©Ã¤Â¸Å Ã¨Â¡Â£
+  LEATHER_HELMET: Ã§Å¡Â®Ã©ï¿½Â©Ã¥Â¸Â½Ã¥Â­ï¿½
+  LEATHER_LEGGINGS: Ã§Å¡Â®Ã©ï¿½Â©Ã¨Â¤Â²Ã¥Â­ï¿½
+  LEVER: Ã¦Å½Â§Ã¥Ë†Â¶Ã¦Â¡Â¿
+  LIGHT_BLUE_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  LIGHT_BLUE_BED: Ã¥ÂºÅ 
+  LIGHT_BLUE_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  LIGHT_BLUE_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  LIGHT_BLUE_STAINED_GLASS: Black Stained Glass
+  LIGHT_BLUE_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  LIGHT_BLUE_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  LIGHT_BLUE_WALL_BANNER: Light Blue Banner
+  LIGHT_BLUE_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  LIGHT_GRAY_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  LIGHT_GRAY_BED: Ã¥ÂºÅ 
+  LIGHT_GRAY_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  LIGHT_GRAY_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  LIGHT_GRAY_STAINED_GLASS: Black Stained Glass
+  LIGHT_GRAY_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  LIGHT_GRAY_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  LIGHT_GRAY_WALL_BANNER: Light Gray Banner
+  LIGHT_GRAY_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  LIGHT_WEIGHTED_PRESSURE_PLATE: Ã¦â€žÅ¸Ã§Â¨Â®Ã¥Â£â€œÃ¥Å â€ºÃ§â€°Ë†(Ã¨Â¼â€¢)
+  LILAC: Ã¥ï¿½â€˜Ã¦â€”Â¥Ã¨â€˜Âµ
+  LILY_PAD: Ã¨ï¿½Â·Ã¨â€˜â€°
+  LIME_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  LIME_BED: Ã¥ÂºÅ 
+  LIME_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  LIME_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  LIME_STAINED_GLASS: Black Stained Glass
+  LIME_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  LIME_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  LIME_WALL_BANNER: Lime Banner
+  LIME_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  LLAMA_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  MAGENTA_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  MAGENTA_BED: Ã¥ÂºÅ 
+  MAGENTA_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  MAGENTA_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  MAGENTA_STAINED_GLASS: Black Stained Glass
+  MAGENTA_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  MAGENTA_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  MAGENTA_WALL_BANNER: Magenta Banner
+  MAGENTA_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  MAGMA_CREAM: Ã¥Â²Â©Ã¦Â¼Â¿Ã§ï¿½Æ’
+  MAGMA_CUBE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  MAP: Empty Map
+  MELON_BLOCK: Ã¨Â¥Â¿Ã§â€œÅ“Ã§Â£Å¡
+  MELON_SEEDS: Ã¨Â¥Â¿Ã§â€œÅ“Ã§Â¨Â®Ã¥Â­ï¿½
+  MELON_SLICE: Ã¨Â¥Â¿Ã§â€œÅ“
+  MELON_STEM: Ã¨Â¥Â¿Ã§â€œÅ“
+  MILK_BUCKET: Ã§â€°â€ºÃ¥Â¥Â¶
+  MINECART: Ã§Â¤Â¦Ã¨Â»Å 
+  MOOSHROOM_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  MOSSY_COBBLESTONE: Ã©ï¿½â€™Ã¨â€¹â€�Ã§Å¸Â³
+  MOSSY_COBBLESTONE_WALL: Ã©ï¿½â€™Ã¨â€¹â€�Ã§Å¸Â³Ã§â€°â€ 
+  MOSSY_STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡
+  MOVING_PISTON: Piston Moving Piece
+  MULE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  MUSHROOM_STEM: Ã§Â©ÂºÃ¦Â°Â£
+  MUSHROOM_STEW: Ã¨Ëœâ€˜Ã¨ï¿½â€¡Ã¦Â¹Â¯
+  MUSIC_DISC_11: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_13: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_BLOCKS: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_CAT: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_CHIRP: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_FAR: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_MALL: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_MELLOHI: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_STAL: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_STRAD: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_WAIT: Ã¥â€�Â±Ã§â€°â€¡
+  MUSIC_DISC_WARD: Ã¥â€�Â±Ã§â€°â€¡
+  MUTTON: Ã§â€�Å¸Ã§Â¾Å Ã¨â€šâ€°
+  MYCELIUM: Ã¨ï¿½Å’Ã§ÂµÂ²Ã¥Å“Å¸
+  NAME_TAG: Ã¥â€˜Â½Ã¥ï¿½ï¿½Ã§â€°Å’
+  NAUTILUS_SHELL: Ã§Â©ÂºÃ¦Â°Â£
+  NETHERRACK: Ã¥Å“Â°Ã§ï¿½â€žÃ§Å¸Â³
+  NETHER_BRICK: Nether Brick
+  NETHER_BRICKS: Ã¥Å“Â°Ã§ï¿½â€žÃ§Â£Å¡
+  NETHER_BRICK_FENCE: Ã¥Å“Â°Ã§ï¿½â€žÃ§Â£Å¡Ã¦Å¸ÂµÃ¦Â¬â€ž
+  NETHER_BRICK_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  NETHER_BRICK_STAIRS: Ã¥Å“Â°Ã§ï¿½â€žÃ§Â£Å¡Ã©Å¡Å½Ã¦Â¢Â¯
+  NETHER_PORTAL: Ã¥Å“Â°Ã§ï¿½â€žÃ¥â€šÂ³Ã©â‚¬ï¿½Ã©â€“â‚¬
+  NETHER_QUARTZ_ORE: Ã¥Å“Â°Ã§ï¿½â€žÃ§Å¸Â³Ã¨â€¹Â±Ã§Â¤Â¦
+  NETHER_STAR: Ã¥Å“Â°Ã§ï¿½â€žÃ¤Â¹â€¹Ã¦ËœÅ¸
+  NETHER_WART: Ã§Âµâ€šÃ§â€¢Å’Ã§â€“â„¢Ã§ËœÂ©
+  NOTE_BLOCK: Ã©Å¸Â³Ã©Å¡Å½Ã§â€ºâ€™
+  OAK_BOAT: Ã¨Ë†Â¹
+  OAK_BUTTON: Ã¦Å“Â¨Ã¦Å’â€°Ã©Ë†â€¢
+  OAK_DOOR: Wooden Door
+  OAK_FENCE: Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  OAK_FENCE_GATE: Ã¦Â©Â¡Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  OAK_LEAVES: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  OAK_LOG: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  OAK_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  OAK_PRESSURE_PLATE: Ã¦Å“Â¨Ã¨Â£Â½Ã¥Â£â€œÃ¥Å â€ºÃ¦ï¿½Â¿
+  OAK_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  OAK_SLAB: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥ï¿½Å Ã§Â£Å¡
+  OAK_STAIRS: Ã¦Â©Â¡Ã¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  OAK_TRAPDOOR: Ã¦Å“Â¨Ã¨Â£Â½Ã¥Å“Â°Ã¦ï¿½Â¿Ã©â€“â‚¬
+  OAK_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  OBSIDIAN: Ã©Â»â€˜Ã¦â€ºÅ“Ã§Å¸Â³
+  OCELOT_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ORANGE_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  ORANGE_BED: Ã¥ÂºÅ 
+  ORANGE_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  ORANGE_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  ORANGE_STAINED_GLASS: Black Stained Glass
+  ORANGE_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  ORANGE_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  ORANGE_TULIP: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  ORANGE_WALL_BANNER: Orange Banner
+  ORANGE_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  OXEYE_DAISY: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  PACKED_ICE: Ã¥â€ Â°Ã§Â£Å¡
+  PAINTING: Ã§Â¹ÂªÃ§â€¢Â«
+  PAPER: Ã§Â´â„¢
+  PARROT_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  PEONY: Ã¥ï¿½â€˜Ã¦â€”Â¥Ã¨â€˜Âµ
+  PETRIFIED_OAK_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  PHANTOM_MEMBRANE: Ã§Â©ÂºÃ¦Â°Â£
+  PHANTOM_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  PIG_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  PINK_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  PINK_BED: Ã¥ÂºÅ 
+  PINK_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  PINK_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  PINK_STAINED_GLASS: Black Stained Glass
+  PINK_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  PINK_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  PINK_TULIP: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  PINK_WALL_BANNER: Pink Banner
+  PINK_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  PISTON: Ã¦Â´Â»Ã¥Â¡Å¾
+  PISTON_HEAD: Ã¦Â´Â»Ã¥Â¡Å¾Ã¥â€°ï¿½Ã§Â«Â¯
+  PLAYER_HEAD: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  PLAYER_WALL_HEAD: Ã©Â Â­Ã©Â¡Â±
+  PODZOL: Ã§ï¿½Â°Ã¥Â£Â¤
+  POISONOUS_POTATO: Ã¦Â¯â€™Ã©Â¦Â¬Ã©Ë†Â´Ã¨â€“Â¯
+  POLAR_BEAR_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  POLISHED_ANDESITE: Ã§Å¸Â³Ã©Â Â­
+  POLISHED_DIORITE: Ã§Å¸Â³Ã©Â Â­
+  POLISHED_GRANITE: Ã§Å¸Â³Ã©Â Â­
+  POPPY: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  PORKCHOP: Ã§â€�Å¸Ã¨Â±Â¬Ã¨â€šâ€°
+  POTATO: Potato
+  POTATOES: Ã©Â¦Â¬Ã©Ë†Â´Ã¨â€“Â¯
+  POTION: Ã¨â€”Â¥Ã¦Â°Â´
+  POTTED_ACACIA_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_ALLIUM: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_AZURE_BLUET: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_BIRCH_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_BLUE_ORCHID: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_BROWN_MUSHROOM: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_CACTUS: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_DANDELION: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_DARK_OAK_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_DEAD_BUSH: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_FERN: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_JUNGLE_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_OAK_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_ORANGE_TULIP: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_OXEYE_DAISY: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_PINK_TULIP: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_POPPY: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_RED_MUSHROOM: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_RED_TULIP: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_SPRUCE_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_WHITE_TULIP: Ã§Â©ÂºÃ¦Â°Â£
+  POWERED_RAIL: Ã¥â€¹â€¢Ã¥Å â€ºÃ©ï¿½ÂµÃ¨Â»Å’
+  PRISMARINE: Ã¦ÂµÂ·Ã§Â£Â·Ã§Å¸Â³Ã§Â£Å¡
+  PRISMARINE_BRICKS: Ã¦ÂµÂ·Ã§Â£Â·Ã§Å¸Â³Ã§Â£Å¡
+  PRISMARINE_BRICK_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  PRISMARINE_BRICK_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  PRISMARINE_CRYSTALS: Ã¦ÂµÂ·Ã§Â£Â·Ã¦â„¢Â¶Ã©Â«â€�
+  PRISMARINE_SHARD: Ã¦ÂµÂ·Ã§Â£Â·Ã§Â¢Å½Ã§â€°â€¡
+  PRISMARINE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  PRISMARINE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  PUFFERFISH: Ã§â€�Å¸Ã©Â­Å¡
+  PUFFERFISH_BUCKET: Ã§Â©ÂºÃ¦Â°Â£
+  PUFFERFISH_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  PUMPKIN: Ã¥ï¿½â€”Ã§â€œÅ“
+  PUMPKIN_PIE: Ã¥ï¿½â€”Ã§â€œÅ“Ã¦Â´Â¾
+  PUMPKIN_SEEDS: Ã¥ï¿½â€”Ã§â€œÅ“Ã§Â¨Â®Ã¥Â­ï¿½
+  PUMPKIN_STEM: Ã¥ï¿½â€”Ã§â€œÅ“
+  PURPLE_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  PURPLE_BED: Ã¥ÂºÅ 
+  PURPLE_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  PURPLE_DYE: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  PURPLE_STAINED_GLASS: Black Stained Glass
+  PURPLE_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  PURPLE_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  PURPLE_WALL_BANNER: Purple Banner
+  PURPLE_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  QUARTZ: Ã¥Å“Â°Ã§ï¿½â€žÃ§Å¸Â³Ã¨â€¹Â±
+  QUARTZ_BLOCK: Ã¦Å¸Â±Ã§â€¹â‚¬Ã§Å¸Â³Ã¨â€¹Â±Ã§Â£Å¡
+  QUARTZ_PILLAR: Ã¦Å¸Â±Ã§â€¹â‚¬Ã§Å¸Â³Ã¨â€¹Â±Ã§Â£Å¡
+  QUARTZ_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  QUARTZ_STAIRS: Ã§Å¸Â³Ã¨â€¹Â±Ã©Å¡Å½Ã¦Â¢Â¯
+  RABBIT: Ã§â€�Å¸Ã¥â€¦â€�Ã¨â€šâ€°
+  RABBIT_FOOT: Ã¥â€¦â€�Ã¥Â­ï¿½Ã¨â€¦Â³
+  RABBIT_HIDE: Ã¥â€¦â€�Ã¥Â­ï¿½Ã§Å¡Â®
+  RABBIT_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  RABBIT_STEW: Ã¥â€¦â€�Ã¨â€šâ€°Ã¦Â¹Â¯
+  RAIL: Ã©ï¿½ÂµÃ¨Â»Å’
+  REDSTONE: Ã§Â´â€¦Ã§Å¸Â³
+  REDSTONE_BLOCK: Ã§Â´â€¦Ã§Å¸Â³Ã§Â£Å¡
+  REDSTONE_LAMP: Ã§Â´â€¦Ã§Å¸Â³Ã§â€¡Ë†
+  REDSTONE_ORE: Ã§Â´â€¦Ã§Å¸Â³Ã§Â¤Â¦
+  REDSTONE_TORCH: Ã§Â´â€¦Ã§Å¸Â³Ã§ï¿½Â«Ã¦Å Å 
+  REDSTONE_WALL_TORCH: Ã§Â´â€¦Ã§Å¸Â³Ã§ï¿½Â«Ã¦Å Å 
+  REDSTONE_WIRE: Cable de RedStone
+  RED_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  RED_BED: Ã¥ÂºÅ 
+  RED_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  RED_MUSHROOM: Ã¨Ëœâ€˜Ã¨ï¿½â€¡
+  RED_MUSHROOM_BLOCK: Ã¨Ëœâ€˜Ã¨ï¿½â€¡
+  RED_SAND: Ã¦Â²â„¢Ã¥Â­ï¿½
+  RED_SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â´â€¦Ã§Â â€šÃ§Â£Å¡
+  RED_SANDSTONE_SLAB: Ã§Â´â€¦Ã§Â â€šÃ¥Â²Â©Ã¥ï¿½Å Ã§Â£Å¡
+  RED_SANDSTONE_STAIRS: Ã§Â´â€¦Ã§Â â€šÃ¥Â²Â©Ã©Å¡Å½Ã¦Â¢Â¯
+  RED_STAINED_GLASS: Black Stained Glass
+  RED_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  RED_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  RED_TULIP: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  RED_WALL_BANNER: Red Banner
+  RED_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  REPEATER: Ã§Â´â€¦Ã§Å¸Â³Ã¤Â¸Â­Ã§Â¹Â¼Ã¥â„¢Â¨
+  REPEATING_COMMAND_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  ROSE_BUSH: Ã¥ï¿½â€˜Ã¦â€”Â¥Ã¨â€˜Âµ
+  ROSE_RED: Ã§Å½Â«Ã§â€˜Â°Ã§Â´â€¦
+  ROTTEN_FLESH: Ã¨â€¦ï¿½Ã¨â€šâ€°
+  SADDLE: Ã©Å¾ï¿½
+  SALMON: Ã§â€�Å¸Ã©Â­Å¡
+  SALMON_BUCKET: Ã§Â©ÂºÃ¦Â°Â£
+  SALMON_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  SAND: Ã¦Â²â„¢Ã¥Â­ï¿½
+  SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â â€šÃ¥Â²Â©
+  SANDSTONE_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  SANDSTONE_STAIRS: Ã§Â â€šÃ¥Â²Â©Ã©Å¡Å½Ã¦Â¢Â¯
+  SCUTE: Ã§Â©ÂºÃ¦Â°Â£
+  SEAGRASS: Ã§Â©ÂºÃ¦Â°Â£
+  SEA_LANTERN: Ã¦ÂµÂ·Ã§â€¡Ë†Ã§Â±Â 
+  SEA_PICKLE: Ã§Â©ÂºÃ¦Â°Â£
+  SHEARS: Ã¥â€°ÂªÃ¥Ë†â‚¬
+  SHEEP_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SHULKER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SIGN: Ã¥â€˜Å Ã§Â¤ÂºÃ§â€°Å’
+  SILVERFISH_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SKELETON_HORSE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SKELETON_SKULL: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  SKELETON_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SKELETON_WALL_SKULL: Ã©Â Â­Ã©Â¡Â±
+  SLIME_BALL: Ã¥ï¿½Â²Ã¨ï¿½Å Ã¥Â§â€ Ã§ï¿½Æ’
+  SLIME_BLOCK: Ã¥ï¿½Â²Ã¨ï¿½Å Ã¥Â§â€ Ã¦â€“Â¹Ã¥Â¡Å 
+  SLIME_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SMOOTH_QUARTZ: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_RED_SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â´â€¦Ã§Â â€šÃ§Â£Å¡
+  SMOOTH_SANDSTONE: Ã¥Â¹Â³Ã¦Â»â€˜Ã§Â â€šÃ¥Â²Â©
+  SMOOTH_STONE: Ã§Â©ÂºÃ¦Â°Â£
+  SNOW: Ã©â€ºÂª
+  SNOWBALL: Ã©â€ºÂªÃ§ï¿½Æ’
+  SNOW_BLOCK: Ã©â€ºÂªÃ§Â£Å¡
+  SOUL_SAND: Ã©ï¿½Ë†Ã©Â­â€šÃ¦Â²â„¢
+  SPAWNER: Ã§â€�Å¸Ã¦â‚¬ÂªÃ§Â£Å¡
+  SPIDER_EYE: Ã¨Å“ËœÃ¨â€ºâ€ºÃ§Å“Â¼
+  SPIDER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  SPONGE: Ã¦Â¿â€¢Ã¦ÂµÂ·Ã§Â¶Â¿
+  SPRUCE_BUTTON: Ã§Â©ÂºÃ¦Â°Â£
+  SPRUCE_DOOR: Spruce Door
+  SPRUCE_FENCE: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€ž
+  SPRUCE_FENCE_GATE: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Å¸ÂµÃ¦Â¬â€žÃ©â€“â‚¬
+  SPRUCE_LEAVES: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€˜â€°
+  SPRUCE_LOG: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥Å½Å¸Ã¦Å“Â¨
+  SPRUCE_PLANKS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦ï¿½ï¿½
+  SPRUCE_PRESSURE_PLATE: Ã§Â©ÂºÃ¦Â°Â£
+  SPRUCE_SAPLING: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¦Â¨Â¹Ã¨â€¹â€”
+  SPRUCE_SLAB: Ã¦ï¿½â€°Ã¦Å“Â¨Ã¥ï¿½Å Ã§Â£Å¡
+  SPRUCE_STAIRS: Ã¦ï¿½â€°Ã¦Å“Â¨Ã©Å¡Å½Ã¦Â¢Â¯
+  SPRUCE_TRAPDOOR: Ã§Â©ÂºÃ¦Â°Â£
+  SPRUCE_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  SQUID_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  STICK: Ã¦Å“Â¨Ã¦Â£â€™
+  STICKY_PISTON: Ã©Â»ï¿½Ã¦â‚¬Â§Ã¦Â´Â»Ã¥Â¡Å¾
+  STONE: Ã§Å¸Â³Ã©Â Â­
+  STONE_AXE: Ã§Å¸Â³Ã¦â€“Â§
+  STONE_BRICKS: Ã§Å¸Â³Ã§Â£Å¡
+  STONE_BRICK_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  STONE_BRICK_STAIRS: Ã§Å¸Â³Ã§Â£Å¡Ã©Å¡Å½Ã¦Â¢Â¯
+  STONE_BUTTON: Ã¦Å’â€°Ã©Ë†â€¢
+  STONE_HOE: Ã§Å¸Â³Ã©â€¹Â¤
+  STONE_PICKAXE: Ã§Å¸Â³Ã©Å½Â¬
+  STONE_PRESSURE_PLATE: Ã§Å¸Â³Ã¨Â£Â½Ã¥Â£â€œÃ¥Å â€ºÃ¦ï¿½Â¿
+  STONE_SHOVEL: Ã§Å¸Â³Ã©ï¿½Å¸
+  STONE_SLAB: Ã§Å¸Â³Ã¥ï¿½Å Ã§Â£Å¡
+  STONE_SWORD: Ã§Å¸Â³Ã¥Å ï¿½
+  STRAY_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  STRING: Ã§Â·Å¡
+  STRIPPED_ACACIA_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_ACACIA_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_BIRCH_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_BIRCH_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_DARK_OAK_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_DARK_OAK_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_JUNGLE_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_JUNGLE_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_OAK_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_OAK_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_SPRUCE_LOG: Ã§Â©ÂºÃ¦Â°Â£
+  STRIPPED_SPRUCE_WOOD: Ã§Â©ÂºÃ¦Â°Â£
+  SUGAR: Ã§Â³â€“
+  SUGAR_CANE: Ã§â€�ËœÃ¨â€�â€”
+  SUNFLOWER: Ã¥ï¿½â€˜Ã¦â€”Â¥Ã¨â€˜Âµ
+  TALL_GRASS: Ã¨ï¿½â€°
+  TALL_SEAGRASS: Ã§Â©ÂºÃ¦Â°Â£
+  TERRACOTTA: Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  TNT: TNT
+  TNT_MINECART: TNTÃ§Â¤Â¦Ã¨Â»Å 
+  TORCH: Ã§ï¿½Â«Ã¦Å Å 
+  TRAPPED_CHEST: Ã©â„¢Â·Ã©ËœÂ±Ã¥â€žÂ²Ã§â€°Â©Ã§Â®Â±
+  TRIDENT: Ã§Â©ÂºÃ¦Â°Â£
+  TRIPWIRE: Ã§Âµâ€ Ã§Â·Å¡Ã©â€°Â¤
+  TRIPWIRE_HOOK: Ã§Âµâ€ Ã§Â·Å¡Ã©â€°Â¤
+  TROPICAL_FISH: Ã§â€�Å¸Ã©Â­Å¡
+  TROPICAL_FISH_BUCKET: Ã§Â©ÂºÃ¦Â°Â£
+  TROPICAL_FISH_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  TUBE_CORAL: Ã§Â©ÂºÃ¦Â°Â£
+  TUBE_CORAL_BLOCK: Ã§Â©ÂºÃ¦Â°Â£
+  TUBE_CORAL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  TUBE_CORAL_WALL_FAN: Ã§Â©ÂºÃ¦Â°Â£
+  TURTLE_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  TURTLE_HELMET: Ã§Â©ÂºÃ¦Â°Â£
+  TURTLE_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  VEX_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  VILLAGER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  VINDICATOR_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  VINE: Ã¨â€”Â¤Ã¨â€�â€œ
+  VOID_AIR: Ã§Â©ÂºÃ¦Â°Â£
+  WALL_SIGN: Ã¥â€˜Å Ã§Â¤ÂºÃ§â€°Å’
+  WALL_TORCH: Ã§ï¿½Â«Ã¦Å Å 
+  WATER: Ã¦Âµï¿½Ã¥â€¹â€¢Ã§Å¡â€žÃ¦Â°Â´
+  WATER_BUCKET: Ã¦Â°Â´Ã¦Â¡Â¶
+  WET_SPONGE: Ã¦Â¿â€¢Ã¦ÂµÂ·Ã§Â¶Â¿
+  WHEAT: Ã¥Â°ï¿½Ã©ÂºÂ¥
+  WHEAT_SEEDS: Ã§Â¨Â®Ã¥Â­ï¿½
+  WHITE_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  WHITE_BED: Ã¥ÂºÅ 
+  WHITE_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  WHITE_STAINED_GLASS: Black Stained Glass
+  WHITE_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  WHITE_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  WHITE_TULIP: Ã§â„¢Â½Ã¨â€°Â²Ã©Â¬Â±Ã©â€¡â€˜Ã©Â¦â„¢
+  WHITE_WALL_BANNER: White Banner
+  WHITE_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  WITCH_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  WITHER_SKELETON_SKULL: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  WITHER_SKELETON_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  WITHER_SKELETON_WALL_SKULL: Ã©Â Â­Ã©Â¡Â±
+  WOLF_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  WOODEN_AXE: Ã¦Å“Â¨Ã¦â€“Â§
+  WOODEN_HOE: Ã¦Å“Â¨Ã©â€¹Â¤
+  WOODEN_PICKAXE: Ã¦Å“Â¨Ã©Å½Â¬
+  WOODEN_SHOVEL: Ã¦Å“Â¨Ã©ï¿½Å¸
+  WOODEN_SWORD: Ã¦Å“Â¨Ã¥Å ï¿½
+  WRITABLE_BOOK: Ã¦â€ºÂ¸Ã¥â€™Å’Ã§Â¾Â½Ã¦Â¯â€ºÃ§Â­â€ 
+  WRITTEN_BOOK: Ã¥Â¯Â«Ã©ï¿½Å½Ã§Å¡â€žÃ¦â€ºÂ¸
+  YELLOW_BANNER: Ã¦â€”â€”Ã¥Â¹Å¸
+  YELLOW_BED: Ã¥ÂºÅ 
+  YELLOW_CARPET: Ã©Â»Æ’Ã¨â€°Â²Ã¥Å“Â°Ã¦Â¯Â¯
+  YELLOW_STAINED_GLASS: Black Stained Glass
+  YELLOW_STAINED_GLASS_PANE: Ã©Â»Æ’Ã¨â€°Â²Ã§Å½Â»Ã§â€™Æ’Ã§â€°â€¡
+  YELLOW_TERRACOTTA: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¡Â¬Ã¥Å’â€“Ã©Â»ï¿½Ã¥Å“Å¸
+  YELLOW_WALL_BANNER: Yellow Banner
+  YELLOW_WOOL: Ã©Â»Æ’Ã¨â€°Â²Ã§Â¾Å Ã¦Â¯â€º
+  ZOMBIE_HEAD: Ã¦Â®Â­Ã¥Â±ï¿½Ã©Â Â­Ã©Â¡Â±
+  ZOMBIE_HORSE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ZOMBIE_PIGMAN_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ZOMBIE_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ZOMBIE_VILLAGER_SPAWN_EGG: Ã§â€�Å¸Ã¦Ë†ï¿½ Ã¦Â®Â­Ã¥Â±ï¿½
+  ZOMBIE_WALL_HEAD: Ã©Â Â­Ã©Â¡Â±
+  ACACIA_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  ACACIA_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  ANDESITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  ANDESITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  ANDESITE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  BAMBOO: Ã§Â©ÂºÃ¦Â°Â£
+  BAMBOO_SAPLING: Ã§Â©ÂºÃ¦Â°Â£
+  BARREL: Ã§Â©ÂºÃ¦Â°Â£
+  BELL: Ã§Â©ÂºÃ¦Â°Â£
+  BIRCH_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  BIRCH_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  BLACK_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  BLAST_FURNACE: Ã§Â©ÂºÃ¦Â°Â£
+  BLUE_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  BROWN_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  CAMPFIRE: Ã§Â©ÂºÃ¦Â°Â£
+  CARTOGRAPHY_TABLE: Ã§Â©ÂºÃ¦Â°Â£
+  CAT_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  CORNFLOWER: Ã§Â©ÂºÃ¦Â°Â£
+  CREEPER_BANNER_PATTERN: Ã§Â©ÂºÃ¦Â°Â£
+  CROSSBOW: Ã§Â©ÂºÃ¦Â°Â£
+  CUT_RED_SANDSTONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  CUT_SANDSTONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_OAK_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  DARK_OAK_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  DIORITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  DIORITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  DIORITE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  END_STONE_BRICK_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  END_STONE_BRICK_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  END_STONE_BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  FLETCHING_TABLE: Ã§Â©ÂºÃ¦Â°Â£
+  FLOWER_BANNER_PATTERN: Ã§Â©ÂºÃ¦Â°Â£
+  FOX_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  GLOBE_BANNER_PATTERN: Ã§Â©ÂºÃ¦Â°Â£
+  GRANITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  GRANITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  GRANITE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  GREEN_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  GRINDSTONE: Ã§Â©ÂºÃ¦Â°Â£
+  JIGSAW: Ã§Â©ÂºÃ¦Â°Â£
+  JUNGLE_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  JUNGLE_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  LANTERN: Ã§Â©ÂºÃ¦Â°Â£
+  LEATHER_HORSE_ARMOR: Ã§Â©ÂºÃ¦Â°Â£
+  LECTERN: Ã§Â©ÂºÃ¦Â°Â£
+  LILY_OF_THE_VALLEY: Ã§Â©ÂºÃ¦Â°Â£
+  LOOM: Ã§Â©ÂºÃ¦Â°Â£
+  MOJANG_BANNER_PATTERN: Ã§Â©ÂºÃ¦Â°Â£
+  MOSSY_COBBLESTONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  MOSSY_COBBLESTONE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  MOSSY_STONE_BRICK_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  MOSSY_STONE_BRICK_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  MOSSY_STONE_BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  NETHER_BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  OAK_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  OAK_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  PANDA_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  PILLAGER_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_ANDESITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_ANDESITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_DIORITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_DIORITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_GRANITE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  POLISHED_GRANITE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_BAMBOO: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_CORNFLOWER: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_LILY_OF_THE_VALLEY: Ã§Â©ÂºÃ¦Â°Â£
+  POTTED_WITHER_ROSE: Ã§Â©ÂºÃ¦Â°Â£
+  PRISMARINE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  RAVAGER_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  RED_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  RED_NETHER_BRICK_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  RED_NETHER_BRICK_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  RED_NETHER_BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  RED_SANDSTONE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  SANDSTONE_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  SCAFFOLDING: Ã§Â©ÂºÃ¦Â°Â£
+  SKULL_BANNER_PATTERN: Ã§Â©ÂºÃ¦Â°Â£
+  SMITHING_TABLE: Ã§Â©ÂºÃ¦Â°Â£
+  SMOKER: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_QUARTZ_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_QUARTZ_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_RED_SANDSTONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_RED_SANDSTONE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_SANDSTONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_SANDSTONE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  SMOOTH_STONE_SLAB: Ã§Â©ÂºÃ¦Â°Â£
+  SPRUCE_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  SPRUCE_WALL_SIGN: Ã§Â©ÂºÃ¦Â°Â£
+  STONECUTTER: Ã§Â©ÂºÃ¦Â°Â£
+  STONE_BRICK_WALL: Ã§Â©ÂºÃ¦Â°Â£
+  STONE_STAIRS: Ã§Â©ÂºÃ¦Â°Â£
+  SUSPICIOUS_STEW: Ã§Â©ÂºÃ¦Â°Â£
+  SWEET_BERRIES: Ã§Â©ÂºÃ¦Â°Â£
+  SWEET_BERRY_BUSH: Ã§Â©ÂºÃ¦Â°Â£
+  TRADER_LLAMA_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  WANDERING_TRADER_SPAWN_EGG: Ã§Â©ÂºÃ¦Â°Â£
+  WHITE_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  WITHER_ROSE: Ã§Â©ÂºÃ¦Â°Â£
+  YELLOW_DYE: Ã§Â©ÂºÃ¦Â°Â£
+  COMPOSTER: Ã§Â©ÂºÃ¦Â°Â£
+  LEGACY_STATIONARY_WATER: Ã¦Â°Â´
+  LEGACY_STATIONARY_LAVA: Ã¥Â²Â©Ã¦Â¼Â¿
+  LEGACY_BURNING_FURNACE: Ã§â€ â€�Ã§Ë†ï¿½
+  LEGACY_NETHER_WARTS: Ã¥Å“Â°Ã¥Å¸Å¸Ã§â€“â„¢Ã§ËœÂ©
+  LEGACY_IRON_DOOR_BLOCK: Ã©ï¿½ÂµÃ©â€“â‚¬
+  LEGACY_GLOWING_REDSTONE_ORE: Ã§Â´â€¦Ã§Å¸Â³Ã§Â¤Â¦
+  LEGACY_SUGAR_CANE_BLOCK: Ã§â€�ËœÃ¨â€�â€”
+  LEGACY_RAW_FISH: Ã§â€�Å¸Ã©Â­Å¡
+  LEGACY_SKULL: Ã©Â Â­Ã©Â¡Â±
+  LEGACY_SIGN_POST: Sign Post
+  LEGACY_BED_BLOCK: Bed Block
+  LEGACY_REDSTONE_TORCH_OFF: Redstone Torch Off
+  LEGACY_REDSTONE_TORCH_ON: Ã§Â´â€¦Ã§Å¸Â³Ã§ï¿½Â«Ã¦Å Å 
+  LEGACY_CAKE_BLOCK: Cake Block
+  LEGACY_DIODE_BLOCK_OFF: Ã§Â´â€¦Ã§Å¸Â³Ã¤Â¸Â­Ã§Â¹Â¼Ã¥â„¢Â¨
+  LEGACY_DIODE_BLOCK_ON: Ã§Â´â€¦Ã§Å¸Â³Ã¤Â¸Â­Ã§Â¹Â¼Ã¥â„¢Â¨
+  LEGACY_BREWING_STAND: Ã©â€¡â‚¬Ã©â‚¬Â Ã¥ï¿½Â°
+  LEGACY_REDSTONE_LAMP_ON: LEGACY_REDSTONE_LAMP_ON
+  LEGACY_REDSTONE_COMPARATOR_OFF: Redstone Comparator Off
+  LEGACY_REDSTONE_COMPARATOR_ON: Redstone Comparator On
+  LEGACY_WOODEN_DOOR_BLOCK: Ã¦Â©Â¡Ã¦Å“Â¨Ã©â€“â‚¬
+  LEGACY_SPRUCE_DOOR: Spruce Door Block
+  LEGACY_BIRCH_DOOR: Birch Door Block
+  LEGACY_JUNGLE_DOOR: Jungle Door Block
+  LEGACY_ACACIA_DOOR: Acacia Door Block
+  LEGACY_DARK_OAK_DOOR: Dark Oak Door Block
+  LEGACY_WHEAT: Ã¥Â°ï¿½Ã©ÂºÂ¥
+EntityList:
+  30-ARMOR_STAND: Armor Stand
+  50-CREEPER: Ã¨â€¹Â¦Ã¥Å â€ºÃ¦â‚¬â€¢
+  51-SKELETON: Ã©ÂªÂ·Ã©Â«ï¿½
+  52-SPIDER: Ã¨Å“ËœÃ¨â€ºâ€º
+  53-GIANT: Ã¥Â·Â¨Ã¤ÂºÂº
+  54-ZOMBIE: Ã¦Â®Â­Ã¥Â±ï¿½
+  55-SLIME: Ã¥ï¿½Â²Ã¨ï¿½Å Ã¥Â§â€ 
+  56-GHAST: Ã¥Å“Â°Ã§ï¿½â€žÃ¥Â¹Â½Ã©ï¿½Ë†
+  57-PIG_ZOMBIE: Ã¦Â®Â­Ã¥Â±ï¿½Ã¨Â±Â¬Ã¤ÂºÂº
+  58-ENDERMAN: Ã§Âµâ€šÃ§â€¢Å’Ã¤Â½Â¿Ã¨â‚¬â€¦
+  59-CAVE_SPIDER: Ã¦Â´Å¾Ã§Â©Â´Ã¨Å“ËœÃ¨â€ºâ€º
+  60-SILVERFISH: Ã¨Â Â¹Ã©Â­Å¡
+  61-BLAZE: Ã§Æ’Ë†Ã§â€žÂ°Ã¤Â½Â¿Ã¨â‚¬â€¦
+  62-MAGMA_CUBE: Ã¥Å“Â°Ã§ï¿½â€žÃ¥ï¿½Â²Ã¨ï¿½Å Ã¥Â§â€ 
+  63-ENDER_DRAGON: Ã§Âµâ€šÃ§â€¢Å’Ã©Â¾ï¿½
+  64-WITHER: Ã¥â€¡â€¹Ã©â€ºÂ¶Ã¦â‚¬Âª
+  65-BAT: Ã¨ï¿½â„¢Ã¨ï¿½Â 
+  66-WITCH: Ã¥Â¥Â³Ã¥Â·Â«
+  67-ENDERMITE: Ã§Âµâ€šÃ§â€¢Å’Ã¨Å¸Å½
+  68-GUARDIAN: Ã¦Â·Â±Ã¦ÂµÂ·Ã¥Â®Ë†Ã¨Â¡â€º
+  90-PIG: Ã¨Â±Â¬
+  91-SHEEP: Ã§Â¾Å 
+  92-COW: Ã§â€°â€º
+  93-CHICKEN: Ã©â€ºÅ¾
+  94-SQUID: Ã©Â­Â·Ã©Â­Å¡
+  95-WOLF: Ã§â€¹Â¼
+  96-MUSHROOM_COW: Ã¨Ëœâ€˜Ã¨ï¿½â€¡Ã§â€°â€º
+  97-SNOWMAN: Ã©â€ºÂªÃ¤ÂºÂº
+  98-OCELOT: Ã¥Â±Â±Ã¨Â²â€œ
+  99-IRON_GOLEM: Ã©ï¿½ÂµÃ¥Â·Â¨Ã¤ÂºÂº
+  100-HORSE: Ã©Â¦Â¬
+  101-RABBIT: Ã¥â€¦â€�Ã¥Â­ï¿½
+  120-VILLAGER: Ã¦ï¿½â€˜Ã¦Â°â€˜
+  914-PLAYER: Player
+EnchantList:
+  Protection: Protection
+  Unknown: Unknown
+  Thorns: Ã¥Â°â€“Ã¥Ë†Âº
+  Depth strider: Depth strider
+  Knockback: Ã¦â€œÅ Ã©â‚¬â‚¬
+  Fire aspect: Fire aspect
+  Silk touch: Silk touch
+  Lure: Ã©Â­Å¡Ã©Â¤Å’
+ColorList:
+  0-white: '&fWhite'
+  1-orange: '&6Orange'
+  2-magenta: '&dMagenta'
+  3-navy: '&9Navy'
+  4-yellow: '&eYellow'
+  5-lime: '&aLime'
+  6-pink: '&dPink'
+  7-gray: '&8Gray'
+  8-silver: '&7Light gray'
+  9-cyan: '&3Cyan'
+  10-purple: '&5Purple'
+  11-blue: '&1Blue'
+  12-brown: '&4Brown'
+  13-green: '&2Green'
+  14-red: '&cRed'
+  15-black: '&0Black'
+PotionNamesList:
+  16-Awkward: Awkward
+  8195-Fire_Resistance: Fire Resistance
+  8259-Extended_Fire_Resistance: Extended Fire Resistance
+  8204-Harming: Harming
+  8236-Extended_Harming: Extended Harming
+  8197-Healing: Healing
+  8229-Extended_Healing: Extended Healing
+  8206-Invisibility: Invisibility
+  8270-Extended_Invisibility: Extended Invisibility
+  8267-Leaping: Leaping
+  8235-Extended_Leaping: Extended Leaping
+  -1-Luck: Luck
+  64-Mundane: Mundane
+  8198-Night_Vision: Night Vision
+  8262-Extended_Night_Vision: Extended Night Vision
+  8196-Poison: Poison
+  8228-Extended_Poison: Extended Poison
+  8193-Regeneration: Regeneration
+  8225-Extended_Regeneration: Extended Regeneration
+  -1-Slow_Falling: Slow Falling
+  -1-Extended_Slow_Falling: Extended Slow Falling
+  8202-Slowness: Slowness
+  8266-Extended_Slowness: Extended Slowness
+  8201-Strength: Strength Potion
+  8233-Extended_Strength: Extended Strength
+  8194-Swiftness: Swiftness
+  8226-Extended_Swiftness: Extended Swiftness
+  32-Thick: Thick
+  -1-Turtle_Master: Turtle Master
+  -1-Extended_Turtle_Master: Extended Turtle Master
+  8205-Water_Breathing: Water Breathing
+  8269-Extended_Water_Breathing: Extended Water Breathing
+  8200-Weakness: Weakness
+  8264-Extended_Weakness: Extended Weakness
+  0-Water: Water

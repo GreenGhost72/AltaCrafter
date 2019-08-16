@@ -1,0 +1,76 @@
+# ===================================== #
+# This config was made for 1.7.10-1.8.x #
+# ===================================== #
+
+# NOTE: the permission "simpleportals.portal.*" and "simpleportals.portal.<name>" allows players to use specific or all portals.
+
+prefix: "&8&l< &cAltaPortals &8&l> "
+no-permission-message: "&cNo tienes permisos para usar eso."
+must-be-player-message: "&cDebes ser un jugador para hacer eso."
+portal-location-exists-message: "&cEl portal &e{name} &cya existe aqui. Intentalo en otro lugar."
+portal-exists-message: "&cEl portal &e{name} &cya existe. Porfavor usa el comando &erelocate &co vuelve a crear el portal."
+selected-region-invalid-message: "&cPorfavor, revisa la region marcada. Parece que uno de los puntos de la region, no es valido."
+portal-invalid-message: "&cEl portal &e{name} &cno existe."
+selection-mode-message: "&aEl modo de seleccion ha sido &e{status}&a!"
+not-same-world-message: "&cLos 2 puntos deben estar en el mismo mundo."
+portal-created-message: "&aEl portal &e{name} &aha sido creado!"
+portal-deleted-message: "&aEl portal &e{name} &aha sido eliminado!"
+portal-message: "&aHas usado el portal &e{name}!"
+switch-server-set-message: "&aEl portal &e{name} &aahora teletransportara al servidor &e{server}"
+list-message: "&aPortales: &e{list}"
+reload-message: "&aConfiguracion actualizada!"
+location-set-message: "&aLa localizacion del portal &e{name} &aha sido establecida!"
+region-displayed-message: "&aLa region del portal &e{name} &asera mostrada temporalmente!"
+point-1-set-message: "&ePunto 1/2 &ade la region establecido!"
+point-2-set-message: "&ePunto 2/2 &ade la region establecido!"
+region-relocated-message: "&aEl portal &e{name} &aha sido reestablecido correctamente!"
+portal-command-added-message: "&aEl comando &e{command} &aha sido agregado al portal &e{name}"
+portal-commands-cleared-message: "&aTodos los comandos han sido eliminados del portal &e{name}"
+portal-command-only-toggle-message: "&aModo de solo-comando &e{status} &apara el portal &e{name}"
+invalid-page-message: "&cLa pagina introducida no es valida. (Paginas: &e{pages}&c)"
+invalid-material-message: "&cEl material especificado es incorrecto. Revisa que este bien escrito."
+portal-filled-message: "&aEl portal &e{name} &aha sido rellenado de &e{material}"
+enter-cooldown-message: "&cHas de esperar &e{time} &csegundos para volver a usar este portal."
+enter-no-permission-message: "&cNo tienes permisos para usar este portal."
+portal-commands-message: "&aLos comandos del portal &e{name} &ason: &e{commands}"
+
+# If this option is enabled, the plugin will notify via console about any new updates.
+update-checker: false
+# The general task handles things like auto-saving and update checking. This value is the delay in between
+# running these tasks in seconds. (Note: setting this value to -1 will disable the general task entirely.)
+general-task-duration: 300
+# If this option is enabled, the general task will completely reload all portals by saving found portals than quickly loading them back in.
+# (Note: If you plan to run the server for an extremely long period of time without restarts, this can be useful as reloading can prevent weird bugs)
+reload-plugin-timer: true
+# If this is enabled when the player is teleport they will keep their current Yaw and Pitch.
+keep-teleport-head-axis: true
+# If this is enabled, all players will be able to use all portals.
+bypass-portal-permissions: false
+# If this is enabled, the player can teleport through portals with vehicles, such as Horses and Boats.
+vehicle-teleportation: true
+
+# Should players have a cooldown for portal usage?
+use-portal-cooldown: true
+# How long should the player have to wait in between portal usages in seconds?
+portal-cooldown-duration: 5
+# This is the force/multiplier of the portal throw back feature (Set to -1 or lower to disable).
+throw-velocity: 1.35
+
+# This is the sound that is played when the player teleports.
+# You may need to change this based on your minecraft version.
+teleport-sound: "GHAST_FIREBALL"
+# This is the effect that is used for your teleportation visual.
+# You can find a complete particle list here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+teleport-visual-effect: "CLOUD"
+
+# This is the effect that is used for your selection visual.
+# You can find a complete particle list here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+selection-visual-effect: "REDSTONE"
+# This is how long the visual will appear on screen.
+selection-visual-duration: 10
+
+# This is the effect that is used for your region visual.
+# You can find a complete particle list here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+region-visual-effect: "REDSTONE"
+# This is how long the visual will appear on screen.
+region-visual-duration: 20

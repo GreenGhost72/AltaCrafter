@@ -1,0 +1,164 @@
+# 
+#  This can be a name or a number, that's on you
+#  '1':
+#    Name to display in the item
+#    Name: '&7%time% &eMinutes Fly'
+#    Slot where the item is gonna be numbers must be 0-53
+#    Slot: 0
+#    Id of the item if you don't know what the id of your item is use '/tf setitem 1' with the item in your hand.
+#    Material: 340
+#    This is if you are using items like dyes, instead of using 358:10 you put the 380 in Material and 10 in Data
+#    Data: 0
+#    Amount of item to show
+#    Amount: 1
+#    Mm, the message under the item...
+#    Lore:
+#    - ' '
+#    - '&eBalance: &7%balance%'
+#    - ' '
+#    - '&eGet access to fly'
+#    - '&efor %time% minutes'
+#    - ' '
+#    - '&eCost: &a$%price%'
+#    - ' '
+#    - '&7You will hide flying'
+#    - '&7after the %time% minutes'
+#    - ' '
+#    - '&eTime Left: %timeleft%'
+#    - ' '
+#    If is set to true this item will be use to buy fly time.
+#    If is set to false this items will be use as a custom item.
+#    FlyItem: false
+#    Perform an action when the player click the item.
+#    OnClick:
+#    - '[player] say Hi! this is a test'
+#    - '[console] tell %player% you clicked me'
+#    - '[message] &9I'm a message that supports &cc&ao&bl&do&er &9codes.'
+#    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+#    - '[close]'
+#    Hide_Attributes: false
+#    Hide_Enchants: true
+#    Hide_Place_On: false
+#    Hide_Potion_Effects: false
+#    Hide_Unbreakable: false
+#    This will make your item glow
+#    Glow: false
+#    Custom permission so the player can use this item
+#    UsePermission: true
+#    Permission: something.here
+#    No permission message
+#    PermissionMSG: '&cTimedFly >> You don''t have permission to use this item. Try
+#      buying a rank'
+#    Price of the item
+#    Price: 2000
+#    Time in minutes of flight time
+#    Time: 15
+#    Time the player needs to wait before getting more flight time. Use h for hours, m for minutes, and s for seconds
+#    Cooldown: 15m
+Items:
+  '1':
+    Name: '&710 minutos de vuelo'
+    Slot: 0
+    Material: feather
+    Data: 0
+    Amount: 1
+    Lore:
+    - ' '
+    - '&eTienes: &7%balance%'
+    - ' '
+    - '&eSolo para vips o rango'
+    - '&ede aire'
+    - ' '
+    - '&eCoste: &a$%price%'
+    - ' '
+    - '&7Tu vuelo desaparecera'
+    - '&7despues de 10 minutos'
+    - ' '
+    - '&eTiempo restante: %timeleft%'
+    - ' '
+    Hide_Attributes: false
+    Hide_Enchants: true
+    Hide_Place_On: true
+    Hide_Potion_Effects: true
+    Hide_Unbreakable: true
+    Glow: true
+    UsePermission: true
+    Permission: altacrafters.timedfly.rango.aire
+    PermissionMSG: Solo disponible para vips o rango aire
+    FlyItem: true
+    OnClick:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    Price: 0
+    Time: 10
+    Cooldown: 60m
+  '2':
+    Name: '&71 hora de vuelo'
+    Slot: 1
+    Material: book
+    Data: 0
+    Amount: 1
+    Lore:
+    - ' '
+    - '&eTienes: &7%balance%'
+    - ' '
+    - '&eSolo para vips'
+    - ' '
+    - '&eCoste: &a$%price%'
+    - ' '
+    - '&7Tu vuelo desaparecera'
+    - '&7despues de 1 hora'
+    - ' '
+    - '&eTiempo restante: %timeleft%'
+    - ' '
+    Hide_Attributes: false
+    Hide_Enchants: true
+    Hide_Place_On: true
+    Hide_Potion_Effects: true
+    Hide_Unbreakable: true
+    Glow: false
+    UsePermission: true
+    Permission: altacrafters.timedfly.rango.normales
+    PermissionMSG: Rangos desde crafter hasta altaslayer
+    FlyItem: true
+    OnClick:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    Price: 0
+    Time: 60
+    Cooldown: 120m
+  '3':
+    Name: '&712 horas de vuelo'
+    Slot: 2
+    Material: book
+    Data: 0
+    Amount: 1
+    Lore:
+    - ' '
+    - '&eTienes: &7%balance%'
+    - ' '
+    - '&eSolo para vips'
+    - ' '
+    - '&eCoste: &a$%price%'
+    - ' '
+    - '&7Tu vuelo desaparecera'
+    - '&7despues de 12 horas'
+    - ' '
+    - '&eTiempo restante: %timeleft%'
+    - ' '
+    Hide_Attributes: false
+    Hide_Enchants: true
+    Hide_Place_On: true
+    Hide_Potion_Effects: true
+    Hide_Unbreakable: true
+    Glow: true
+    UsePermission: true
+    Permission: altacrafters.timedfly.rango.avanzados
+    PermissionMSG: Rangos desde alta hasta altaslayer
+    FlyItem: true
+    OnClick:
+    - '[close]'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    Price: 10
+    Time: 720
+    Cooldown: 1440h

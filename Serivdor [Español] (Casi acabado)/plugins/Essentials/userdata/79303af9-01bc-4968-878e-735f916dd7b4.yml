@@ -1,0 +1,23 @@
+afk: false
+lastAccountName: KarmatiKuade
+timestamps:
+  login: 1559502062949
+  logout: 1559505809765
+  lastteleport: 1559503784651
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: survival
+  x: -1002.542171682538
+  y: 123.65149813516497
+  z: -83.57924543201214
+  yaw: -248.7013
+  pitch: 49.650005
+lastlocation:
+  world: spawn
+  x: 0.42142979067584563
+  y: 143.0
+  z: 10.740935755853151
+  yaw: 60.299957
+  pitch: -1.3499978
+money: '9988000.0'
+homes: {}

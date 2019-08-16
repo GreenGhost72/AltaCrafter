@@ -1,0 +1,45 @@
+economy_not_found: 'Atencion: Sistema de economia no encontrado, las reparaciones seran gratis!'
+insufficient_params: "Porfavor especifica mas parametros! Uso correcto: \xa79/blacksmith create \xa7\
+  anombre \xa77tipo coste"
+repairman_exists: 'Error: Un reparador llamado %s ya existe!'
+config_loaded: Configuracion cargada!
+error_config: Error al guardar config.yml
+error_remove: 'No se pudo eliminar al reparador: no encontrado!'
+repairman_list: 'Estas son todas mis reparaciones:'
+repairman_spawn: Generado el reparador:%s EN X:%s Y:%s Z:%s
+debug_loaded: 'DEBUG: cargados un total de %s reparadores.'
+default_config: CREADA LA CONFIGURACION
+error_create_config: Error al crear config.yml
+lang_loaded: El archivo de idioma %s ha sido cargado!
+error_accesslevel: No tienes permisos para hacer eso.
+new_created: Nuevo blacksmith creado.
+deleted: Blacksmith %s eliminado.
+despawned: Todos los Blacksmith han sido despawneados
+respawned: Todos los Blacksmith han vuelto a aparecer
+error_few_arguments: Faltan argumentos.
+error_enchanter_not_spawned: El sistema de encatamientos no esta activo, por tanto no ha aparecido ningun reparador en %s, %s, %s
+name_format: "\xa76<%s>\xa7f "
+names_on: Ahora los nombres de los Blacksmith seran visibles.
+names_off: Los nombres de los Blacksmith ya no seran visibles.
+sound_changed: Blacksmith %s ahora tiene un nuevo sonido!
+chat_done: Se ve mejor y mas nuevo!
+chat_error: Whoops, algo ha ido mal!
+chat_type_error: 'Whoops, tipo de reparador incorrecto! Los correctos serian: tools, armor, both,
+  enchant, all'
+chat_poor: No tienes dinero, muy triste!
+chat_free: Hoy te lo arreglare gratis!
+chat_norepair: Hmm, parece que no necesita ser reparado.
+chat_noenchant: Que es esa basura? no puedo encantar eso.
+chat_cost: Hmm! Te arreglare esto por %s %s
+chat_agreed: Aceptas? Si? Vuelve a darme click si es asi.
+chat_cannot: No puedo arreglar este tipo de cosas.
+chat_enchant_free: Este item ya esta reparado, aunque puedo encantarlo - es gratis, por supuesto.
+chat_enchant_cost: Este item ya esta reparado, aunque puedo encantarlo por %s %s.
+chat_enchant_success: Ahora es mas brillante - espero que ahora haga algo especial.
+chat_noitem: "\xa7fHola! Quieres que te repare o encante algo?"
+chat_enchant_failed: Ehm... Parece que no ha pasado nada.
+chat_needs_repair: Este item ha de ser reparado primero. No, no puedo arreglarlo.
+chat_hidden: Reparador escondido.
+chat_unhidden: Reparador respawneado.
+chat_unbreakable: Este item no puede ser destruido! No necesita ser reparado!
+version: 0.083

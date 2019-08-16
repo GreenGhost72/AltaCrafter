@@ -1,0 +1,31 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~shop page open WEAPONS %player_name%~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~shop page open FOOD %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~shop page open SEEDS %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '4':
+    Commands:
+    - 1~~~shop page open GRANJERO %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '5':
+    Commands:
+    - 1~~~shop page open AMMO %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '6':
+    Commands:
+    - 1~~~shop page open POCIONES %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '8':
+    Commands:
+    - 1~~~shop page open TOOLS %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '7':
+    Commands:
+    - 1~~~shop page open PROTECCION %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '9':
+    Commands:
+    - 1~~~shop page open ARMADURAS %player_name%~~~noPerm~~~BOTH~~~~~~true~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '10':
+    Commands:
+    - 1~~~rules~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

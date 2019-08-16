@@ -1,0 +1,73 @@
+MainMenu:
+  Hats:
+    Name: '&eSombreros'
+    Material: DIAMOND_HELMET
+    Lore:
+    - '&7Consigue todos los sombreros'
+    - '&7y llevalos en el lobby.'
+  Particles:
+    Name: '&eParticulas'
+    Material: BLAZE_POWDER
+    Lore:
+    - '&7Genera particulas a tu'
+    - '&7alrededor'
+  Suits:
+    Name: '&eTrajes'
+    Material: GOLDEN_LEGGINGS
+    Lore:
+    - '&7Consigue y lleva todas'
+    - '&7las piecas de los trajes'
+    - '&7para conseguir efectos'
+    - '&7unicos!'
+  Gadgets:
+    Name: '&eHabilidades'
+    Material: PISTON
+    Lore:
+    - '&7Estos juguetes divertidos'
+    - '&7Pueden ser usados'
+    - '&7en el lobby.'
+  Pets:
+    Name: '&eMascotas'
+    Material: BONE
+    Lore:
+    - '&7Desbloquea mascotas para que'
+    - '&7te sigan por todo el lobby'
+  Morphs:
+    Name: '&eDisfraces'
+    Material: ZOMBIE_HEAD
+    Lore:
+    - '&7La ultima transformacion'
+    - '&7Usando estos disfraces'
+    - '&7la gente te vera tal de'
+    - '&7lo que hayas decidido'
+    - '&7y con poderes unicos'
+  Banners:
+    Name: '&eBaners'
+    Material: CUSTOM_MATERIAL_1
+    Lore:
+    - '&7Desbloquea los baners y'
+    - '&7llevalos como hat en el'
+    - '&7lobby!'
+  Emotes:
+    Name: '&eEmojis'
+    Material: head:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    Lore:
+    - '&Expresate tal y como eres'
+    - '&7con estos emojis.'
+    - '&7O usa los emojis animados'
+  Cloaks:
+    Name: '&eRelojes'
+    Material: ENCHANTING_TABLE
+    Lore:
+    - '&7Hecho de particulas,'
+    - '&7te dan un swag increible.'
+    - '&7Para activarlos,'
+    - '&7quedate quieto durante 1'
+    - '&7segundo en el lobby'
+  Animated Hats:
+    Name: '&eSombreros animados'
+    Material: head:5ebfd2396cbabdb42c348bcf41599c87a506a71ef60948c496f95c6cb63141
+    Lore:
+    - '&7Estos sombreros tiene mucha'
+    - '&7personalidad.'
+Slot-Layout: 9, 11, 13, 15, 17, 27, 29, 31, 33, 35

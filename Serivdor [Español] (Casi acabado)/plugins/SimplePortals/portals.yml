@@ -1,0 +1,23 @@
+rtp:
+  last-fill-material: AIR
+  point-1:
+    world: spawn
+    x: 3.0
+    y: 143.0
+    z: 17.0
+  point-2:
+    world: spawn
+    x: -1.0
+    y: 147.0
+    z: 17.0
+  teleport-location:
+    world: spawn
+    x: 3.0
+    y: 145.0
+    z: 17.0
+    yaw: 0.0
+    pitch: 0.0
+  commands-only: true
+  commands:
+  - mvtp {player} survival:CONSOLE
+  - rtp:PLAYER

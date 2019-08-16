@@ -1,0 +1,399 @@
+groups:
+  user:
+    options:
+      default: true
+      prefix: '&8'
+      rank: 900
+    permissions:
+    - loginplus.changepw
+    - essentials.kit
+    - essentials.kits.user
+    - rankup.prestiges
+    - rankup.prestige
+    - rankup.ranks
+    - rankup.rankup
+    - jobs.world.*
+    - jobs.use
+    - jobs.join.*
+    - griswold.armor
+    - griswold.tools
+    - griswold.enchant
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.menuselector
+    - randomtp.tp
+    - simpleportals.portal.rtp
+    - portal.randomtp
+    - itemjoin.gadgets
+    - essentials.mail
+    - essentials.delhome
+    - essentials.spawn
+    - essentials.warps.tienda
+    - essentials.warp.list
+    - essentials.warp
+    - chestcommands.open.warps.yml
+    - ascmd.weapons
+    - itemjoin.radio
+    - rules.view
+    - ascmd.rules
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.msg
+    - essentials.helpop
+    - essentials.balance
+    - essentials.pay
+    - essentials.sethome
+    - essentials.home
+    - essentials.sethome.multiple.players
+  tierra:
+    options:
+      prefix: '&8Tierra &7'
+    permissions:
+    - essentials.sethome.multiple.3
+    - essentials.kits.tierra
+    inheritance:
+    - user
+  roca:
+    options:
+      prefix: '&8Roca &7'
+    permissions:
+    - essentials.back.ondeath
+    - essentials.back
+    - essentials.kits.stone
+    inheritance:
+    - user
+    - tierra
+  aire:
+    options:
+      prefix: '&8Aire &7'
+    permissions:
+    - altacrafters.timedfly.rango.aire
+    - essentials.kits.piloto
+    inheritance:
+    - user
+    - tierra
+    - roca
+  agua:
+    options:
+      prefix: '&8Agua &7'
+    permissions:
+    - essentials.kits.buceador
+    - -altacrafters.timedfly.rango.aire
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+  fuego:
+    options:
+      prefix: '&8Fuego &7'
+    permissions:
+    - essentials.kits.firer
+    - -altacrafters.timedfly.rango.aire
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+  crafter:
+    options:
+      default: false
+      prefix: '&8&l< &cCrafter &8&l> &7'
+      rank: 890
+    permissions:
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.suits.spooderman.*
+    - gadgetsmenu.suits.warrior.*
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.gadgets.tictactoe
+    - essentials.sethome.multiple.vips
+    - essentials.keepxp
+    - altacrafters.timedfly.rango.normales
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+  ultracrafter:
+    options:
+      default: false
+      prefix: '&8&l< &4&kA&r &cUltraCrafter &4&kA&r &8&l> &7'
+      rank: 880
+    permissions:
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.suits.disco.*
+    - gadgetsmenu.suits.mermaid.*
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.hats.diamondblock
+    - gadgetsmenu.hats.goldblock
+    - gadgetsmenu.hats.goldstevehead
+    - gadgetsmenu.hats.diamondstevehead
+    - gadgetsmenu.hats.emeraldstevehead
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+  alta:
+    options:
+      default: false
+      prefix: '&8&l< &4&lAlta &8&l> &7'
+      rank: 870
+    permissions:
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.suits.speedster.*
+    - gadgetsmenu.suits.ghostly.*
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.hats.chocolatedonut
+    - gadgetsmenu.hats.hamburger
+    - gadgetsmenu.hats.sandwich
+    - gadgetsmenu.hats.blackchocolatebar
+    - gadgetsmenu.hats.whitechocolatebar
+    - gadgetsmenu.hats.candycane
+    - altacrafters.timedfly.rango.avanzados
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - ultracrafter
+  altaplayer:
+    options:
+      default: false
+      prefix: '&8&l< &4&lAlta&cPlayer &8&l> &7'
+      rank: 860
+    permissions:
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.suits.frog.*
+    - gadgetsmenu.suits.ninja.*
+    - gadgetsmenu.hats.letter_a
+    - gadgetsmenu.hats.letter_b
+    - gadgetsmenu.hats.letter_c
+    - gadgetsmenu.hats.letter_d
+    - gadgetsmenu.hats.letter_e
+    - gadgetsmenu.hats.letter_f
+    - gadgetsmenu.hats.letter_g
+    - gadgetsmenu.hats.letter_h
+    - gadgetsmenu.hats.letter_i
+    - gadgetsmenu.hats.letter_j
+    - gadgetsmenu.hats.letter_k
+    - gadgetsmenu.hats.letter_l
+    - gadgetsmenu.hats.letter_m
+    - gadgetsmenu.hats.letter_n
+    - gadgetsmenu.hats.letter_o
+    - gadgetsmenu.hats.letter_p
+    - gadgetsmenu.hats.letter_q
+    - gadgetsmenu.hats.letter_r
+    - gadgetsmenu.hats.letter_s
+    - gadgetsmenu.hats.letter_t
+    - gadgetsmenu.hats.letter_u
+    - gadgetsmenu.hats.letter_v
+    - gadgetsmenu.hats.letter_w
+    - gadgetsmenu.hats.letter_x
+    - gadgetsmenu.hats.letter_y
+    - gadgetsmenu.hats.letter_z
+    - gadgetsmenu.hats.rainbowletter_a
+    - gadgetsmenu.hats.rainbowletter_b
+    - gadgetsmenu.hats.rainbowletter_c
+    - gadgetsmenu.hats.rainbowletter_d
+    - gadgetsmenu.hats.rainbowletter_e
+    - gadgetsmenu.hats.rainbowletter_f
+    - gadgetsmenu.hats.rainbowletter_g
+    - gadgetsmenu.hats.rainbowletter_h
+    - gadgetsmenu.hats.rainbowletter_i
+    - gadgetsmenu.hats.rainbowletter_j
+    - gadgetsmenu.hats.rainbowletter_k
+    - gadgetsmenu.hats.rainbowletter_l
+    - gadgetsmenu.hats.rainbowletter_m
+    - gadgetsmenu.hats.rainbowletter_n
+    - gadgetsmenu.hats.rainbowletter_o
+    - gadgetsmenu.hats.rainbowletter_p
+    - gadgetsmenu.hats.rainbowletter_q
+    - gadgetsmenu.hats.rainbowletter_r
+    - gadgetsmenu.hats.rainbowletter_s
+    - gadgetsmenu.hats.rainbowletter_t
+    - gadgetsmenu.hats.rainbowletter_u
+    - gadgetsmenu.hats.rainbowletter_v
+    - gadgetsmenu.hats.rainbowletter_w
+    - gadgetsmenu.hats.rainbowletter_x
+    - gadgetsmenu.hats.rainbowletter_y
+    - gadgetsmenu.hats.rainbowletter_z
+    - gadgetsmenu.hats.number_0
+    - gadgetsmenu.hats.number_1
+    - gadgetsmenu.hats.number_2
+    - gadgetsmenu.hats.number_3
+    - gadgetsmenu.hats.number_4
+    - gadgetsmenu.hats.number_5
+    - gadgetsmenu.hats.number_6
+    - gadgetsmenu.hats.number_7
+    - gadgetsmenu.hats.number_8
+    - gadgetsmenu.hats.number_9
+    - gadgetsmenu.hats.symbol_plus
+    - gadgetsmenu.hats.symbol_poundkey
+    - gadgetsmenu.hats.symbol_question
+    - gadgetsmenu.hats.symbol_exclamation
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - ultracrafter
+    - alta
+  altaslayer:
+    options:
+      default: false
+      prefix: '&8&l< &cAlta&4&lSlayer &8&l> &7'
+      rank: 850
+    permissions:
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.hats.*
+    - gadgetsmenu.suits.*
+    - gadgetsmenu.gadgets.jukebox
+    - gadgetsmenu.gadgets.radio
+    - gadgetsmenu.gadgets.discoball
+    - gadgetsmenu.gadgets.djbooth
+    - gadgetsmenu.pets.*
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - ultracrafter
+    - alta
+    - altaplayer
+  helper:
+    options:
+      default: false
+      prefix: '&8&l&m<[&r &dHelper &8&l&m]>&r &7'
+      rank: 840
+    permissions:
+    - tablist.staff
+    - chatemoji.use
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+  builder:
+    options:
+      default: false
+      prefix: '&8&l[&c&m &r&6&lBuilder&c&m &r&8&l]&r &7'
+      rank: 830
+    permissions:
+    - chatemoji.use
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+  mod:
+    options:
+      default: false
+      prefix: '&5&l[&m&n &r&dMod&5&l&m&n &r&5&l]&r &7'
+      rank: 820
+    permissions:
+    - chatemoji.use
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - helper
+  admin:
+    options:
+      default: false
+      prefix: '&4&l&n&m>]|&r &c&lAdministrador &4&l&n&m<[|&r &7'
+      rank: 810
+    permissions:
+    - loginplus.*
+    - chatemoji.use
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - helper
+    - mod
+  owner:
+    options:
+      default: false
+      prefix: '&3&l<[ &bOwner &3&l>] &c'
+      rank: 800
+    permissions:
+    - '*'
+    inheritance:
+    - user
+    - tierra
+    - roca
+    - aire
+    - agua
+    - fuego
+    - crafter
+    - ultracrafter
+    - alta
+    - altaplayer
+    - altaslayer
+    - helper
+    - mod
+    - admin
+    - builder
+schema-version: 1
+users:
+  79303af9-01bc-4968-878e-735f916dd7b4:
+    group:
+    - owner
+    options:
+      name: KarmatiKuade
+  8e57384e-9968-3b09-b3e3-2f242dc8cb90:
+    group:
+    - owner
+    options:
+      name: KarmatiKuade
+    permissions:
+    - gadgetsmenu.hats.scared
+    - gadgetsmenu.gadgets.divingboard
+    - gadgetsmenu.suits.warrior.leggings
+    - gadgetsmenu.suits.spooderman.leggings
+  5a1f288e-228c-36ea-8939-31eabeea10b7:
+    group:
+    - owner
+    options:
+      name: Greenghost72
+  3da10527-5125-36e7-b916-ed2bda191f90:
+    group:
+    - altaslayer
+    options:
+      name: armilp

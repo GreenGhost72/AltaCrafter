@@ -1,0 +1,19 @@
+Custom-Hats:
+  Mr_Nicolas_YT:
+    Name: '&aMr_Nicolas_YT'
+    Mystery Dust: 18
+    Rarity: Epic
+    Texture: a8aba24194b2d3488d1848fe4b2d812998a18518b8cd1380f8cf99f60ddf354a
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  KarmatiKuade:
+    Name: '&aViolador'
+    Mystery Dust: 18
+    Rarity: Epic
+    Texture: 34e8b019c9f44d51786b1272bf71219e3761f7ab06adb4c94a8460098b3c7c30
+    Enabled: true
+    CanBeFound: true
+    Purchasable: false
+    Lore: ''

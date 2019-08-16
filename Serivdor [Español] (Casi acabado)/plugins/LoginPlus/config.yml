@@ -1,0 +1,24 @@
+Timer:
+  Enabled: true
+  Time: 60
+Encryption:
+  Type: SHA512
+Login:
+  Max-Attempts: 3
+  Ban:
+    Enabled: true
+    Time: 120
+  Kick:
+    Enabled: true
+  Commands:
+    Enabled: true
+    Commands:
+    - opguard deop %Player% KKuade
+    - kick %Player%
+Reconnect-Time:
+  Enabled: true
+  Time: 30
+Captcha:
+  Enabled: true
+  Login: true
+  Register: true

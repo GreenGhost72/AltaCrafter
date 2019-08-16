@@ -1,0 +1,6 @@
+EggLocations:
+- spawn:-15:147:-5:eco give %player% 50 | msg %player% Has encontrado uno de los muchos Easter Eggs del servidor
+- 'spawn:19:109:19:eco give %player% 500 | msg %player% Has encontrado el EasterEgg
+  de cataratas '
+- 'spawn:-19:163:-10:eco give %player% 5000 | msg %player% Has encontrado el EasterEgg
+  de willy calvo '

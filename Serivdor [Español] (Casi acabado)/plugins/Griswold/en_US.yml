@@ -1,0 +1,45 @@
+economy_not_found: 'Warning: economy system not found: all repairs are free!'
+insufficient_params: 'Please add more parameters! Usage: §9/blacksmith create §aname
+  §7type cost'
+repairman_exists: 'ERROR: repairman %s already exists!'
+config_loaded: Config loaded!
+error_config: ERROR when writing to config.yml
+error_remove: 'Could not remove repairman: not found!'
+repairman_list: 'Here are all the repairmen:'
+repairman_spawn: SPAWNED REPAIRMAN ID:%s AT X:%s Y:%s Z:%s
+debug_loaded: 'DEBUG: loaded total %s repairmen.'
+default_config: CREATED DEFAULT CONFIG
+error_create_config: ERROR when creating config.yml
+lang_loaded: Language file %s loaded!
+error_accesslevel: You do not have enough permissions to do that.
+new_created: New blacksmith created!
+deleted: Blacksmith %s deleted.
+despawned: All blacksmiths despawned
+respawned: All blacksmiths respawned
+error_few_arguments: Too few arguments.
+error_enchanter_not_spawned: Enchant system is off so repairman not spawned at %s, %s, %s
+name_format: '§6<%s>§f '
+names_on: Now showing blacksmiths' names.
+names_off: Now hiding blacksmiths' names.
+sound_changed: Blacksmith %s has new sound now!
+chat_done: Looks great! Good as new!
+chat_error: Whoops, something's gone wrong!
+chat_type_error: 'Whoops, wrong repairman type! Possiable are: tools, armor, both,
+  enchant, all'
+chat_poor: You have no money, that's sad!
+chat_free: I will repair your item for free today!
+chat_norepair: Hmm, looks like it does not need any repair.
+chat_noenchant: What is this? I cannot enchant this.
+chat_cost: Hmm! I will repair this for %s %s
+chat_agreed: Agreed? Yes? Pass it to me if agreed.
+chat_cannot: I can not repair this kind of things.
+chat_enchant_free: This item is fully repaired, though I can enchant it - for free of course.
+chat_enchant_cost: This item is fully repaired, though I can enchant it for %s %s.
+chat_enchant_success: Now it's shiny - hope that means it now does something special.
+chat_noitem: §b*Shakes your hand*§f Hello! Glad to meet you!
+chat_enchant_failed: Ehm... Looks like nothing happened with your item.
+chat_needs_repair: This item needs a repair first. No, I can not repair it.
+chat_hidden: Repairman hidden.
+chat_unhidden: Repairman spawned back.
+chat_unbreakable: This item can never get damaged! There's no need for a repair!
+version: 0.083

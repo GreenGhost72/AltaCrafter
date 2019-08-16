@@ -1,0 +1,24 @@
+menu-settings:
+    name: '&b&lStaff'
+    rows: 1
+    command: 'staff; staffs; pl; plugins; bukkit:plugins; minecraft:plugins'
+    auto-refresh: 5
+    open-action: 'tell: &8&l< &fServidor &8&l> &bMiembros del staff; sound:NOTE_PLING'
+    
+staff1:
+  NAME: '&c&lKarmatiKuade'
+  LORE:
+    - '&9Configurador'
+  ID: 'skull:3'
+  SKULL-OWNER: 'KarmatiKuade'
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+staff2:
+  NAME: '&c&lArmilp'
+  LORE:
+    - '&4Owner'
+  ID: 'skull:3'
+  SKULl-OWNER: 'armilp'
+  POSITION-X: 2
+  POSITION-Y: 1

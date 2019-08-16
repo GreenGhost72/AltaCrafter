@@ -1,0 +1,21 @@
+logoutlocation:
+  world: world
+  x: 11.5
+  y: 66.0
+  z: 193.5
+  yaw: 0.0
+  pitch: 0.0
+timestamps:
+  logout: 1559590314963
+  login: 1559590327062
+  lastteleport: 1559590542673
+geolocation: "Espa\xf1a"
+lastAccountName: Resultado
+ipAddress: 188.171.196.228
+lastlocation:
+  world: spawn
+  x: 5.762033597346134
+  y: 145.0
+  z: 8.75331375399225
+  yaw: 167.81093
+  pitch: 12.8321705

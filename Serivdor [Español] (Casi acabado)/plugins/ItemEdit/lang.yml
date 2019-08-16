@@ -1,0 +1,64 @@
+# Language File of ItemEdit generated on Mon Jul 01 19:29:32 EDT 2019
+General:
+  notEnaughPerm: '&cYou don''t have enough permissions.'
+  notEnaughArgs: '&cYou need to provide more arguments.'
+  noItemInHand: '&cYou need to have an Item in your hand.'
+  noNumber: '&6"&c%number%&6" &cisn''t a number.'
+  numberToLow: '&6"&c%number%&6" &cmust be higher than 0.'
+  numberEffect: '&cEffect levels need to be between 0 and 256.'
+Command:
+  Name:
+    addedToName: '&aYou have successfully added &6"&2%name%&6"&a to the name.'
+    setName: '&aYou have successfully set the name to &6"&2%name%&6"&a.'
+    restoredName: '&aYou have successfully restored the Displayname.'
+  Lore:
+    addedLore: '&aYou have successfully added a lore.'
+    maximalLore: '&cThe maximal number for a lore is &3 %number%'
+    removedLore: '&aYou have successfully removed lore &3 %number% &a.'
+    removedLores: '&aYou have successfully removed the lores.'
+    hasNoLore: '&cThe Item does not has any lore.'
+  Effect:
+    successAddedEffect: '&aYou have successfully added the effect &6"&3%name%&6"&a
+      to the item.'
+    itemDoNotHasTheEffect: '&cThe item does not has the effect.'
+    alreadyHasTheEffect: '&cThe item already has the effect.'
+    successRemovingEffect: '&aSuccessfully removed the effect.'
+    errorRemovingEffect: '&cError while removing the effect.'
+    noEffect: '&cThe item does not has any effects.'
+  Enchant:
+    successAddedEnchant: '&aYou have successfully added the enchant.'
+    itemAlreadyHasTheEnchant: '&cThe item already has the enchant.'
+    successRemoveEnchant: '&aYou have successfully removed the enchant'
+    dontHasTheEnchant: '&cThe does not have the enchant.'
+    clearedEnchants: '&aThe enchantments have successfully been removed.'
+    errorCleaningEnchants: '&cThe item does not have any enchantments.'
+  Dura:
+    setDura: '&aYou have successfully set the durability to &6"&3 %number% &6"&a.'
+    addDura: '&aYou have successfully added &6"&3 %number% &6"&a to the durability.'
+    clearDura: '&aYou have successfully cleared the durability.'
+  Flag:
+    successAddingFlag: '&aYou have successfully added a flag to the item.'
+    errorAplyingFlag: '&cThere was an error while adding the Flag maybe the Item already
+      has the flag or hasn''t.'
+    successRemovingFlag: '&aYou have successfully removed a flag from the item.'
+    successClearingFlags: '&aYou have successfully cleared the flags.'
+  Save:
+    noItemsSaved: '&cYou do not have any Items saved.'
+    successAddedItem: '&aYou have successfully added the Item &6"&2 %name% &6"&a.'
+    successGotItem: '&aYou have successfully got the Item &6"&2 %name% &6"&a.'
+    successRemoveItem: '&aYou have successfully removed the Item &6"&2  %name% &6"&a.'
+    nameExits: '&cThe name already exists.'
+    namedoesNotExists: '&cThe name does not exist.'
+  Potion:
+    gotPotion: '&aYou have successfully got an empty potion.'
+    noPotion: '&cYou need to have a potion in your Hand.'
+  Skull:
+    noSkull: '&cThe Item you have is no Skull.'
+    createdSkull: '&aYou have created a Skull the the Owner &7''&3%owner%&7''&a.'
+    setSkullOwner: '&aYou have successfully set the Owner of the Skull to &7''&3%owner%&7''&a.'
+  Tails:
+    noBow: '&cThe Item you have in the Hand is no Bow.'
+    alreadyHasATail: '&cThe Item already has a Tail'
+    addedTail: '&aYou have successfully added the Tail &7''&3%tail%&7''&a to the Item.'
+    errorRemovingTheTail: '&cThere was an error while removing the Tail of the Item.'
+    successRemovingTail: '&aYou have successfully removed the Tail of the Item'

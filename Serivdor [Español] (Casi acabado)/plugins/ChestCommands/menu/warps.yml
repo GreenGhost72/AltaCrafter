@@ -1,0 +1,24 @@
+menu-settings:
+    name: '&cNavegador'
+    rows: 1
+    command: 'warp; warps; essentials:warp; essentials:warps'
+    auto-refresh: 5
+    open-action: 'tell: &8&l< &cAltaGPS &8&l> &fNavegador activado; sound:NOTE_PLING'
+    
+spawnwarp:
+  COMMAND: 'spawn; sound:FIREWORK_LAUNCH'
+  NAME: '&6&lSpawn'
+  LORE:
+    - 'Este magico objeto te llevara al spawn'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+storewarp:
+  COMMAND: 'warp tienda; sound:VILLAGER_YES'
+  NAME: '&a&lTienda'
+  LORE:
+    - 'Esta moneda pagara tu viaje a villa comercio'
+  ID: gold_ingot
+  POSITION-X: 5
+  POSITION-Y: 1

@@ -1,0 +1,67 @@
+Aire:
+  from: 'roca'
+  to: 'aire'
+  next: 'agua'
+  requirements:
+    - 'money 1500'
+    - 'mob-kills skeleton 20'
+    - 'mob-kills zombie 10'
+    - 'mob-kills spider 10'
+    - 'use-item iron_sword 64'
+    - 'block-break stone 20'
+    - 'block-break diamond_ore 2'
+    - 'block-break iron_ore 4'
+    - 'block-break gold_ore 6'
+    - 'total-mob-kills 40'
+    - 'player-kills 8'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f1500 $. Matar 10 esqueletos, 
+    4 zombies y 2 spiders. Haber usado una espada de hierro 64 veces. Haber roto 20 bloques de piedra, 2 menas 
+    de diamante, 4 de hierro y 6 de oro y haber matado a 40 mobs y 8 jugadores en total'
+Agua:
+  from: 'aire'
+  to: 'agua'
+  rank: 'agua'
+  next: 'fuego'
+  requirements:
+    - 'money 2000'
+    - 'mob-kills skeleton 50'
+    - 'mob-kills zombie 25'
+    - 'mob-kills spider 40'
+    - 'use-item diamond_sword 12'
+    - 'block-break obsidian 9'
+    - 'block-break diamond_ore 10'
+    - 'block-break iron_ore 20'
+    - 'block-break gold_ore 30'
+    - 'total-mob-kills 115'
+    - 'player-kills 20'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f2000 $. Matar 50 esqueletos, 
+    25 zombies y 40 spiders. Haber usado una espada de diamante 12 veces. Haber roto 9 bloques de 
+    obsidiana, 10 menas de diamante, 20 de hierro y 30 de oro y haber matado a 115 mobs y 20 jugadores 
+    en total'
+Fuego:
+  from: 'agua'
+  to: 'fuego'
+  rank: 'fuego'
+  next: 'nobody'
+  requirements:
+    - 'money 5000'
+    - 'mob-kills skeleton 100'
+    - 'mob-kills zombie 50'
+    - 'mob-kills spider 80'
+    - 'use-item diamond_sword 24'
+    - 'use-item diamond_axe 50'
+    - 'use-item diamond_pickaxe 24'
+    - 'use-item diamond_hoe 12'
+    - 'block-break obsidian 18'
+    - 'block-break diamond_ore 20'
+    - 'block-break iron_ore 40'
+    - 'block-break gold_ore 60'
+    - 'total-mob-kills 230'
+    - 'player-kills 50'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f2000 $. Matar 100 esqueletos, 
+    50 zombies y 80 spiders. Haber usado una espada de diamante 24 veces, un hacha de diamante 50 veces,
+    un pico de diamante 24 veces y una azada de diamante 12 veces. Haber roto 18 bloques de obsidiana, 
+    20 menas de diamante, 40 de hierro y 60 de oro y haber matado a 230 mobs y 50 jugadores en total'

@@ -1,0 +1,20 @@
+Prefix: '&7[&bEasterEggs&7]'
+CommandPermission: eastereggs.admin
+TopCommandPermission: eastereggs.top
+TopValue: 10
+TopChatFormat: '%prefix% &f%place%&7. &c%player% &7Huevos encontrados: &f%eggs%'
+FinalCommandsEnabled: false
+FinalCommands:
+- say &e%player% &7ha encontrado todos los Easter Eggs!
+EggFoundAnimation:
+  Firework: true
+Messages:
+  Enabled: false
+  Claimed: '%prefix% &aYou claimed this egg!'
+  AlreadyClaimed: '%prefix% &cYou already claimed this egg!'
+EggLocations:
+- 'spawn:-19:163:-10:eco give %player% 5000 | msg %player% Has encontrado el EasterEgg
+  de willy calvo '
+- 'spawn:19:109:19:eco give %player% 500 | msg %player% Has encontrado el EasterEgg
+  de cataratas '
+- spawn:-15:147:-5:eco give %player% 50 | msg %player% Has encontrado uno de los muchos Easter Eggs del servidor

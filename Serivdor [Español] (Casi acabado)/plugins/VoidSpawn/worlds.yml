@@ -1,0 +1,11 @@
+version: 1
+spawn:
+  spawn:
+    x: -11.543365121469748
+    y: 146.0
+    z: -5.488325319250236
+    pitch: 5.2502546
+    yaw: -41.981445
+    world: spawn
+  mode: touch
+  message: '&8&l< &cAltaCrafters &8&l> &fEl suicidio no es una salida'

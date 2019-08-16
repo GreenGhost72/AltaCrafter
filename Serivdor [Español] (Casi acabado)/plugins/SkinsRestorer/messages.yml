@@ -1,0 +1,47 @@
+SR_LINE: '&7&m----------------------------------------'
+HELP_PLAYER: |2-
+    &c&lAltaSkins &f(&2SkinsRestorer&f) &7- &f&lv%ver%
+     &7/skin <skin> &f-&8 Cambia tu skin.
+      &7/skin update &f-&8 Actualiza tu skin.
+      &7/skin clear &f-&8 Elimina tu skin.
+HELP_SKIN_CLEAR: Elimina tu skin.
+HELP_SKIN_CLEAR_OTHER: Elimina la skin de otro jugador.
+HELP_SKIN_UPDATE: Actualiza tu skin.
+HELP_SKIN_UPDATE_OTHER: Actualiza la skin de otro jugador.
+HELP_SKIN_SET: Establece tu skin.
+HELP_SKIN_SET_OTHER: Establece la skin de otro jugador.
+HELP_SR_RELOAD: Recarga el archivo de configuracion.
+HELP_SR_STATUS: Checkea las API que usa el plugin para que este funcione.
+HELP_SR_DROP: Elimina los datos de un jugador.
+HELP_SR_PROPS: Muestra los datos de la skin del jugador como propiedades
+PLAYER_HAS_NO_PERMISSION_SKIN: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cYou don''t have
+  permission to set this skin.'
+SKIN_DISABLED: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cEsta skin esta desactivada por la administracion.'
+NOT_PREMIUM: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cEse jugador no existe.'
+INVALID_PLAYER: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &c%player no es un nombre valido.'
+SKIN_COOLDOWN_NEW: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cEspera &e%s &csegundos.'
+SKIN_CHANGE_SUCCESS: '&8&l< &c&lAltaSkins &8&l> &fSkin cambiada.'
+SKIN_CLEAR_SUCCESS: '&8&l< &c&lAltaSkins &8&l> &fSkin eliminada.'
+SKIN_CLEAR_ISSUER: '&8&l< &c&lAltaSkins &8&l> &fSkin eliminada a &b%player.'
+SUCCESS_UPDATING_SKIN: '&8&l< &c&lAltaSkins &8&l> &fSkin actualizada.'
+SUCCESS_UPDATING_SKIN_OTHER: '&8&l< &c&lAltaSkins &8&l> &fSkin actualizada a &b%player.'
+ERROR_UPDATING_SKIN: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cHubo un error al actualizar tu s
+  kin. Intentalo mas tarde!'
+GENERIC_ERROR: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cHubo un error al recolectar los da
+  tos de la skin, intentalo mas tarde!'
+WAIT_A_MINUTE: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cEspera 1 minuto.'
+MENU_OPEN: '&fAbriendo menu de skins'
+NEXT_PAGE: '&a&l»&7 Siguiente&a&l »'
+PREVIOUS_PAGE: '&e&l»&7 Anterior&e&l «'
+REMOVE_SKIN: '&c&l»&7 Eliminar skin&c&l »'
+SELECT_SKIN: '&fEscojer skin'
+ADMIN_SET_SKIN: '&8&l< &c&lAltaSkins &8&l> &fHas establecido la skin de &b%player.'
+SKIN_DATA_DROPPED: '&8&l< &c&lAltaSkins &8&l> &fDatos de la skin de &b%player &fborrados.'
+STATUS_OK: '&8&l< &c&lAltaSkins &8&l> &fConexion con la API Mojan exitosa!'
+ALT_API_FAILED: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cLos datos de la API estan, sobre
+  cargados, intentalo mas tarde!'
+NO_SKIN_DATA: '&8&l< &c&lAltaSkins &8&l> &4Error&8: &cNo se recupero datos de la skin! Tiene
+  ese jugador una skin real?'
+RELOAD: '&8&l< &c&lAltaSkins &8&l> &2Configuracion e idioma actualizados!'
+OUTDATED: "&8&l< &c&lAltaSkins &8&l> &4Estas con una version antigua de &cAltaSkins &f(&2SkinsRestorer&f)!\n\
+  &cPlease update to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"

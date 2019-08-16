@@ -1,0 +1,332 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 10
+npc:
+  '2':
+    name: Agricultor
+    uuid: 5554cdc3-0037-4948-b95d-8b797a8bd1a9
+    traits:
+      location:
+        world: store
+        x: '-179.69984499183192'
+        y: '61.0'
+        z: '71.06363228563606'
+        yaw: '115.46414184570312'
+        pitch: '0.0'
+      type: Villager
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    name: Cheff
+    uuid: 84bc5d70-867c-445c-94c8-ac37764b421d
+    traits:
+      location:
+        world: store
+        x: '-206.30000001192093'
+        y: '61.0'
+        z: '71.01002073784804'
+        yaw: '-80.26220703125'
+        pitch: '0.0'
+      type: Villager
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    name: "\xa7fArmero"
+    uuid: fd54a987-d8c7-4814-8263-de3c4ac82575
+    traits:
+      location:
+        world: store
+        x: '-206.30000001192093'
+        y: '61.0'
+        z: '99.61070570583387'
+        yaw: '254.56539916992188'
+        pitch: '0.0'
+      type: Villager
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: Municiones
+    uuid: 3df5db03-50ce-48ec-b57a-aaf078ddf87f
+    traits:
+      age:
+        age: 0
+        locked: true
+      location:
+        world: store
+        x: '-180.69999998807907'
+        y: '61.0'
+        z: '100.0215847664796'
+        yaw: '52.85310363769531'
+        pitch: '0.0'
+      spawned: true
+      type: Villager
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: Granjero
+    uuid: e93434cd-9613-48e1-8dd2-fc83806cb3db
+    traits:
+      age:
+        age: 0
+        locked: true
+      location:
+        world: store
+        x: '-179.69999998807907'
+        y: '61.0'
+        z: '83.95769181513528'
+        yaw: '92.60005187988281'
+        pitch: '0.0'
+      spawned: true
+      type: Villager
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      nameplate-visible: false
+    name: Cerco
+    uuid: 4feddb8d-dee4-4753-b15e-df320c63f57a
+    traits:
+      age:
+        age: 0
+        locked: true
+      location:
+        world: store
+        x: '-175.50543828481696'
+        y: '61.0'
+        z: '86.22353453475965'
+        yaw: '128.7450714111328'
+        pitch: '0.0'
+      spawned: true
+      type: Pig
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '8':
+    metadata:
+      cached-skin-uuid: a79a68ac-907c-473b-86e4-a39cd6762a94
+      cached-skin-uuid-name: Soldador
+      player-skin-name: Soldador
+    name: Soldador
+    uuid: 92ebacf7-4922-4db0-9aac-740aa18c3114
+    traits:
+      location:
+        world: store
+        x: '-183.59033036490362'
+        y: '61.0'
+        z: '61.806848584571156'
+        yaw: '74.98616027832031'
+        pitch: '-6.74846076965332'
+      inventory: {}
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,inventory,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    metadata:
+      cached-skin-uuid: f4c2cad7-0ace-4ce6-8678-69d0b653a98b
+      cached-skin-uuid-name: Guardian
+      player-skin-name: Guardian
+    name: Guardian
+    uuid: 199905a8-b76c-4011-9819-b3771bafb5bc
+    traits:
+      location:
+        world: store
+        x: '-193.27578480454537'
+        y: '61.0'
+        z: '64.34655043644567'
+        yaw: '252.491455078125'
+        pitch: '0.0'
+      inventory: {}
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,inventory,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: Hechicero
+    uuid: 836c5386-06ce-4a8e-a617-04c6480cf904
+    traits:
+      location:
+        world: store
+        x: '-206.30000001192093'
+        y: '61.0'
+        z: '83.01687556208608'
+        yaw: '263.31219482421875'
+        pitch: '0.0'
+      type: Witch
+      spawned: true
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    name: Armero
+    uuid: d862b8b7-3ea1-448b-9ae6-bd5cae44d608
+    traits:
+      spawned: true
+      type: Villager
+      location:
+        world: store
+        x: '-193.2543634419389'
+        y: '61.0'
+        z: '109.30000001192093'
+        yaw: '-179.10269165039062'
+        pitch: '0.0'
+      age:
+        age: 0
+        locked: true
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,age,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '10':
+    metadata:
+      cached-skin-uuid: 8667ba71-b85a-4004-af54-457a9734eed7
+      player-skin-name: Steve
+      cached-skin-uuid-name: Steve
+    name: "\xa7b\xa7lNormas"
+    uuid: 4b16554e-b231-4483-8606-321032227056
+    traits:
+      spawned: true
+      inventory: {}
+      location:
+        world: spawn
+        x: '-0.3000000119209306'
+        y: '145.0'
+        z: '-1.3023393524815097'
+        yaw: '-36.22917175292969'
+        pitch: '-15.413015365600586'
+      lookclose:
+        enabled: true
+        range: '5.0'
+        realisticlooking: false
+      owner:
+        owner: KarmatiKuade
+        uuid: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+    traitnames: spawned,inventory,lookclose,owner,type,location
+    navigator:
+      pathfindingrange: '25.0'
+      stationaryticks: -1
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

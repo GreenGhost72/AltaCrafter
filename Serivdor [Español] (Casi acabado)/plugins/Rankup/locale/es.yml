@@ -1,0 +1,64 @@
+# the messages in this section can be customised for each rankup in rankups.yml.
+rankup:
+  requirements-not-met: "&cNecesitas {MONEY} para subir de rango."
+  no-rankup: "&eYa estas en el rango mas alto."
+  # set to an empty string, ie: success-public: ""
+  # to hide that message.
+  success-public: "&a{PLAYER} &eha ascendido a: &d{RANK}"
+  success-private: "&aHas ascendido a: &d{RANK}"
+  # used for the text confirmation
+  confirmation: |-
+    &eSeguro que quieres ascender a &a{RANK}&e?
+    &eEscribe &c/rankup &edenuevo para confirmar.
+  # used for the GUI confirmation
+  title: "Ascender a {RANK}"
+
+  must-prestige: "&cDebes ser prestigio para ascender mas"
+
+  # you can (and probably should) you override these in rankups.yml
+  # to show the specific requirements for each rank.
+  # however if you are just using money or don't need to change the message per rank, you can use any combination of:
+  # {MONEY} {MONEY_NEEDED} {PERCENT_DONE <requirement>} {PERCENT_LEFT <requirement>} {AMOUNT <requirement>} {AMOUNT_NEEDED <requirement>}
+  # {MONEY} and {MONEY_NEEDED} are different from {AMOUNT money} and {AMOUNT_NEEDED money} in that they use a different format.
+  # here is an example of showing the requirements for just money:
+  #list:
+  #  complete: "&7{OLD_RANK} &8\xbb &7{RANK} &efor &7${MONEY}"
+  #  current: "&c{OLD_RANK} &e\xbb &c{RANK} &efor &a${MONEY} &e{PERCENT_DONE money}%"
+  #  incomplete: "&r{OLD_RANK} &e\xbb &r{RANK} &efor &a${MONEY}"
+  list:
+    complete: "&7{OLD_RANK} &8\xbb &7{RANK}"
+    current: "&c{OLD_RANK} &e\xbb &c{RANK}"
+    incomplete: "&r{OLD_RANK} &e\xbb &r{RANK}"
+    # an empty string disables the header/footer
+    header: ""
+    footer: ""
+  # sent when a player tries to rankup when they are on cooldown
+  cooldown:
+    singular: "&cDebes esperar {SECONDS_LEFT} segundo antes de volver a ascender."
+    plural: "&cDebes esperar {SECONDS_LEFT} segundos antes de volver a ascender"
+# prestige messages can also be customised
+prestige:
+  requirements-not-met: "&cNecesitas {MONEY} para subir a prestigio."
+  no-prestige: "&eEstas en el prestigio mas alto."
+
+  success-public: "&a{PLAYER} &eha subido de prestigio a: &d{RANK}"
+  success-private: "&aHas subido de prestigio a: &d{RANK}"
+
+  confirmation: |-
+    &eSeguro que quieres subir de prestigio a &a{RANK}&e?
+    &eEscribe &c/prestige &eotra vez para confirmar.
+  title: "Prestigiar a {RANK}"
+
+  list:
+    complete: "&7{OLD_RANK} &8\xbb &7{RANK}"
+    current: "&c{OLD_RANK} &e\xbb &c{RANK}"
+    incomplete: "&r{OLD_RANK} &e\xbb &r{RANK}"
+    header: ""
+    footer: ""
+  cooldown:
+    singular: "&cDebes esperar {SECONDS_LEFT} segundo antes de volver a prestigiar."
+    plural: "&cDebes esperar {SECONDS_LEFT} segundos antes de volver a prestigiar."
+
+not-high-enough: "&cNo puedes subir a prestigio desde tu rango actual!"
+not-in-ladder: "&cLo siento, pero no podemos encontrar ningun rango ni prestigio a los que puedas ascender desde tu rango actual. Usa /ranks para ver la lista de rangos."
+invalid-rankup: "Rango invalido en la configuracion, si es usted un administrador, revise la consola, de lo contrario, contacte con el Staff."

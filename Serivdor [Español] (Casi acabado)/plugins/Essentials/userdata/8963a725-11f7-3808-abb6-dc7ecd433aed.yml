@@ -1,0 +1,21 @@
+lastAccountName: Glezar_ES
+timestamps:
+  login: 1559588503283
+  lastteleport: 1559588477150
+  logout: 1559588551999
+ipAddress: 79.145.69.91
+lastlocation:
+  world: spawn
+  x: 6.625821605459818
+  y: 145.0
+  z: 20.681027559722683
+  yaw: -86.60196
+  pitch: 19.73325
+geolocation: "Carballo, La Coru\xf1a, Espa\xf1a"
+logoutlocation:
+  world: store
+  x: -189.4074799289113
+  y: 61.0
+  z: 72.0556616535113
+  yaw: -336.0
+  pitch: -4.0

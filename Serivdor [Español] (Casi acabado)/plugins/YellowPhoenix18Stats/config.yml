@@ -1,0 +1,6 @@
+# YellowPhoenix18Stats collects some data for YellowPhoenix18 to give you an better experience. 
+# This software has nearly no effect on the server performance!
+# For more Infos check out https://stats.yellowphoenix18.de
+enabled: true
+ServerUUID: 4645e25e-85dd-4249-8e5f-35b01dfbe8a5
+Logging: false

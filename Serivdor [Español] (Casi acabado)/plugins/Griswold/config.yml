@@ -1,0 +1,14 @@
+Timeout: 5000
+Language: es_ES
+ShowNames: true
+BasicArmorPrice: 100000.0
+BasicToolPrice: 5000.0
+BasicEnchantmentPrice: 5000.0
+UseEnchantmentSystem: true
+PriceToAddEnchantment: 5000.0
+ClearOldEnchantments: false
+EnchantmentBonus: 5
+Debug: false
+DuplicateFinder: true
+DuplicateFinderRadius: 5
+Version: '0.083'

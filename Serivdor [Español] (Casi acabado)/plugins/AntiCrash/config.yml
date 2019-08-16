@@ -1,0 +1,9 @@
+Messages:
+  Prefix: '&c&lGuardian &7> '
+  Reload-Config: '&aConfiguracion recargada.'
+  No-Permission: '&cNo tienes permisos para ejecutar ese comando!'
+  Chat-Crash: '&cHas escrito un mensaje incorrecto!'
+  Sign-Crash: '&cHas escrito un mensaje incorrecto en un cartel!'
+  Crash-With-Command: '&cHas escrito un comando incorrecto!'
+  Illegal-Items: '&cItems ilegales han sido encontrados y eliminados en un inventario!'
+  Inventory-Crash: '&cHas escrito un nombre de item incorrecto!'

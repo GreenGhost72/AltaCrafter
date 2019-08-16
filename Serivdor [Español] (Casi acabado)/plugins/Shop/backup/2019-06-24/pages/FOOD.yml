@@ -1,0 +1,525 @@
+data:
+  properties:
+    type: 0
+    title: "\xa76\xa7lComida"
+    size: 0
+    gui: false
+  inventory:
+    slots:
+    - 0
+    - 1
+    - 4
+    - 6
+    - 8
+    - 13
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 42
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 51
+    - 53
+    items:
+    - ? type: APPLE
+      : null
+    - ? type: MELON
+      : null
+    - ? type: MUSHROOM_SOUP
+      : null
+    - ? type: RAW_FISH
+      : null
+    - ? type: CARROT_ITEM
+      : null
+    - ? type: RABBIT_STEW
+      : null
+    - ? type: RAW_FISH
+        damage: 1
+      : null
+    - ? type: POTATO_ITEM
+      : null
+    - ? type: COOKIE
+      : null
+    - ? type: BREAD
+      : null
+    - ? type: PUMPKIN_PIE
+      : null
+    - ? type: CAKE
+      : null
+    - ? type: BAKED_POTATO
+      : null
+    - ? type: PORK
+      : null
+    - ? type: RAW_BEEF
+      : null
+    - ? type: MUTTON
+      : null
+    - ? type: RABBIT
+      : null
+    - ? type: RAW_CHICKEN
+      : null
+    - ? type: POISONOUS_POTATO
+      : null
+    - ? type: GOLDEN_APPLE
+      : null
+    - ? type: COOKED_BEEF
+      : null
+    - ? type: GRILLED_PORK
+      : null
+    - ? type: COOKED_MUTTON
+      : null
+    - ? type: COOKED_CHICKEN
+      : null
+    - ? type: COOKED_RABBIT
+      : null
+    - ? type: GOLDEN_CARROT
+      : null
+    - ? type: GOLDEN_APPLE
+        damage: 1
+      : null
+    slotdata:
+      '0':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '1':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '2':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '3':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '4':
+        page: FOOD
+        cost: 50.0
+        sell: 25.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '5':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '6':
+        page: FOOD
+        cost: 25.0
+        sell: 12.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '7':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '8':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '9':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '10':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '11':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '12':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '13':
+        page: FOOD
+        cost: 50.0
+        sell: 25.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '14':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '15':
+        page: FOOD
+        cost: 25.0
+        sell: 12.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '16':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '17':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '18':
+        page: FOOD
+        cost: 25.0
+        sell: 12.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '19':
+        page: FOOD
+        cost: 50.0
+        sell: 25.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '20':
+        page: FOOD
+        cost: 150.0
+        sell: 75.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '21':
+        page: FOOD
+        cost: 500.0
+        sell: 250.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '22':
+        page: FOOD
+        cost: 500.0
+        sell: 250.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '23':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '24':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '25':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '26':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '27':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '28':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '29':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '30':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '31':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '32':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '33':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '34':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '35':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '36':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '37':
+        page: FOOD
+        cost: 100.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '38':
+        page: FOOD
+        cost: 150.0
+        sell: 75.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '39':
+        page: FOOD
+        cost: 250.0
+        sell: 125.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '40':
+        page: FOOD
+        cost: 500.0
+        sell: 250.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '41':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '42':
+        page: FOOD
+        cost: 10.0
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '43':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '44':
+        page: FOOD
+        cost: 40000.0
+        sell: 20000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '45':
+        page: FOOD
+        cost: 200.0
+        sell: 100.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '46':
+        page: FOOD
+        cost: 200.0
+        sell: 100.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '47':
+        page: FOOD
+        cost: 300.0
+        sell: 150.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '48':
+        page: FOOD
+        cost: 500.0
+        sell: 250.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '49':
+        page: FOOD
+        cost: 1000.0
+        sell: 500.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '50':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '51':
+        page: FOOD
+        cost: 250.0
+        sell: 125.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '52':
+        page: FOOD
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '53':
+        page: FOOD
+        cost: 80000.0
+        sell: 40000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None

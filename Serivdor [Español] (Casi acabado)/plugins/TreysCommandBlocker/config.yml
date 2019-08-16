@@ -1,0 +1,10 @@
+Default:
+  Message: '&cLo sentimos, no dispones de los suficientes permisos'
+  Permission: cb.allow.%command%
+Messages:
+  NoPermission: '&cError, te faltan permisos'
+DisableTabComplete: true
+Updates:
+  Check: true
+  TellPlayers: false
+Version: 1.1.1

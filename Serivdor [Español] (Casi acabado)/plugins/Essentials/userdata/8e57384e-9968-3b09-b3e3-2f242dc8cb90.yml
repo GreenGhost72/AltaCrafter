@@ -1,0 +1,45 @@
+lastAccountName: KarmatiKuade
+timestamps:
+  login: 1562023903928
+  lastteleport: 1562024049703
+  logout: 1562024694256
+  kits:
+    buceador: 1561986415943
+    tierra: 1561987226143
+    user: 1561029532277
+    piloto: 1561987043499
+    stone: 1561987230250
+    inferno: 1561988278374
+ipAddress: 95.39.143.234
+lastlocation:
+  world: spawn
+  x: -2.0596084819644207
+  y: 146.0
+  z: -6.699999988079073
+  yaw: -197.70006
+  pitch: 11.549998
+afk: false
+logoutlocation:
+  world: store
+  x: -192.00394853795285
+  y: 61.0
+  z: 87.61505630388537
+  yaw: -181.5036
+  pitch: 23.549988
+godmode: false
+homes:
+  home:
+    world: survival
+    x: -513.4666101572059
+    y: 64.0
+    z: 104.31866245120098
+    yaw: -359.6957
+    pitch: 8.24998
+  two:
+    world: survival
+    x: -883.5040961969644
+    y: 74.0
+    z: 280.0772168268896
+    yaw: -1.1999999
+    pitch: -1.05
+money: '9999005232.5'

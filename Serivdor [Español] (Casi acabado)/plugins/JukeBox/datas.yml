@@ -1,0 +1,13 @@
+players:
+- volume: 100
+  id: 79303af9-01bc-4968-878e-735f916dd7b4
+  join: true
+  shuffle: true
+  particles: true
+- volume: 100
+  id: 8e57384e-9968-3b09-b3e3-2f242dc8cb90
+  join: true
+  shuffle: true
+  particles: false
+item:
+  type: DRAGON_EGG

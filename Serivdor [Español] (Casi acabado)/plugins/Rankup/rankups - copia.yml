@@ -1,0 +1,58 @@
+User:
+  rank: 'user'
+  next: 'tierra'
+  requirements:
+    - 'money 500'
+    - 'playtime-minutes 30'
+    - 'xp-level 2'
+    - 'mob-kills skeleton 5'
+    - 'mob-kills zombie 2'
+    - 'mob-kills spider 2'
+    - 'use-item stone_axe 5'
+    - 'block-break stone 5'
+    - 'total-mob-kills 8'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f500 $. Haber jugado 30 minutos. 
+    Tener 2 niveles de experiencia. Matar 5 esqueletos, 2 zombies y 2 spiders. Haber usado un hacha de piedra
+    5 veces. Haber roto 5 bloques de piedra y haber matado a 8 mobs en total'
+Tierra:
+  rank: 'tierra'
+  next: 'roca'
+  requirements:
+    - 'money 500'
+    - 'playtime-minutes 60'
+    - 'xp-level 4'
+    - 'mob-kills skeleton 10'
+    - 'mob-kills zombie 4'
+    - 'mob-kills spider 2'
+    - 'use-item stone_axe 10'
+    - 'use-item iron_sword 2'
+    - 'block-break stone 10'
+    - 'total-mob-kills 16'
+    - 'player-kills 2'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f500 $. Haber jugado 1 hora. 
+    Tener 4 niveles de experiencia. Matar 10 esqueletos, 4 zombies y 2 spiders Haber usado un hacha 
+    de piedra 10 veces y una espada de hierro 2 veces. Haber roto 10 bloques de piedra, haber matado a 
+    16 mobs y 2 jugadores en total'
+Roca:
+  rank: 'roca'
+  next: 'aire'
+  requirements:
+    - 'money 1000'
+    - 'playtime-minutes 120'
+    - 'xp-level 8'
+    - 'mob-kills skeleton 20'
+    - 'mob-kills zombie 8'
+    - 'mob-kills spider 8'
+    - 'use-item stone_axe 10'
+    - 'use-item iron_pickaxe 20'
+    - 'use-item iron_sowrd 10'
+    - 'block-break diamond_ore 2'
+    - 'total-mob-kills 36'
+    - 'player-kills 5'
+  rankup:
+    requirements-not-met: '&cPara ascender a este rango necesitas: &f1000 $. Haber jugado 2 horas. 
+    Tener 8 niveles de experiencia. Matar 20 esqueletos, 8 zombies y 8 spiders. Haber usado un hacha 
+    de piedra 10 veces, un pico de hierro 20 veces y una espada de hierro 10 veces. Haber roto 2 menas 
+    de diamante. Haber matado 36 mobs y 5 jugadores en total'

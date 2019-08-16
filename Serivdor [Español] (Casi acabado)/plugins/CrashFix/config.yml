@@ -1,0 +1,3 @@
+punish: kick {player} @GuardianKick
+usepunish: 'true'
+delay: '1'

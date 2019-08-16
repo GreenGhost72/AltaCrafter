@@ -1,0 +1,19 @@
+lastAccountName: TestingHacks123
+timestamps:
+  login: 1561291032192
+  logout: 1561291045852
+ipAddress: 192.168.1.1
+lastlocation:
+  world: world
+  x: 2.5
+  y: 63.019999980926485
+  z: 198.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: spawn
+  x: 3.058153540764075
+  y: 146.0
+  z: -1.185538560064478
+  yaw: 166.65009
+  pitch: 2.5500145

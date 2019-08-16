@@ -1,0 +1,56 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  user:
+    delay: -1
+    items:
+    - stonesword 1
+    - woodenpickaxe 1
+    - woodenaxe 1
+    - apple 1
+    - tree 8
+    - leatherhelmet 1 color:10511680
+    - leatherchestplate 1 color:10511680
+    - leatherleggings 1 color:10511680
+    - leatherboots 1 color:10511680
+  tierra:
+    delay: 3600
+    items:
+    - leatherleggings 1 name:&6Pantalones_de_tierra durability:3 itemflags:HIDE_ENCHANTS
+    - goldshovel 1 name:&d&n&oPala_de_tierra dig_speed:10 silk_touch:1 durability:100 loot_bonus_blocks:3 itemflags:HIDE_ENCHANTS
+    - goldaxe 1 name:&d&n&oHacha_suprema dig_speed:10 silk_touch:1 durability:100 loot_bonus_blocks:6 itemflags:HIDE_ENCHANTS
+  stone:
+    delay: 3600
+    items:
+    - ironchestplate 1 name:&a&n&oPechera_suprema protection_environmental:10 protection_fire:10 durability:100 protection_explosions:10 protection_projectile:10
+    - diamondpickaxe 1 name:&e&n&oPico_supremo dig_speed:50 durability:100 loot_bonus_blocks:10 itemflags:HIDE_ENCHANTS
+  piloto:
+    delay: 3600
+    items:
+    - diamondboots 1 name:&fBotas_de_aire protection_fall:100 durability:100 itemflags:HIDE_ENCHANTS
+  buceador:
+    delay: 3600
+    items:
+    - diamondhelmet 1 name:&bCasco_de_buzeador oxygen:100 durability:100 itemflags:HIDE_ENCHANTS
+  inferno:
+    delay: 3600
+    items:
+    - diamondsword 1 name:&cEspada_ignea damage_all:5 damage_arthropods:5 durability:1000 knockback:2 fire_aspect:5 loot_bonus_mobs:10 itemflags:HIDE_ENCHANTS
+    - diamondhelmet 1 name:&cCasco_en_llamas protection_environmental:2 protection_fire:100 durability:1000 protection_explosions:2 protection_projectile:2 oxygen:20 itemflags:HIDE_ENCHANTS
+    - diamondchestplate 1 name:&cPeto_en_llamas protection_environmental:2 protection_fire:100 durability:1000 protection_explosions:2 protection_projectile:2 itemflags:HIDE_ENCHANTS
+    - diamondleggings 1 name:&cGrebas_en_llamas protection_environmental:2 protection_fire:100 durability:1000 protection_explosions:2 protection_projectile:2 itemflags:HIDE_ENCHANTS
+    - diamondboots 1 name:&cBotas_en_llamas protection_environmental:2 protection_fire:100 protection_fall:20 durability:1000 protection_explosions:2 protection_projectile:2 itemflags:HIDE_ENCHANTS
+    - bow 1 name:&cArco_infernal arrow_damage:5 arrow_knockback:2 durability:1000 arrow_fire:5 arrow_infinite:1 itemflags:HIDE_ENCHANTS
+    - arrow 32
+    - goldenapple 3
+    - enchantedgoldenapple:1 6
+  
+  

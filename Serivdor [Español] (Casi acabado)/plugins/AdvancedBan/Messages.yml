@@ -1,0 +1,231 @@
+General:
+  Prefix: "&c&lGuardian &8&l\xbb"
+  NoPerms: "&cSin permisos"
+  LayoutNotFound: "&cNo hay ninguna razon llamada %NAME%"
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D%Dia(s) %H%h %M%min y %S%seg"
+  TimeLayoutH: "%H%Hora(s) %M%min y %S%seg"
+  TimeLayoutM: "%M%minutos y %S%seg"
+  TimeLayoutS: "%S% segundos"
+  FailedFetch: "&cNo se ha pudido encontrar la UUID de %NAME%."
+
+
+Ban:
+  Usage: "&cUso incorrecto &8( &7&o/ban [Nombre] [Razon/@Reglas]&8)"
+  Done: "&c&o%NAME% &7ha sido banead@!"
+  AlreadyDone: "&c&o%NAME% &7ya esta banead@"
+  Exempt: "&7No puedes banear a &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Baneo de por vida'
+  - '&7'
+  - '&7'
+  - "&cCausa: &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pide un desbaneo en'
+  - "&ehttps://discord.me/altacrafters"
+  Notification:
+  - "&c&o%NAME% &7ha sido banead@ por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+
+Ipban:
+  Usage: "&cUso incorrecto &8( &7&o/banip [Nombre/IP] [Razon/@Reglas]&8)"
+  Layout:
+  - '%PREFIX% &7Baneo de por vida'
+  - '&7'
+  - '&7'
+  - "&cCausa: &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pide un desbaneo en'
+  - "&ehttps://discord.me/altacrafters"
+  Notification:
+  - "&c&o%NAME% &7ha sido banead@ de ip por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+  IpNotCashed: "&cNo existe ninguna ip guardada de %NAME%!"
+
+Tempban:
+  Usage: "&cUso incorrecto &8( &7&o/tempban [Nombre] [Timepo] [Causa/@Reglas]&8)"
+  MaxDuration: "&cNo puedes banear a alguien por mas de %MAX%seg"
+  Layout:
+  - '%PREFIX% &7Baneo temporal'
+  - '&7'
+  - '&7'
+  - "&cCausa: &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pide un desbaneo en'
+  - "&ehttps://discord.me/altacrafters"
+  Notification:
+  - "&c&o%NAME% &7ha sido baneado temporalmente por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+  - "&7&oEste jugador sera baneado durante: &e&o%DURATION%"
+
+Tempipban:
+  Usage: "&cUso incorrecto &8( &7&o/tempipban [Nombre] [Timepo] [Causa/@Reglas]&8)"
+  MaxDuration: "&cNo puedes banear a alguien por mas de %MAX%seg"
+  Layout:
+  - '%PREFIX% &7Baneo temporal'
+  - '&7'
+  - '&7'
+  - "&cCausa: &8\xbb &7%REASON%"
+  - '&7'
+  - '&8Pide un desbaneo en'
+  - "&ehttps://discord.me/altacrafters"
+  Notification:
+  - "&c&o%NAME% &7ha sido baneado temporalmente por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+  - "&7&oEste jugador sera baneado durante: &e&o%DURATION%"
+
+Mute:
+  Usage: "&cUso incorrecto &8( &7&o/mute [Nombre] [Causa]&8)"
+  Done: "&c&o%NAME% &7ha sido muteado!"
+  AlreadyDone: "&c&o%NAME% &7ya esta muteado!"
+  Exempt: "&7No puedes mutear a &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Has sido muteado de por vida'
+  - "&cCausa: &8\xbb &7%REASON%"
+  Notification:
+  - "&c&o%NAME% &7ha sido silenciado por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+
+Tempmute:
+  Usage: "&cUso incorrecto &8( &7&o/tempmute [Nombre] [Tiempo] [Causa]&8)"
+  MaxDuration: "&cNo puedes mutear a alguien por mas de %MAX%seg"
+  Layout:
+  - '%PREFIX% &7Seras silenciado durante %DURATION%'
+  - "&cCausa&8\xbb &7%REASON%"
+  Notification:
+  - "&c&o%NAME% &7ha sido silenciado por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+  - "&7&oEste jugador sera desilenciado durante: &e&o%DURATION%"
+
+Warn:
+  Usage: "&cUso incorrecto &8( &7&o/warn [Nombre] [Causa]&8)"
+  Done: "&c&o%NAME% &7Ha sido advertido!"
+  Exempt: "&7No puedes advertir a &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &cHas recivido un aviso'
+  - "&cCausa: &7%REASON%"
+  - '&7Ahora tienes &c&o%COUNT% &7advertencias en &ctotal'
+  Notification:
+  - "&c&o%NAME% &7Ha sido advertido por &e&o%OPERATOR%"
+  - "&7A casua de: &o%REASON%"
+
+Tempwarn:
+  Usage: "&cUso incorrecto &8( &7&o/tempwarn [Nombre] [Tiempo] [Causa]&8)"
+  MaxDuration: "&cNo puedes advertir a alguien por mas de %MAX%seg"
+  Layout:
+  - '%PREFIX% &cHas recibido un aviso temporal'
+  - "&cCausa &8\xbb &7%REASON%"
+  - "&cSera removido en: &8\xbb &7%DURATION%"
+  - '&7Ahora tienes &c&o%COUNT% &7advertencias en &ctotal'
+  Notification:
+  - "&c&o%NAME% &7ha sido advertido por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+  - "&7El aviso sera removido en: &o%DURATION%"
+
+Kick:
+  Usage: "&cUso incorrecto &8( &7&o/kick [Nombre] [Causa]&8)"
+  Done: "&c&o%NAME% &7ha sido kickeado!"
+  NotOnline: "&c&o%NAME% &7no esta online"
+  Exempt: "&7No puede kickear a &c&o%NAME%"
+  Layout:
+  - '%PREFIX% &7Has sido kickeado'
+  - '&7'
+  - "&cCausa &8\xbb &7%REASON%"
+  - '&7'
+  Notification:
+  - "&c&o%NAME% &7ha sido kickeado por &e&o%OPERATOR%"
+  - "&7A causa de: &o%REASON%"
+
+
+UnBan:
+  Usage: "&cUso incorrecto &8( &7&o/unban [Nombre/IP]&8)"
+  NotPunished: "&c&o%NAME% no esta baneado!"
+  Done: "&a&o%NAME% &7ha sido desbaneado!"
+
+UnMute:
+  Usage: "&cUso incorrecto &8( &7&o/unmute [Nombre]&8)"
+  NotPunished: "&c&o%NAME% no esta muteado!"
+  Done: "&a&o%NAME% &7ha sido desmuteado"
+
+UnWarn:
+  Usage: "&cUso incorrecto &8( &7&o/unwarn [ID] o /unwarn clear [Nombre]"
+  NotFound: "&cNo se puede encontrar la advertencia con la id #%ID%"
+  Done: "&7Advertencia &a&o#%ID% &7ha sido removida!"
+  Clear:
+    Empty: "&c&o%NAME% &7no tiene advertencias"
+    Done: "&7Eliminadas &a&o%COUNT% &7advertencias"
+
+UnPunish:
+  Usage: "&cUso incorrecto &8( &7&o/unpunish [ID]&8)"
+  NotFound: "&cNo se puede encontrar el castigo con la id #%ID%"
+  Done: "&7El castigo &a&o#%ID% &7ha sido removido"
+
+
+Banlist:
+  Usage: "&cUso incorrecto &8( &7&o/banlist <Pagina>&8)"
+  OutOfIndex: "&cNo existe la pagina %PAGE%!"
+  NoEntries: "&c&oNo hay entradas"
+  Header:
+  - "%PREFIX% &7Bans:"
+  - "&c&oJugador/IP &8| &e&oDuracion &8| &7&oOperador"
+  - "&c&oTipo &8> &7&oCausa"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Pagina &e&o%CURRENT_PAGE% &7de &e&o%TOTAL_PAGES% &8| &7Baneos: &e&o%COUNT%"
+  PageFooter: "&7Usa &e&o/banlist %NEXT_PAGE% &7para ver la pagina siguiente"
+
+History:
+  Usage: "&cUso incorrecto &8( &7&o/history [Nombre/IP] <Pagina>&8)"
+  OutOfIndex: "&cNo existe la pagina %PAGE%!"
+  NoEntries: "&c&oNo se puede encontrar el expediente de %NAME%"
+  Header:
+  - "%PREFIX% &7Expediente de %NAME%:"
+  - "&c&oNombre &8| &e&oDuracion &8| &7&oOperador"
+  - "&c&oTipo &8> &7&oCausa"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Pagina &e&o%CURRENT_PAGE% &7de &e&o%TOTAL_PAGES% &8| &7Entradas: &e&o%COUNT%"
+  PageFooter: "&7Usa &e&o/history %NAME% %NEXT_PAGE% &7para ver la pagina siguiente"
+
+Warns:
+  Usage: "&cUso incorrecto &8( &7&o/warns [Nombre] <Pagina>&8)"
+  OutOfIndex: "&cNo existe la pagina %PAGE%!"
+  NoEntries: "&c&o%NAME% esta limpio"
+  Header:
+  - "%PREFIX% &7Advertencias de %NAME%:"
+  - "&c&oNombre &8| &e&oDuracion &8| &7&oOperador"
+  - "&c&o#ID &8> &7&oCausa"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c&l#%ID% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Pagina &e&o%CURRENT_PAGE% &7de &e&o%TOTAL_PAGES% &8| &7Advertencias: &e&o%COUNT%"
+  PageFooter: "&7Usa &e&o/warns %NAME% %NEXT_PAGE% &7para ver la pagina siguiente"
+
+ChangeReason:
+  Usage: "&cUso incorrecto &8( &7&o/change-reason [ID o suario baneado/muteado ] [Nueva causa]&8)"
+  Done: "&7Castigo &a&o#%ID% &7ha sido actualizado!"
+  NotFound: "&cLo sentimos, no pudimos encontrar ese castigo"
+
+Check:
+  Usage: "&cUso incorrecto &8( &7&o/check [Nombre]&8)"
+  Header: "&7Checkeando a &e&o%NAME%"
+  UUID: "&cUUID &8\xbb &7%UUID%"
+  IP: "&cIP &8\xbb &7%IP%"
+  Geo: "&cPais &8\xbb &7%LOCATION%"
+  Mute: "&cSilenciado &8\xbb &7%DURATION%"
+  MuteReason: "  &cCausa &8\xbb &7%REASON%"
+  Ban: "&cBaneado &8\xbb &7%DURATION%"
+  BanReason: "  &cCausa &8\xbb &7%REASON%"
+  Warn: "&cAdvertencias &8\xbb &7%COUNT%"
+  NotFound: "&cLo sentimos, no pudimos encontrar a: %NAME%"
