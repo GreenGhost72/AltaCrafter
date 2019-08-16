@@ -7,4 +7,4 @@ tal, ya que el tiempo usado en el mismo no es poco.
 
 ##Descargas alternativas
 
-###### Actualmente no hay descargas alternativas
+#### Actualmente no hay descargas alternativas
